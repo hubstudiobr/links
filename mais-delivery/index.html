@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proposta Comercial — Mais Delivery Nobres × Virtually Studio</title>
+<meta name="description" content="Proposta comercial de gestão de redes sociais para o Mais Delivery Nobres. Produzido pelo Studio Virtually.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --preto: #0a0a0a; --preto-card: #111111; --preto-borda: #1e1e1e;
+    --branco: #f5f5f0; --branco-suave: #c8c8c0;
+    --verde-virtually: #2ebd70; --studio-indigo: #536280;
+    --vermelho-mais: #d32f2f; --laranja-mais: #f57c00; --cinza: #888880;
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--preto);color:var(--branco);font-family:'DM Sans',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
+  .label{font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--verde-virtually)}
+  h1,h2{font-family:'Bebas Neue',sans-serif;letter-spacing:0.05em;line-height:1}
+  section{padding:100px 40px;max-width:1100px;margin:0 auto}
+  .section-divider{width:100%;height:1px;background:var(--preto-borda);max-width:1100px;margin:0 auto}
+  .hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr auto;max-width:100%;padding:0;position:relative;overflow:hidden;background:var(--preto)}
+  .hero-esquerda{background:var(--preto);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:80px 60px;position:relative;grid-row:1;border-right:1px solid var(--verde-virtually)}
+  .mais-delivery-logo{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
+  .mais-logo-top{font-family:'Bebas Neue',sans-serif;font-size:clamp(80px,9vw,120px);color:var(--branco);line-height:0.85;letter-spacing:0.02em;position:relative;font-weight:700}
+  .mais-logo-top span{color:var(--laranja-mais)}
+  .mais-logo-bottom{font-family:'Bebas Neue',sans-serif;font-size:clamp(24px,3.5vw,40px);letter-spacing:0.15em;background:var(--vermelho-mais);color:white;padding:6px 20px;display:inline-block;margin-top:12px;font-weight:700}
+  .mais-nobres{font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.2em;margin-top:24px;color:var(--laranja-mais);font-weight:700}
+  .hero-direita{background:var(--preto);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:80px 60px;position:relative;grid-row:1}
+  .vs-logo{display:flex;flex-direction:column;align-items:center;text-align:center}
+  .vs-virtually{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,6.5vw,84px);color:#ffffff;letter-spacing:0.08em;line-height:0.95;position:relative;display:inline-block;font-weight:700}
+  .vs-virtually::after{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(to bottom,transparent 0%,transparent 22%,var(--preto) 22%,var(--preto) 26%,transparent 26%,transparent 48%,var(--preto) 48%,var(--preto) 52%,transparent 52%,transparent 74%,var(--preto) 74%,var(--preto) 78%,transparent 78%,transparent 100%);pointer-events:none}
+  .vs-studio{font-family:'DM Sans',sans-serif;font-weight:400;font-size:clamp(11px,1.3vw,15px);letter-spacing:0.82em;color:var(--studio-indigo);text-transform:uppercase;margin-top:12px;padding-left:0.82em;width:100%}
+  .vs-marker{display:flex;flex-direction:column;align-items:center;margin-top:28px}
+  .vs-triangle{width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:11px solid var(--verde-virtually)}
+  .vs-line{width:2px;height:38px;background:var(--verde-virtually)}
+  .hero-footer{grid-column:1/-1;grid-row:2;display:flex;flex-direction:column;justify-content:center;align-items:center;border-top:1px solid var(--preto-borda);background:#0c0c0c;padding:36px 40px;gap:12px;text-align:center}
+  .hero-tagline{font-family:'Bebas Neue',sans-serif;font-size:clamp(24px,2.5vw,36px);color:var(--branco);letter-spacing:0.08em;line-height:1.1}
+  .hero-tagline span{color:var(--vermelho-mais)}
+  .hero-proposta-sub{font-family:'Space Mono',monospace;font-size:clamp(10px,1vw,12px);letter-spacing:0.15em;text-transform:uppercase;color:var(--branco-suave);opacity:0.85}
+  .sobre{background:var(--preto)}
+  .section-header{margin-bottom:48px}
+  .section-header .label{display:block;margin-bottom:12px}
+  .section-header h2{font-size:clamp(36px,5vw,64px);color:var(--branco)}
+  .sobre-texto{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+  .sobre-corpo{border-left:2px solid var(--verde-virtually);padding-left:28px}
+  .sobre-corpo p{font-size:1.05rem;color:var(--branco-suave);margin-bottom:20px}
+  .sobre-corpo p strong{color:var(--branco);font-weight:500}
+  .sobre-clientes h3{font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.25em;color:var(--verde-virtually);text-transform:uppercase;margin-bottom:20px}
+  .clientes-lista{display:flex;flex-direction:column;gap:12px}
+  .cliente-item{font-size:0.9rem;color:var(--branco-suave);padding:12px 16px;border:1px solid var(--preto-borda);border-left:2px solid var(--preto-borda);transition:all 0.2s ease}
+  .cliente-item:hover{border-left-color:var(--verde-virtually);color:var(--branco);background:#121212}
+  .rodape{padding:48px 40px;max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
+  .rodape p{font-size:0.75rem;color:var(--cinza)}
+  @media(max-width:768px){
+    .hero{grid-template-columns:1fr;grid-template-rows:auto auto auto;min-height:auto}
+    .hero-esquerda{border-right:none;border-bottom:1px solid var(--verde-virtually);padding:60px 30px}
+    .hero-direita{padding:60px 30px}
+    .sobre-texto{grid-template-columns:1fr;gap:40px}
+    section{padding:60px 24px}
+    .rodape{padding:32px 24px;flex-direction:column;gap:8px;text-align:center}
+  }
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="hero-esquerda">
+    <div class="mais-delivery-logo">
+      <div class="mais-logo-top">MA<span>+</span>S</div>
+      <div class="mais-logo-bottom">DELIVERY</div>
+      <div class="mais-nobres">NOBRES — MT</div>
+    </div>
+  </div>
+  <div class="hero-direita">
+    <div class="vs-logo">
+      <div class="vs-virtually">VIRTUALLY</div>
+      <div class="vs-studio">Studio</div>
+      <div class="vs-marker"><div class="vs-triangle"></div><div class="vs-line"></div></div>
+    </div>
+  </div>
+  <div class="hero-footer">
+    <div class="hero-tagline">Uma parceria para fazer <span>seu negócio crescer</span> nas redes.</div>
+    <div class="hero-proposta-sub">Proposta Comercial — Maio 2026</div>
+  </div>
+</div>
+<div class="section-divider"></div>
+<section class="sobre">
+  <div class="section-header">
+    <span class="label">Quem somos</span>
+    <h2>Studio Virtually</h2>
+  </div>
+  <div class="sobre-texto">
+    <div class="sobre-corpo">
+      <p>Somos um estudio digital especializado em <strong>comunicação estratégica</strong> para marcas locais e regionais.</p>
+      <p>Combinamos produção de conteúdo, design e narrativa para criar presenças digitais que <strong>geram resultado real</strong> — não apenas engajamento.</p>
+      <p>Nossa metodologia parte de um entendimento profundo do negócio do cliente antes de qualquer criação.</p>
+    </div>
+    <div class="sobre-clientes">
+      <h3>Quem já confia na gente</h3>
+      <div class="clientes-lista">
+        <div class="cliente-item">SAAE Nova Mutum — Saneamento</div>
+        <div class="cliente-item">OdontoCompany Diamantino — Saúde</div>
+        <div class="cliente-item">Lince — Agência / Cuiabá</div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="section-divider"></div>
+<div class="rodape">
+  <p>Proposta Comercial · Mais Delivery Nobres · Maio 2026</p>
+  <p>Produzido por Studio Virtually — Documento confidencial</p>
+</div>
+</body>
+</html>
