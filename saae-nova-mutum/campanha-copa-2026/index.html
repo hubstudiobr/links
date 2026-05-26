@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campanha Copa 2026 — SAAE Nova Mutum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --saae-blue: #0488CA;
+    --saae-green: #7CB013;
+    --saae-green-dark: #184725;
+    --copa-gold: #FACC15;
+    --bg-dark: #08111A;
+    --surface-dark: #0D1B2A;
+    --text-light: #F8FAFC;
+    --text-muted: #94A3B8;
+    --border: rgba(255,255,255,0.1);
+  }
+
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .nav {
+    background: rgba(13, 27, 42, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 16px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+  }
+
+  .nav-logo {
+    width: 36px;
+    height: 36px;
+    background: var(--saae-blue);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-logo img {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .nav-title {
+    color: var(--text-light);
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  
+  .nav-sub {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .btn-back {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.2s;
+  }
+  
+  .btn-back:hover {
+    color: var(--text-light);
+  }
+
+  .hero {
+    padding: 80px 40px 60px;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -30%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 800px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(4, 136, 202, 0.2) 0%, rgba(250, 204, 21, 0.05) 40%, transparent 70%);
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--bg-dark);
+    background: var(--copa-gold);
+    padding: 6px 16px;
+    border-radius: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    display: inline-block;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: var(--text-light);
+  }
+
+  .hero h1 span {
+    color: var(--copa-gold);
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    max-width: 800px;
+    margin: 0 auto 24px;
+  }
+
+  .hero-quote {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.4rem;
+    color: var(--saae-blue);
+    margin: 32px auto;
+    max-width: 600px;
+    line-height: 1.4;
+    border-left: 4px solid var(--copa-gold);
+    padding-left: 24px;
+    text-align: left;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 40px 100px;
+  }
+
+  .strategy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+
+  .strategy-box {
+    background: var(--surface-dark);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 32px;
+  }
+
+  .strategy-icon {
+    font-size: 2rem;
+    margin-bottom: 16px;
+  }
+
+  .strategy-box h3 {
+    font-size: 1.25rem;
+    color: var(--text-light);
+    margin-bottom: 12px;
+  }
+
+  .strategy-box p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
+
+  .material-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .material-card {
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .material-card.full-width {
+    grid-column: 1 / -1;
+  }
+
+  .material-header {
+    background: rgba(4, 136, 202, 0.05);
+    padding: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .material-header h2 {
+    font-size: 1.25rem;
+    color: var(--saae-blue);
+    margin-bottom: 8px;
+  }
+
+  .pill {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.05);
+    color: var(--text-muted);
+    display: inline-block;
+  }
+
+  .material-body {
+    padding: 24px;
+    flex: 1;
+  }
+
+  .info-group {
+    margin-bottom: 24px;
+  }
+
+  .info-group h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    color: var(--saae-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
+  .info-group p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .highlight-box {
+    background: #040A10;
+    border-left: 3px solid var(--saae-blue);
+    padding: 16px;
+    border-radius: 0 8px 8px 0;
+    margin: 16px 0;
+  }
+
+  .highlight-box h3 {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    margin-bottom: 8px;
+  }
+
+  .highlight-box p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-style: italic;
+    margin: 0;
+  }
+
+  .media-plan {
+    background: linear-gradient(135deg, rgba(4, 136, 202, 0.1), rgba(124, 176, 19, 0.05));
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 40px;
+    margin-top: 60px;
+  }
+
+  .mascot-preview {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    background: var(--surface-dark);
+    padding: 32px;
+    border-radius: 16px;
+    margin-bottom: 60px;
+  }
+
+  .mascot-img {
+    flex-shrink: 0;
+    width: 150px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+  }
+
+  @media(max-width: 768px) {
+    .hero { padding: 60px 24px; }
+    .container { padding: 0 24px 60px; }
+    .material-grid { grid-template-columns: 1fr; }
+    .mascot-preview { flex-direction: column; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="../" class="nav-brand">
+    <div class="nav-logo">
+      <img src="../logo.png" alt="SAAE Logo" onerror="this.style.display='none'">
+    </div>
+    <div>
+      <div class="nav-title">Campanhas Ativas</div>
+      <div class="nav-sub">Planejamento & Estratégia</div>
+    </div>
+  </a>
+  <a href="../" class="btn-back">← Voltar ao Portal</a>
+</nav>
+
+<header class="hero">
+  <span class="badge">Junho 2026</span>
+  <h1>A Copa para a cidade. <br><span>O SAAE não para nunca.</span></h1>
+  <p>Enquanto a população foca em torcer pela nossa seleção, a nossa equipe continua escalada 24 horas por dia para garantir a água, o saneamento e a limpeza de Nova Mutum.</p>
+  
+  <div class="hero-quote">
+    "Torcer junto é bom. Cuidar da cidade também é um dever coletivo."
+  </div>
+</header>
+
+<main class="container">
+  
+  <!-- OBJETIVO ESTRATÉGICO -->
+  <div class="strategy-grid" style="grid-template-columns: 1fr;">
+    <div class="strategy-box" style="text-align: center; max-width: 800px; margin: 0 auto;">
+      <div class="strategy-icon">🎯</div>
+      <h3>Objetivo Estratégico</h3>
+      <p>Aproveitar o engajamento natural da Copa para reforçar o uso consciente da água e o descarte correto de resíduos na rotina de festas e jogos da população, inserindo o SAAE como a infraestrutura vital que mantém a cidade funcionando.</p>
+    </div>
+  </div>
+
+  <div class="mascot-preview">
+    <img src="capitao-hydro.png" alt="Capitão Hydro" class="mascot-img" onerror="this.style.display='none'">
+    <div>
+      <h3 style="color: var(--text-light); margin-bottom: 8px;">Reforço de Comunicação: Capitão Hydro</h3>
+      <p style="color: var(--text-muted); margin: 0;">O Capitão Hydro atuará como um porta-voz amigável da campanha. Ele funcionará como um reforço pontual da mensagem, oferecendo dicas de forma carismática e garantindo que a comunicação do SAAE chegue à população de modo acessível e próximo.</p>
+    </div>
+  </div>
+
+  <div style="margin-bottom: 40px; border-bottom: 1px solid var(--border); padding-bottom: 16px;">
+    <h2>Plano de Conteúdos</h2>
+  </div>
+
+  <div class="material-grid">
+    
+    <!-- CONTEÚDO 1 -->
+    <div class="material-card">
+      <div class="material-header">
+        <h2>01. Post de Abertura</h2>
+        <span class="pill">Post Institucional</span>
+      </div>
+      <div class="material-body">
+        <div class="info-group">
+          <h4>A Narrativa</h4>
+          <p>O SAAE trabalha nos bastidores. Nossa equipe está em campo para que a população não precise se preocupar com água na hora do jogo.</p>
+        </div>
+        <div class="highlight-box">
+          <h3 style="font-family: 'Syne', sans-serif;">A Copa para a cidade. O SAAE não para nunca.</h3>
+          <p>"Vocês focam na torcida, nós mantemos tudo funcionando nas costas 24 horas por dia."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTEÚDO 2 -->
+    <div class="material-card">
+      <div class="material-header">
+        <h2>02. Reel: Dia de Jogo</h2>
+        <span class="pill">Vídeo Curto • Educação</span>
+      </div>
+      <div class="material-body">
+        <div class="info-group">
+          <h4>A Narrativa</h4>
+          <p>Mostrar a rotina de um dia de jogo (casa movimentada, banho rápido, churrasco) focando no uso consciente sem parecer cobrança pesada.</p>
+        </div>
+        <div class="highlight-box">
+          <h3 style="font-family: 'Syne', sans-serif;">A emoção aumenta. O consumo de água, não.</h3>
+          <p>"Dia de jogo é casa cheia. Torcer junto é bom, economizar nossa água é melhor ainda. Zero desperdício."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTEÚDO 3 -->
+    <div class="material-card full-width">
+      <div class="material-header">
+        <h2>03. A Escalação do Saneamento</h2>
+        <span class="pill">Carrossel Estratégico</span>
+      </div>
+      <div class="material-body" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+        <div class="info-group">
+          <h4>Capa</h4>
+          <p style="color: var(--text-light); font-weight: bold;">A nossa equipe titular joga os 365 dias do ano.</p>
+        </div>
+        <div class="info-group">
+          <h4>1. Água</h4>
+          <p>A defesa implacável que garante a proteção da nossa saúde através do tratamento contínuo.</p>
+        </div>
+        <div class="info-group">
+          <h4>2. Resíduos</h4>
+          <p>O meio-campo que estrutura e limpa a área para a cidade avançar com qualidade de vida.</p>
+        </div>
+        <div class="info-group">
+          <h4>3. O Fechamento</h4>
+          <p>Uma cidade campeã precisa do esforço de todos os seus jogadores (os cidadãos).</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTEÚDO 4 -->
+    <div class="material-card">
+      <div class="material-header">
+        <h2>04. Hábitos de Rotina (Seca)</h2>
+        <span class="pill">Reel Animado/Híbrido</span>
+      </div>
+      <div class="material-body">
+        <div class="info-group">
+          <h4>A Narrativa</h4>
+          <p>Pequenos vícios custam caro na época de estiagem. Mangueira ligada sem precisão e banho longo são infrações no jogo contra a seca.</p>
+        </div>
+        <div class="highlight-box">
+          <h3 style="font-family: 'Syne', sans-serif; color: var(--copa-gold);">Desperdício na seca é falta gravíssima.</h3>
+          <p>"Não deixe o desperdício estragar o nosso jogo em Nova Mutum."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTEÚDO 5 -->
+    <div class="material-card">
+      <div class="material-header">
+        <h2>05. O Pós-Jogo (Resíduos)</h2>
+        <span class="pill">Post Estático de Fechamento</span>
+      </div>
+      <div class="material-body">
+        <div class="info-group">
+          <h4>A Narrativa</h4>
+          <p>A festa acaba, a cidade fica. Separar as latas e descartar o lixo é garantir a vitória completa da rodada.</p>
+        </div>
+        <div class="highlight-box">
+          <h3 style="font-family: 'Syne', sans-serif;">O apito final soou. A responsabilidade com o nosso lixo, não.</h3>
+          <p>"O churrasco acabou? Garantir a separação dos recicláveis é respeitar a cidade inteira."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTEÚDO 6 -->
+    <div class="material-card">
+      <div class="material-header">
+        <h2>06. Óleo na Pia</h2>
+        <span class="pill">Reel Educativo Curto</span>
+      </div>
+      <div class="material-body">
+        <div class="info-group">
+          <h4>A Narrativa</h4>
+          <p>Abordar a fritura comum no dia do jogo e ensinar sobre os problemas severos do óleo no ralo (entupimentos da rede).</p>
+        </div>
+        <div class="highlight-box">
+          <h3 style="font-family: 'Syne', sans-serif;">O verdadeiro vilão do churrasco de domingo não veste a camisa adversária.</h3>
+          <p>"Óleo usado na pia? Jamais. Armazene e preserve a rede de esgoto da cidade."</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTEÚDO 7 -->
+    <div class="material-card">
+      <div class="material-header">
+        <h2>07. Interação com o Morador</h2>
+        <span class="pill">Stories Interativos (Quiz)</span>
+      </div>
+      <div class="material-body">
+        <div class="info-group">
+          <h4>A Narrativa</h4>
+          <p>Perguntas interativas engajando a população nas decisões corretas da rotina (Lavar a calçada ou não? Reciclar a lata?).</p>
+        </div>
+        <div class="highlight-box">
+          <h3 style="font-family: 'Syne', sans-serif;">Você está convocado para jogar junto.</h3>
+          <p>"Quiz rápido: você sabe ser um bom torcedor da nossa cidade?"</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- MÍDIA PLAN -->
+  <div class="media-plan">
+    <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 24px;">
+      <div style="font-size: 2.5rem;">📈</div>
+      <div>
+        <h2 style="color: var(--text-light); margin: 0;">Plano de Mídia Sugerido</h2>
+        <p style="color: var(--text-muted); margin: 0;">Preservação do orçamento institucional obrigatório.</p>
+      </div>
+    </div>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
+      <div style="background: rgba(0,0,0,0.2); padding: 24px; border-radius: 12px; border-left: 4px solid var(--copa-gold);">
+        <h3 style="font-size: 1.8rem; color: var(--text-light); margin-bottom: 8px;">R$ 300,00</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">Verba exclusiva dedicada para a campanha temática da Copa.</p>
+      </div>
+      <div style="background: rgba(0,0,0,0.2); padding: 24px; border-radius: 12px; border-left: 4px solid var(--saae-blue);">
+        <h3 style="font-size: 1.2rem; color: var(--text-light); margin-bottom: 8px;">R$ 180 (Alcance Local)</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">Destinado ao post de abertura e conteúdos de forte apelo popular.</p>
+      </div>
+      <div style="background: rgba(0,0,0,0.2); padding: 24px; border-radius: 12px; border-left: 4px solid var(--saae-green);">
+        <h3 style="font-size: 1.2rem; color: var(--text-light); margin-bottom: 8px;">R$ 120 (Video Views)</h3>
+        <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">Impulsionamento dos Reels (Desperdício e Óleo Usado).</p>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+</body>
+</html>

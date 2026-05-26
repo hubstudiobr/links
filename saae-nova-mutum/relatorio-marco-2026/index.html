@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<!-- saved from url=(0067)file:///C:/Users/priih/Downloads/relatorio_saae_marco2026_v2_6.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Relatório Digital · SAAE Nova Mutum · Março 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+:root {
+  --azul: #0488CA;
+  --azul-deep: #0369A1;
+  --azul-mid: #1a3f5c;
+  --verde: #7CB013;
+  --verde-mid: #A7D240;
+  --bg: #080F18;
+  --bg2: #0D1B2A;
+  --bg3: #112233;
+  --bg4: #162840;
+  --borda: rgba(4,136,202,0.18);
+  --borda2: rgba(255,255,255,0.06);
+  --texto: #E8F4FD;
+  --texto-mid: #8BAFC8;
+  --texto-light: #4D7A9E;
+  --syne: 'Syne', sans-serif;
+  --sans: 'Instrument Sans', sans-serif;
+  --radius: 10px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--texto);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(145deg, #040C16 0%, #0A1E30 50%, #071828 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 130px 52px 72px;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-bottom: 1px solid var(--borda);
+}
+.hero-orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  pointer-events: none;
+}
+.hero-orb.o1 { width:500px; height:500px; background:rgba(4,136,202,0.2); top:-150px; right:-80px; }
+.hero-orb.o2 { width:280px; height:280px; background:rgba(124,176,19,0.15); bottom:-80px; left:320px; }
+.hero-orb.o3 { width:200px; height:200px; background:rgba(4,136,202,0.1); top:60px; left:-60px; }
+
+.hero-top {
+  position:absolute; top:36px; left:52px; right:52px;
+  display:flex; justify-content:space-between; align-items:flex-start;
+  z-index:1;
+}
+.hero-logo {
+  display:flex; align-items:center; gap:12px;
+}
+.hero-logo img {
+  height:56px;
+  filter: drop-shadow(0 2px 8px rgba(4,136,202,0.4));
+  border-radius: 8px;
+}
+.hero-logo-text {
+  font-family: var(--syne);
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.3;
+}
+.hero-logo-text span {
+  display: block;
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--texto-mid);
+  letter-spacing: 0.5px;
+}
+.hero-badge {
+  background: rgba(4,136,202,0.2);
+  border: 1px solid rgba(4,136,202,0.4);
+  border-radius: 20px;
+  padding: 7px 18px;
+  font-family: var(--syne);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #41AEE4;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.hero-content { position:relative; z-index:1; text-align:center; }
+.hero-eyebrow {
+  font-family: var(--syne);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--verde-mid);
+  margin-bottom: 14px;
+}
+.hero-title {
+  font-family: var(--syne);
+  font-size: clamp(40px, 5.5vw, 64px);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.0;
+  margin-bottom: 20px;
+}
+.hero-title em { color: var(--azul); font-style: normal; }
+.hero-sub {
+  font-size: 15px;
+  color: rgba(255,255,255,0.75);
+  max-width: 540px;
+  line-height: 1.75;
+  margin: 0 auto;
+}
+
+/* WRAP */
+.wrap { max-width:920px; margin:0 auto; padding:0 36px 80px; }
+
+/* SECTION */
+.section { margin-top:64px; }
+.section-eyebrow {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--syne);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--azul);
+  margin-bottom: 20px;
+}
+.section-eyebrow::before {
+  content:''; width:20px; height:3px;
+  background:var(--azul); border-radius:2px; flex-shrink:0;
+}
+.section-title {
+  font-family: var(--syne);
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--texto);
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+.section-desc {
+  color: var(--texto-mid);
+  font-size: 14px;
+  max-width: 600px;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+/* DIVIDER */
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--borda), transparent);
+  margin: 56px 0;
+}
+
+/* INTRO CARD */
+.intro-card {
+  background: var(--bg2);
+  border: 1px solid var(--borda);
+  border-left: 3px solid var(--azul);
+  border-radius: var(--radius);
+  padding: 28px 32px;
+  margin-bottom: 36px;
+}
+.intro-card p {
+  font-size: 15px;
+  line-height: 1.85;
+  color: var(--texto-mid);
+}
+.intro-card strong { color: var(--texto); font-weight: 600; }
+
+/* KPI */
+.kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:14px; }
+.kpi-grid-2 { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin-bottom:28px; }
+.kpi {
+  background: var(--bg2);
+  border: 1px solid var(--borda2);
+  border-radius: var(--radius);
+  padding: 22px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.kpi:hover { border-color: var(--borda); transform: translateY(-2px); }
+.kpi::after {
+  content:''; position:absolute; bottom:0; left:0; right:0; height:2px;
+}
+.kpi.azul::after { background:var(--azul); }
+.kpi.verde::after { background:var(--verde); }
+.kpi.verde-mid::after { background:var(--verde-mid); }
+.kpi.azul-l::after { background:#41AEE4; }
+.kpi-icon { font-size:20px; margin-bottom:10px; display:block; }
+.kpi-label {
+  font-size: 10px; font-weight:700; letter-spacing:1.5px;
+  text-transform:uppercase; color:var(--texto-light); margin-bottom:8px;
+}
+.kpi-val {
+  font-family: var(--syne);
+  font-size: 34px; font-weight:800;
+  color: var(--texto); line-height:1; margin-bottom:6px;
+}
+.kpi-delta { font-size:12px; font-weight:600; }
+.up { color:var(--verde-mid); }
+.neutral { color:var(--texto-mid); }
+.kpi-note { font-size:11px; color:var(--texto-light); margin-top:4px; line-height:1.4; }
+
+/* HIGHLIGHT */
+.highlight {
+  background: linear-gradient(135deg, rgba(4,136,202,0.08), rgba(124,176,19,0.04));
+  border: 1px solid rgba(4,136,202,0.2);
+  border-left: 3px solid var(--azul);
+  border-radius: var(--radius);
+  padding: 22px 26px;
+  display:flex; gap:16px; align-items:flex-start;
+  margin-bottom:28px;
+}
+.highlight-icon { font-size:24px; flex-shrink:0; padding-top:2px; }
+.highlight-text strong {
+  display:block; font-family:var(--syne);
+  font-size:14px; font-weight:700; color:#41AEE4; margin-bottom:5px;
+}
+.highlight-text p { font-size:13px; color:var(--texto-mid); line-height:1.7; }
+
+/* BARRAS */
+.bar-card {
+  background: var(--bg2);
+  border: 1px solid var(--borda2);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin-bottom:14px;
+}
+.bar-card-title {
+  font-family:var(--syne); font-size:13px; font-weight:700;
+  color:var(--texto); margin-bottom:18px;
+}
+.bar-item { margin-bottom:16px; }
+.bar-item:last-child { margin-bottom:0; }
+.bar-top { display:flex; justify-content:space-between; align-items:center; margin-bottom:6px; }
+.bar-name { font-size:13px; color:var(--texto); }
+.bar-pct { font-family:var(--syne); font-size:12px; font-weight:700; color:var(--texto-mid); }
+.bar-track { height:6px; background:rgba(255,255,255,0.06); border-radius:3px; overflow:hidden; }
+.bar-fill { height:100%; border-radius:3px; width:0; transition:width 1.2s cubic-bezier(0.4,0,0.2,1); }
+.fill-azul { background:var(--azul); }
+.fill-verde { background:var(--verde); }
+.fill-verde-mid { background:var(--verde-mid); }
+.fill-azul-l { background:#41AEE4; }
+
+/* TWO COL */
+.two-col { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:14px; }
+
+/* TOP POSTS */
+.posts-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:28px; }
+.post-card {
+  background: var(--bg2);
+  border: 1px solid var(--borda2);
+  border-radius: var(--radius);
+  overflow:hidden;
+  text-decoration:none; color:inherit; display:block;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.post-card:hover { border-color:var(--azul); transform:translateY(-3px); }
+.post-card-rank {
+  background: var(--azul); padding:12px 18px;
+  display:flex; align-items:center; justify-content:space-between;
+}
+.post-card-rank.verde { background:var(--verde); }
+.rank-num { font-family:var(--syne); font-size:18px; font-weight:800; color:white; }
+.rank-tag {
+  font-size:10px; font-weight:700; letter-spacing:1px;
+  text-transform:uppercase; color:rgba(255,255,255,0.8);
+  background:rgba(255,255,255,0.15); padding:3px 10px; border-radius:20px;
+}
+.post-body { padding:18px; }
+.post-title { font-size:13px; font-weight:600; color:var(--texto); line-height:1.5; margin-bottom:12px; }
+.post-metrics { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.metric-val { font-family:var(--syne); font-size:20px; font-weight:800; color:var(--texto); }
+.metric-label { font-size:10px; color:var(--texto-light); text-transform:uppercase; letter-spacing:0.8px; font-weight:600; }
+.post-link {
+  margin-top:12px; padding-top:10px;
+  border-top:1px solid var(--borda2);
+  font-size:11px; color:var(--azul); font-weight:600;
+  display:flex; align-items:center; gap:5px;
+}
+
+/* PRODUÇÃO */
+.prod-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:14px; }
+.prod-item {
+  background:var(--bg2); border:1px solid var(--borda2);
+  border-radius:var(--radius); padding:20px; text-align:center;
+}
+.prod-icon { font-size:22px; margin-bottom:8px; display:block; }
+.prod-val { font-family:var(--syne); font-size:38px; font-weight:800; color:var(--texto); line-height:1; margin-bottom:4px; }
+.prod-label { font-size:10px; color:var(--texto-light); text-transform:uppercase; letter-spacing:1px; font-weight:600; }
+.prod-sub { font-size:11px; color:var(--verde-mid); font-weight:600; margin-top:5px; }
+
+/* EXTRAS */
+.extras-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:28px; }
+.extra-item {
+  background:var(--bg2); border:1px solid var(--borda2);
+  border-radius:var(--radius); padding:20px;
+  display:flex; gap:14px; align-items:flex-start;
+  transition: border-color 0.2s;
+}
+.extra-item:hover { border-color:var(--borda); }
+.extra-icon {
+  width:36px; height:36px; border-radius:8px;
+  background:rgba(4,136,202,0.12); border:1px solid var(--borda);
+  display:flex; align-items:center; justify-content:center;
+  font-size:16px; flex-shrink:0;
+}
+.extra-icon.verde-bg { background:rgba(124,176,19,0.12); border-color:rgba(124,176,19,0.2); }
+.extra-content strong {
+  display:block; font-size:13px; font-weight:600;
+  color:var(--texto); margin-bottom:4px; line-height:1.3;
+}
+.extra-content p { font-size:12px; color:var(--texto-mid); line-height:1.5; }
+.extra-tag {
+  display:inline-block; margin-top:6px;
+  font-size:10px; font-weight:700; letter-spacing:1px;
+  text-transform:uppercase; padding:2px 8px; border-radius:3px;
+  background:rgba(4,136,202,0.15); color:var(--azul); border:1px solid var(--borda);
+}
+.extra-tag.verde { background:rgba(124,176,19,0.15); color:var(--verde-mid); border-color:rgba(124,176,19,0.3); }
+
+/* INSIGHT */
+.insight-card {
+  background: linear-gradient(135deg, var(--azul), #065f9e);
+  border-radius: var(--radius);
+  padding: 36px 40px;
+  position: relative; overflow:hidden; margin-bottom:28px;
+}
+.insight-card::before {
+  content:'"'; position:absolute;
+  font-family:var(--syne); font-size:240px; font-weight:800;
+  color:rgba(255,255,255,0.05);
+  top:-50px; left:16px; line-height:1; pointer-events:none;
+}
+.insight-eyebrow {
+  font-family:var(--syne); font-size:10px; font-weight:700;
+  letter-spacing:3px; text-transform:uppercase;
+  color:var(--verde-mid); margin-bottom:14px;
+}
+.insight-text {
+  font-size:16px; line-height:1.8;
+  color:rgba(255,255,255,0.88);
+  position:relative; z-index:1; max-width:700px;
+}
+.insight-text strong { color:#fff; }
+
+/* PLANO */
+.plano-list { list-style:none; }
+.plano-item {
+  background:var(--bg2); border:1px solid var(--borda2);
+  border-radius:var(--radius); padding:22px 26px; margin-bottom:10px;
+  display:flex; gap:18px; align-items:flex-start;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.plano-item:hover { border-color:var(--borda); transform:translateX(4px); }
+.plano-num {
+  font-family:var(--syne); font-size:20px; font-weight:800;
+  color:var(--azul); min-width:32px; line-height:1; padding-top:2px;
+}
+.plano-content strong {
+  display:block; font-size:14px; font-weight:700;
+  color:var(--texto); margin-bottom:4px; font-family:var(--syne);
+}
+.plano-content p { font-size:13px; color:var(--texto-mid); line-height:1.6; }
+
+/* NOTA */
+.nota {
+  background:rgba(255,255,255,0.03); border:1px solid var(--borda2);
+  border-radius:8px; padding:14px 18px;
+  font-size:12px; color:var(--texto-mid); line-height:1.6; margin-top:12px;
+}
+
+/* FOOTER */
+.footer {
+  background: var(--bg2);
+  border-top: 1px solid var(--borda);
+  text-align:center; padding:40px 32px;
+  font-size:12px; color:var(--texto-light); line-height:1.8;
+}
+.footer strong { color:var(--texto); font-family:var(--syne); }
+
+/* RESPONSIVE */
+@media (max-width:720px) {
+  .hero { padding:140px 24px 52px; }
+  .hero-top { left:24px; right:24px; top:24px; flex-wrap:wrap; gap:12px; }
+  .hero-logo img { height:44px; }
+  .hero-logo-text { font-size:12px; }
+  .wrap { padding:0 20px 60px; }
+  .kpi-grid, .prod-grid { grid-template-columns:1fr 1fr; }
+  .posts-grid, .two-col, .kpi-grid-2, .extras-grid { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-orb o1"></div>
+  <div class="hero-orb o2"></div>
+  <div class="hero-orb o3"></div>
+
+    <div class="hero-top">
+    <div class="hero-badge">Março 2026</div>
+    <div class="hero-logo">
+      <div class="hero-logo-text" style="text-align:right;">
+        SAAE Nova Mutum
+        <span>Serviço Autônomo de Água e Esgoto</span>
+      </div>
+      <img src="data:image/png;base64,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" alt="SAAE Nova Mutum">
+    </div>
+  </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Relatório de Desempenho Digital</div>
+    <div class="hero-title">O mês da <em>água</em>.</div>
+    <div class="hero-sub">Conteúdo educativo, campanhas institucionais e entregas multiplataforma — estratégia integrada com foco em resultado e presença real na cidade.</div>
+  </div>
+
+
+<div class="wrap">
+
+  <!-- INTRO -->
+  <div class="section">
+    <div class="intro-card">
+      <p>Março foi um mês de <strong>alta produção estratégica</strong>: lançamento da campanha Heróis do Saneamento, cobertura do Dia Mundial da Água, entregas multiplataforma para TV e rádio, visitas de campo e <strong>crescimento orgânico consistente nas redes sociais</strong> — tudo sem nenhum centavo investido em tráfego pago. O perfil ganhou 115 novos seguidores e manteve alcance acima de 6 mil contas únicas.</p>
+    </div>
+  </div>
+
+  <!-- VISÃO GERAL -->
+  <div class="section">
+    <div class="section-eyebrow">Visão Geral</div>
+    <div class="section-title">Performance do mês</div>
+    <div class="section-desc">Resultados consolidados · Instagram e Facebook · 01 a 31 de março de 2026.</div>
+
+    <div class="kpi-grid">
+      <div class="kpi azul" style="opacity: 1; transform: translateY(0px); transition: opacity 0.4s, transform 0.4s;">
+        <span class="kpi-icon">👁</span>
+        <div class="kpi-label">Visualizações</div>
+        <div class="kpi-val">30,6k</div>
+        <div class="kpi-delta neutral">100% orgânico</div>
+        <div class="kpi-note">Sem investimento em anúncios</div>
+      </div>
+      <div class="kpi verde" style="opacity: 1; transform: translateY(0px); transition: opacity 0.4s 0.04s, transform 0.4s 0.04s;">
+        <span class="kpi-icon">📡</span>
+        <div class="kpi-label">Contas alcançadas</div>
+        <div class="kpi-val">6.035</div>
+        <div class="kpi-delta up">↑ 40% fora da base</div>
+        <div class="kpi-note">Novos cidadãos alcançados organicamente</div>
+      </div>
+      <div class="kpi azul-l" style="opacity: 1; transform: translateY(0px); transition: opacity 0.4s 0.08s, transform 0.4s 0.08s;">
+        <span class="kpi-icon">❤️</span>
+        <div class="kpi-label">Interações</div>
+        <div class="kpi-val">680</div>
+        <div class="kpi-delta neutral">Curtidas · Comentários · Compartilhamentos</div>
+      </div>
+      <div class="kpi verde-mid" style="opacity: 1; transform: translateY(0px); transition: opacity 0.4s 0.12s, transform 0.4s 0.12s;">
+        <span class="kpi-icon">👥</span>
+        <div class="kpi-label">Seguidores</div>
+        <div class="kpi-val">3.102</div>
+        <div class="kpi-delta up">↑ +115 no mês</div>
+        <div class="kpi-note">Crescimento 100% orgânico</div>
+      </div>
+    </div>
+
+    <div class="kpi-grid-2">
+      <div class="kpi azul" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.16s, transform 0.4s 0.16s;">
+        <span class="kpi-icon">📲</span>
+        <div class="kpi-label">Conteúdos publicados</div>
+        <div class="kpi-val">44</div>
+        <div class="kpi-delta up">↑ +175% vs fevereiro</div>
+        <div class="kpi-note">32 Stories · 12 Posts e Reels</div>
+      </div>
+      <div class="kpi verde" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.2s, transform 0.4s 0.2s;">
+        <span class="kpi-icon">🔗</span>
+        <div class="kpi-label">Atividade no perfil</div>
+        <div class="kpi-val">474</div>
+        <div class="kpi-delta neutral">438 visitas · 35 cliques em link · 1 endereço</div>
+        <div class="kpi-note">Cidadão buscando informação no canal oficial</div>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <div class="highlight-icon">💡</div>
+      <div class="highlight-text">
+        <strong>Contexto importante sobre os números</strong>
+        <p>Em fevereiro houve investimento em tráfego pago (R$ 17,96), o que impulsionou o alcance daquele mês. Março foi 100% orgânico — o crescimento real está no volume de conteúdo estratégico (+175%) e nos +115 seguidores conquistados sem nenhum centavo investido em anúncios.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- FORMATOS -->
+  <div class="section">
+    <div class="section-eyebrow">Formatos</div>
+    <div class="section-title">Como o público consumiu o conteúdo</div>
+    <div class="section-desc">Distribuição de visualizações e engajamento por formato · Instagram.</div>
+
+    <div class="two-col">
+      <div class="bar-card">
+        <div class="bar-card-title">📊 Visualizações por formato</div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">🎬 Stories</span><span class="bar-pct">44,6%</span></div>
+          <div class="bar-track"><div class="bar-fill fill-azul" data-w="44.6"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">📱 Reels</span><span class="bar-pct">38,2%</span></div>
+          <div class="bar-track"><div class="bar-fill fill-azul-l" data-w="38.2"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">🖼 Posts estáticos</span><span class="bar-pct">17,2%</span></div>
+          <div class="bar-track"><div class="bar-fill fill-verde" data-w="17.2"></div></div>
+        </div>
+      </div>
+      <div class="bar-card">
+        <div class="bar-card-title">💬 Engajamento por formato</div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">📱 Reels</span><span class="bar-pct">66%</span></div>
+          <div class="bar-track"><div class="bar-fill fill-azul" data-w="66"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">🖼 Posts estáticos</span><span class="bar-pct">27,7%</span></div>
+          <div class="bar-track"><div class="bar-fill fill-verde" data-w="27.7"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">🎬 Stories</span><span class="bar-pct">6,3%</span></div>
+          <div class="bar-track"><div class="bar-fill fill-verde-mid" data-w="6.3"></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="highlight">
+      <div class="highlight-icon">🎯</div>
+      <div class="highlight-text">
+        <strong>Reels: o formato estratégico da conta</strong>
+        <p>Com 38% das visualizações, os Reels geram 66% de todo o engajamento. O investimento em vídeo curto e educativo continua sendo a decisão certa para a comunicação do SAAE.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- TOP POSTS -->
+  <div class="section">
+    <div class="section-eyebrow">Destaques · Instagram</div>
+    <div class="section-title">Conteúdos com maior alcance</div>
+    <div class="section-desc">Os posts que mais chegaram ao cidadão em março. Clique para ver no Instagram.</div>
+
+    <div class="posts-grid">
+      <a class="post-card" href="https://www.instagram.com/p/DWW6twHkRdh/" target="_blank" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.24s, transform 0.4s 0.24s;">
+        <div class="post-card-rank">
+          <span class="rank-num">#1</span><span class="rank-tag">Reel · 26/03</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">"O marketing queria divulgar o plantão..." — Formato reveal educativo</div>
+          <div class="post-metrics">
+            <div><div class="metric-val">2.600</div><div class="metric-label">Visualizações</div></div>
+            <div><div class="metric-val">41</div><div class="metric-label">Curtidas</div></div>
+            <div><div class="metric-val">19</div><div class="metric-label">Compartilhamentos</div></div>
+            <div><div class="metric-val">4</div><div class="metric-label">Comentários</div></div>
+          </div>
+          <div class="post-link">↗ Ver no Instagram</div>
+        </div>
+      </a>
+      <a class="post-card" href="https://www.instagram.com/p/DVVuDFtEX-c/" target="_blank" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.28s, transform 0.4s 0.28s;">
+        <div class="post-card-rank verde">
+          <span class="rank-num">#2</span><span class="rank-tag">Reel · 01/03</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">"O que é descarte para alguns, é o sustento..." — Série ReCiclo</div>
+          <div class="post-metrics">
+            <div><div class="metric-val">1.800</div><div class="metric-label">Visualizações</div></div>
+            <div><div class="metric-val">43</div><div class="metric-label">Curtidas</div></div>
+            <div><div class="metric-val">23</div><div class="metric-label">Compartilhamentos</div></div>
+            <div><div class="metric-val">6</div><div class="metric-label">Comentários</div></div>
+          </div>
+          <div class="post-link">↗ Ver no Instagram</div>
+        </div>
+      </a>
+      <a class="post-card" href="https://www.instagram.com/p/DWMjsYDCNIc/" target="_blank" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.32s, transform 0.4s 0.32s;">
+        <div class="post-card-rank">
+          <span class="rank-num">#3</span><span class="rank-tag">Reel · 22/03</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">"A água faz parte de tudo. Está na rotina..." — Dia Mundial da Água</div>
+          <div class="post-metrics">
+            <div><div class="metric-val">1.700</div><div class="metric-label">Visualizações</div></div>
+            <div><div class="metric-val">40</div><div class="metric-label">Curtidas</div></div>
+            <div><div class="metric-val">4</div><div class="metric-label">Compartilhamentos</div></div>
+            <div><div class="metric-val">5</div><div class="metric-label">Comentários</div></div>
+          </div>
+          <div class="post-link">↗ Ver no Instagram</div>
+        </div>
+      </a>
+      <a class="post-card" href="https://www.instagram.com/p/DWHIDhcjcH8/" target="_blank" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.36s, transform 0.4s 0.36s;">
+        <div class="post-card-rank verde">
+          <span class="rank-num">#4</span><span class="rank-tag">Post · 20/03</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">"Novo marco para o saneamento de Nova..." — Comunicado institucional</div>
+          <div class="post-metrics">
+            <div><div class="metric-val">1.700</div><div class="metric-label">Visualizações</div></div>
+            <div><div class="metric-val">43</div><div class="metric-label">Curtidas</div></div>
+            <div><div class="metric-val">9</div><div class="metric-label">Compartilhamentos</div></div>
+            <div><div class="metric-val">5</div><div class="metric-label">Comentários</div></div>
+          </div>
+          <div class="post-link">↗ Ver no Instagram</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- FACEBOOK -->
+  <div class="section">
+    <div class="section-eyebrow">Facebook</div>
+    <div class="section-title">Amplificação na segunda plataforma</div>
+    <div class="section-desc">Crossposting ativo — os conteúdos publicados no Instagram são espelhados no Facebook.</div>
+
+    <div class="kpi-grid">
+      <div class="kpi azul" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.4s, transform 0.4s 0.4s;">
+        <span class="kpi-icon">📣</span>
+        <div class="kpi-label">Visualizadores únicos</div>
+        <div class="kpi-val">579</div>
+        <div class="kpi-delta up">Orgânico +87,6%</div>
+      </div>
+      <div class="kpi verde" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.44s, transform 0.4s 0.44s;">
+        <span class="kpi-icon">🎬</span>
+        <div class="kpi-label">Views de Reels</div>
+        <div class="kpi-val">640</div>
+        <div class="kpi-note">de 696 visualizações totais</div>
+      </div>
+      <div class="kpi azul-l" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.48s, transform 0.4s 0.48s;">
+        <span class="kpi-icon">📝</span>
+        <div class="kpi-label">Publicações</div>
+        <div class="kpi-val">42</div>
+        <div class="kpi-delta up">↑ +600% vs jan/fev</div>
+      </div>
+      <div class="kpi verde-mid" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.52s, transform 0.4s 0.52s;">
+        <span class="kpi-icon">⏱</span>
+        <div class="kpi-label">Tempo assistido</div>
+        <div class="kpi-val">47min</div>
+        <div class="kpi-note">Total de vídeo consumido no mês</div>
+      </div>
+    </div>
+
+    <div class="bar-card">
+      <div class="bar-card-title">🏆 Top 3 no Facebook</div>
+      <div style="margin-top:14px">
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">"O marketing queria divulgar o plantão..." · 26/03</span><span class="bar-pct">2.600</span></div>
+          <div class="bar-track"><div class="bar-fill fill-azul" data-w="100"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">"O que é descarte para alguns..." · 01/03</span><span class="bar-pct">1.800</span></div>
+          <div class="bar-track"><div class="bar-fill fill-azul-l" data-w="69"></div></div>
+        </div>
+        <div class="bar-item">
+          <div class="bar-top"><span class="bar-name">"Novo marco para o saneamento..." · 20/03</span><span class="bar-pct">1.700</span></div>
+          <div class="bar-track"><div class="bar-fill fill-verde" data-w="65"></div></div>
+        </div>
+      </div>
+      <div class="nota">📌 Os top posts são os mesmos nas duas plataformas — o crossposting está funcionando. Conteúdo que ressoa no Instagram repercute no Facebook sem adaptações.</div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- PRODUÇÃO REDES SOCIAIS -->
+  <div class="section">
+    <div class="section-eyebrow">Produção · Redes Sociais</div>
+    <div class="section-title">Entregas do mês</div>
+    <div class="section-desc">Volume de conteúdo produzido e publicado nas redes sociais em março de 2026.</div>
+
+    <div class="prod-grid">
+      <div class="prod-item">
+        <span class="prod-icon">🎬</span>
+        <div class="prod-val">5</div>
+        <div class="prod-label">Reels</div>
+        <div class="prod-sub">Vídeos publicados</div>
+      </div>
+      <div class="prod-item">
+        <span class="prod-icon">🖼</span>
+        <div class="prod-val">7</div>
+        <div class="prod-label">Posts / Carrosseis</div>
+        <div class="prod-sub">Feed educativo</div>
+      </div>
+      <div class="prod-item">
+        <span class="prod-icon">📖</span>
+        <div class="prod-val">32</div>
+        <div class="prod-label">Stories</div>
+        <div class="prod-sub">4× acima do contrato</div>
+      </div>
+      <div class="prod-item">
+        <span class="prod-icon">📦</span>
+        <div class="prod-val">44</div>
+        <div class="prod-label">Total publicado</div>
+        <div class="prod-sub">+175% vs fevereiro</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ENTREGAS EXTRAS -->
+  <div class="section">
+    <div class="section-eyebrow">Entregas Extras · Multiplataforma</div>
+    <div class="section-title">Além das redes sociais</div>
+    <div class="section-desc">Produções e ações realizadas em março que extrapolam o escopo digital — TV, rádio, materiais físicos e presença de campo.</div>
+
+    <div class="extras-grid">
+      <div class="extra-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.56s, transform 0.4s 0.56s;">
+        <div class="extra-icon">📺</div>
+        <div class="extra-content">
+          <strong>Vídeo institucional para TV · ETE</strong>
+          <p>Produção de vídeo sobre a Estação de Tratamento de Esgoto para veiculação em TV (publicação nas redes em abril).</p>
+          <span class="extra-tag">TV · Produção</span>
+        </div>
+      </div>
+      <div class="extra-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.6s, transform 0.4s 0.6s;">
+        <div class="extra-icon">📺</div>
+        <div class="extra-content">
+          <strong>Adaptação para TV · Atendimento via WhatsApp</strong>
+          <p>Vídeo já gravado sobre atendimento foi editado e adaptado para o formato de veiculação em televisão.</p>
+          <span class="extra-tag">TV · Adaptação</span>
+        </div>
+      </div>
+      <div class="extra-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.64s, transform 0.4s 0.64s;">
+        <div class="extra-icon">🌊</div>
+        <div class="extra-content">
+          <strong>Vídeo Dia Mundial da Água · TV</strong>
+          <p>Conteúdo da campanha do Dia Mundial da Água produzido também em versão para veiculação televisiva.</p>
+          <span class="extra-tag">TV · Campanha</span>
+        </div>
+      </div>
+      <div class="extra-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.68s, transform 0.4s 0.68s;">
+        <div class="extra-icon">🎙</div>
+        <div class="extra-content">
+          <strong>Spot de rádio · Dia Mundial da Água</strong>
+          <p>O vídeo do Dia Mundial da Água foi adaptado e transformado em peça de áudio para veiculação em rádio.</p>
+          <span class="extra-tag verde">Rádio · Spot</span>
+        </div>
+      </div>
+      <div class="extra-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.72s, transform 0.4s 0.72s;">
+        <div class="extra-icon verde-bg">🤖</div>
+        <div class="extra-content">
+          <strong>Ilustrações com IA · Heróis do Saneamento</strong>
+          <p>Produção de personagens e artes com inteligência artificial para a Semana da Água do SAAE (25 a 31/03).</p>
+          <span class="extra-tag verde">Arte · IA</span>
+        </div>
+      </div>
+      <div class="extra-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.76s, transform 0.4s 0.76s;">
+        <div class="extra-icon verde-bg">🖼</div>
+        <div class="extra-content">
+          <strong>Adesivo / Banner · Sala de Educação Ambiental</strong>
+          <p>Criação de material físico de grande formato com os Heróis do Saneamento para a sala de educação ambiental do SAAE.</p>
+          <span class="extra-tag verde">Material Físico</span>
+        </div>
+      </div>
+      <div class="extra-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.8s, transform 0.4s 0.8s;">
+        <div class="extra-icon">📍</div>
+        <div class="extra-content">
+          <strong>3 Visitas de campo · Captação e cobertura</strong>
+          <p>Visitas presenciais para captação de conteúdo, cobertura de inauguração e registro de evento institucional.</p>
+          <span class="extra-tag">Campo · Cobertura</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- INSIGHT -->
+  <div class="section">
+    <div class="section-eyebrow">Análise estratégica</div>
+    <div class="insight-card">
+      <div class="insight-eyebrow">Insight do período</div>
+      <div class="insight-text">
+        Março confirmou o que os dados vinham sinalizando: <strong>o cidadão de Nova Mutum responde bem a conteúdo de utilidade pública com linguagem acessível</strong>. O formato reveal educativo (#1 do mês nas duas plataformas) e a série sobre resíduos (#2) provam que informação técnica bem comunicada gera alcance orgânico expressivo. O SAAE se consolida como <strong>fonte confiável de informação na cidade</strong> — e a estratégia de múltiplas plataformas (digital, TV e rádio) amplia esse alcance para toda a comunidade.
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- PLANO ABRIL -->
+  <div class="section">
+    <div class="section-eyebrow">Próximos passos</div>
+    <div class="section-title">Plano de ação · Abril 2026</div>
+    <div class="section-desc">Foco estratégico do próximo período.</div>
+
+    <ul class="plano-list">
+      <li class="plano-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.84s, transform 0.4s 0.84s;">
+        <div class="plano-num">01</div>
+        <div class="plano-content">
+          <strong>Tráfego contínuo e cadência editorial</strong>
+          <p>Abril mantém ritmo de publicação consistente, sem depender de datas comemorativas de grande peso. A presença constante consolida o perfil como canal ativo e confiável para o cidadão.</p>
+        </div>
+      </li>
+      <li class="plano-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.88s, transform 0.4s 0.88s;">
+        <div class="plano-num">02</div>
+        <div class="plano-content">
+          <strong>Expansão de conteúdo educativo e institucional</strong>
+          <p>Aumento de posts estáticos no feed para ampliar o volume informativo com eficiência. Conteúdos leves e acessíveis entram na grade para equilibrar o tom institucional e aproximar o cidadão da marca.</p>
+        </div>
+      </li>
+      <li class="plano-item" style="opacity: 0; transform: translateY(14px); transition: opacity 0.4s 0.92s, transform 0.4s 0.92s;">
+        <div class="plano-num">03</div>
+        <div class="plano-content">
+          <strong>Comunicação preventiva e gestão de narrativa</strong>
+          <p>Ao menor sinal de ruído ou crise, o SAAE se posiciona de forma imediata e estratégica — dominando a narrativa antes que a desinformação se instale. O perfil oficial é a primeira e mais confiável fonte de informação para a cidade.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <strong>Studio Virtually</strong><br>
+  Relatório de Desempenho Digital · SAAE Nova Mutum · Março 2026<br>
+  Gestão de redes sociais e comunicação institucional
+</div>
+
+<script>
+const barObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.querySelectorAll('.bar-fill[data-w]').forEach(el => {
+        el.style.width = el.getAttribute('data-w') + '%';
+      });
+      barObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.3 });
+document.querySelectorAll('.bar-card').forEach(el => barObserver.observe(el));
+
+const fadeObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+    }
+  });
+}, { threshold: 0.1 });
+document.querySelectorAll('.kpi, .post-card, .plano-item, .extra-item').forEach((el, i) => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(14px)';
+  el.style.transition = `opacity 0.4s ease ${i * 0.04}s, transform 0.4s ease ${i * 0.04}s`;
+  fadeObserver.observe(el);
+});
+</script>
+
+</body></html>

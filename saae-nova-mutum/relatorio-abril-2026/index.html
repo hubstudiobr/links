@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relatório Digital · SAAE Nova Mutum · Abril 2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+    :root {
+      --azul: #0488CA;
+      --azul-deep: #0369A1;
+      --azul-mid: #1a3f5c;
+      --verde: #7CB013;
+      --verde-mid: #A7D240;
+      --bg: #080F18;
+      --bg2: #0D1B2A;
+      --bg3: #112233;
+      --bg4: #162840;
+      --borda: rgba(4,136,202,0.18);
+      --borda2: rgba(255,255,255,0.06);
+      --texto: #E8F4FD;
+      --texto-mid: #8BAFC8;
+      --texto-light: #4D7A9E;
+      --syne: 'Syne', sans-serif;
+      --sans: 'Instrument Sans', sans-serif;
+      --radius: 10px;
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--texto);
+      font-family: var(--sans);
+      font-size: 15px;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    @media print {
+      body { margin: 0; padding: 0; }
+      .hero { page-break-after: avoid; }
+      .section { page-break-inside: avoid; }
+      .kpi-grid { page-break-inside: avoid; }
+      .posts-grid { page-break-inside: avoid; }
+      .table-container { page-break-inside: avoid; }
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(145deg, #040C16 0%, #0A1E30 50%, #071828 100%);
+      position: relative;
+      overflow: hidden;
+      padding: 80px 36px 48px;
+      min-height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      border-bottom: 1px solid var(--borda);
+    }
+    .hero-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      pointer-events: none;
+    }
+    .hero-orb.o1 { width:500px; height:500px; background:rgba(4,136,202,0.2); top:-150px; right:-80px; }
+    .hero-orb.o2 { width:280px; height:280px; background:rgba(124,176,19,0.15); bottom:-80px; left:320px; }
+    .hero-orb.o3 { width:200px; height:200px; background:rgba(4,136,202,0.1); top:60px; left:-60px; }
+
+    .hero-top {
+      position:absolute; top:36px; left:52px; right:52px;
+      display:flex; justify-content:space-between; align-items:flex-start;
+      z-index:1;
+    }
+    .hero-logo {
+      display:flex; align-items:center; gap:12px;
+    }
+    .hero-logo-text {
+      font-family: var(--syne);
+      font-size: 13px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.3;
+    }
+    .hero-logo-text span {
+      display: block;
+      font-size: 10px;
+      font-weight: 400;
+      color: var(--texto-mid);
+      letter-spacing: 0.5px;
+    }
+    .hero-badge {
+      background: rgba(4,136,202,0.2);
+      border: 1px solid rgba(4,136,202,0.4);
+      border-radius: 20px;
+      padding: 7px 18px;
+      font-family: var(--syne);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      color: #41AEE4;
+      text-transform: uppercase;
+      flex-shrink: 0;
+    }
+    .hero-content { position:relative; z-index:1; text-align:center; }
+    .hero-eyebrow {
+      font-family: var(--syne);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--verde-mid);
+      margin-bottom: 14px;
+    }
+    .hero-title {
+      font-family: var(--syne);
+      font-size: clamp(32px, 4.5vw, 48px);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.0;
+      margin-bottom: 16px;
+    }
+    .hero-title em { color: var(--azul); font-style: normal; }
+    .hero-sub {
+      font-size: 15px;
+      color: rgba(255,255,255,0.75);
+      max-width: 540px;
+      line-height: 1.75;
+      margin: 0 auto;
+    }
+
+    /* WRAP */
+    .wrap { max-width:920px; margin:0 auto; padding:0 24px 40px; }
+
+    /* SECTION */
+    .section { margin-top:48px; }
+    .section-eyebrow {
+      display: flex; align-items: center; gap: 10px;
+      font-family: var(--syne);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--azul);
+      margin-bottom: 20px;
+    }
+    .section-eyebrow::before {
+      content:''; width:20px; height:3px;
+      background:var(--azul); border-radius:2px; flex-shrink:0;
+    }
+    .section-title {
+      font-family: var(--syne);
+      font-size: 26px;
+      font-weight: 800;
+      color: var(--texto);
+      margin-bottom: 8px;
+      line-height: 1.2;
+    }
+    .section-desc {
+      color: var(--texto-mid);
+      font-size: 14px;
+      max-width: 600px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    /* DIVIDER */
+    .divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--borda), transparent);
+      margin: 40px 0;
+    }
+
+    /* INTRO CARD */
+    .intro-card {
+      background: var(--bg2);
+      border: 1px solid var(--borda);
+      border-left: 3px solid var(--azul);
+      border-radius: var(--radius);
+      padding: 28px 32px;
+      margin-bottom: 36px;
+    }
+    .intro-card p {
+      font-size: 15px;
+      line-height: 1.85;
+      color: var(--texto-mid);
+    }
+    .intro-card strong { color: var(--texto); font-weight: 600; }
+
+    /* ALERT CARD */
+    .alert-card {
+      background: rgba(255, 193, 7, 0.08);
+      border: 1px solid rgba(255, 193, 7, 0.3);
+      border-left: 3px solid #FFC107;
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      margin-bottom: 28px;
+      font-size: 13px;
+      line-height: 1.7;
+      color: var(--texto-mid);
+    }
+    .alert-card strong { color: var(--texto); font-weight: 600; }
+
+    /* KPI */
+    .kpi-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:14px; }
+    .kpi-grid-2 { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; margin-bottom:28px; }
+    .kpi-grid-3 { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-bottom:28px; }
+    .kpi {
+      background: var(--bg2);
+      border: 1px solid var(--borda2);
+      border-radius: var(--radius);
+      padding: 22px;
+      position: relative;
+      overflow: visible;
+      transition: border-color 0.2s, transform 0.2s;
+      min-height: 140px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .kpi:hover { border-color: var(--borda); transform: translateY(-2px); }
+    .kpi::after {
+      content:''; position:absolute; bottom:0; left:0; right:0; height:2px;
+    }
+    .kpi.azul::after { background:var(--azul); }
+    .kpi.verde::after { background:var(--verde); }
+    .kpi.verde-mid::after { background:var(--verde-mid); }
+    .kpi.azul-l::after { background:#41AEE4; }
+    .kpi-icon { font-size:20px; margin-bottom:10px; display:block; }
+    .kpi-label {
+      font-size: 10px; font-weight:700; letter-spacing:1.5px;
+      text-transform:uppercase; color:var(--texto-light); margin-bottom:8px;
+      word-break: break-word;
+    }
+    .kpi-val {
+      font-family: var(--syne);
+      font-size: clamp(20px, 4vw, 28px);
+      font-weight:800;
+      color: var(--texto);
+      line-height:1.1;
+      margin-bottom:6px;
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+    .kpi-delta { font-size:12px; font-weight:600; }
+    .up { color:var(--verde-mid); }
+    .neutral { color:var(--texto-mid); }
+    .kpi-note { font-size:13px; color:var(--texto-light); margin-top:4px; line-height:1.6; }
+
+    /* HIGHLIGHT */
+    .highlight {
+      background: linear-gradient(135deg, rgba(4,136,202,0.08), rgba(124,176,19,0.04));
+      border: 1px solid rgba(4,136,202,0.2);
+      border-left: 3px solid var(--azul);
+      border-radius: var(--radius);
+      padding: 22px 26px;
+      display:flex; gap:16px; align-items:flex-start;
+      margin-bottom:28px;
+    }
+    .highlight-icon { font-size:24px; flex-shrink:0; padding-top:2px; }
+    .highlight-text strong {
+      display:block; font-family:var(--syne);
+      font-size:14px; font-weight:700; color:#41AEE4; margin-bottom:5px;
+    }
+    .highlight-text p { font-size:13px; color:var(--texto-mid); line-height:1.7; }
+
+    /* TOP POSTS */
+    .posts-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-bottom:28px; }
+    .posts-grid > *:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    .post-card {
+      background: var(--bg2);
+      border: 1px solid var(--borda2);
+      border-radius: var(--radius);
+      overflow:hidden;
+      text-decoration:none; color:inherit; display:block;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .post-card:hover { border-color:var(--azul); transform:translateY(-3px); }
+    .post-card-rank {
+      background: var(--azul); padding:12px 18px;
+      display:flex; align-items:center; justify-content:space-between;
+    }
+    .post-card-rank.verde { background:var(--verde); }
+    .rank-num { font-family:var(--syne); font-size:clamp(12px, 2.5vw, 16px); font-weight:800; color:white; }
+    .rank-tag {
+      font-size:10px; font-weight:700; letter-spacing:1px;
+      text-transform:uppercase; color:rgba(255,255,255,0.8);
+      background:rgba(255,255,255,0.15); padding:3px 10px; border-radius:20px;
+    }
+    .post-body { padding:18px; }
+    .post-title { font-size:13px; font-weight:600; color:var(--texto); line-height:1.5; margin-bottom:12px; word-break: break-word; }
+    .post-metrics { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+    .metric-val { font-family:var(--syne); font-size:clamp(14px, 3.5vw, 18px); font-weight:800; color:var(--texto); word-break: break-word; }
+    .metric-label { font-size:10px; color:var(--texto-light); text-transform:uppercase; letter-spacing:0.8px; font-weight:600; }
+    .post-link {
+      margin-top:12px; padding-top:10px;
+      border-top:1px solid var(--borda2);
+      font-size:11px; color:var(--azul); font-weight:600;
+      display:flex; align-items:center; gap:5px;
+    }
+
+    /* TABLE */
+    .table-container {
+      overflow-x: auto;
+      margin-bottom: 28px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th {
+      background: var(--bg3);
+      border: 1px solid var(--borda2);
+      padding: 12px;
+      text-align: left;
+      font-weight: 700;
+      color: var(--texto);
+      font-family: var(--syne);
+    }
+    td {
+      border: 1px solid var(--borda2);
+      padding: 12px;
+      color: var(--texto-mid);
+      word-break: break-word;
+      overflow-wrap: break-word;
+    }
+    tr:hover { background: var(--bg3); }
+
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      padding: 40px 36px;
+      border-top: 1px solid var(--borda);
+      color: var(--texto-light);
+      font-size: 12px;
+    }
+    .footer-logo {
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      .kpi-grid { grid-template-columns:repeat(2,1fr); }
+      .posts-grid { grid-template-columns:1fr; }
+      .posts-grid > *:last-child:nth-child(odd) { grid-column: auto; max-width: 100%; }
+      .wrap { padding:0 20px 60px; }
+      .hero { padding: 100px 24px 52px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-orb o1"></div>
+  <div class="hero-orb o2"></div>
+  <div class="hero-orb o3"></div>
+
+  <div class="hero-top">
+    <div class="hero-logo">
+      <div class="hero-logo-text">
+        SAAE Nova Mutum<br>
+        <span>Serviço de Água e Esgoto</span>
+      </div>
+    </div>
+    <div class="hero-badge">Abril 2026</div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">Desempenho Digital</div>
+    <h1 class="hero-title">Abril <em>2026</em></h1>
+    <p class="hero-sub">Análise consolidada de desempenho no Instagram, no Facebook e no tráfego pago. Gestão Studio Virtually.</p>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- INTRO -->
+  <div class="intro-card">
+    <p><strong>Resumo Executivo:</strong> Abril foi um mês de consolidação estratégica com forte desempenho em campanhas pagas. Alcançamos 89.809 visualizações totais, 49.500 contas únicas e 521 interações. O investimento em tráfego pago de R$ 184,25 gerou uma multiplicação de alcance em 27,9x o alcance orgânico, demonstrando eficiência na alocação de verba. Novos seguidores: 96. Recomendações estratégicas para maio incluem replicação de formatos de alto desempenho e otimização de CTR em posts estáticos.</p>
+  </div>
+
+  <!-- ALERT: Dados de 1-4 de abril -->
+  <div class="alert-card">
+    <strong>⚠️ Nota Importante — Precisão de Dados (1-4 de Abril):</strong> A Meta reportou um problema técnico temporário na contagem de visualizações entre 1º e 4 de abril de 2026. Embora a distribuição real de conteúdo não tenha sido afetada, os dados desse período podem não refletir 100% do desempenho real. Este relatório considera essa ressalva em todas as análises.
+  </div>
+
+  <!-- KPIs PRINCIPAIS -->
+  <div class="section">
+    <div class="section-eyebrow">Indicadores Principais</div>
+    <div class="kpi-grid">
+      <div class="kpi azul">
+        <div class="kpi-label">📊 Visualizações Totais</div>
+        <div class="kpi-val">89.809</div>
+        <div class="kpi-delta up">↑ 171,9% vs. mês anterior</div>
+      </div>
+      <div class="kpi azul-l">
+        <div class="kpi-label">👥 Contas Alcançadas</div>
+        <div class="kpi-val">49.500</div>
+        <div class="kpi-delta up">↑ 757,5% vs. mês anterior</div>
+      </div>
+      <div class="kpi verde">
+        <div class="kpi-label">💬 Interações</div>
+        <div class="kpi-val">521</div>
+        <div class="kpi-delta neutral">↓ 11,4% vs. mês anterior</div>
+      </div>
+      <div class="kpi verde-mid">
+        <div class="kpi-label">⭐ Novos Seguidores</div>
+        <div class="kpi-val">96</div>
+        <div class="kpi-delta up">↑ 45,5% vs. mês anterior</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KPIs SECUNDÁRIOS -->
+  <div class="section">
+    <div class="section-eyebrow">Atividade do Perfil</div>
+    <div class="kpi-grid-3">
+      <div class="kpi azul">
+        <div class="kpi-label">🔗 Cliques no Link</div>
+        <div class="kpi-val">100</div>
+        <div class="kpi-delta up">↑ 100% vs. mês anterior</div>
+      </div>
+      <div class="kpi azul-l">
+        <div class="kpi-label">👁️ Visitas ao Perfil</div>
+        <div class="kpi-val">359</div>
+        <div class="kpi-delta neutral">↓ 19,3% vs. mês anterior</div>
+      </div>
+      <div class="kpi azul-l">
+        <div class="kpi-label">👤 Total de Seguidores</div>
+        <div class="kpi-val">3.183</div>
+        <div class="kpi-note">Verificado em 03/mai/2026</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HIGHLIGHT -->
+  <div class="highlight">
+    <div class="highlight-icon">✨</div>
+    <div class="highlight-text">
+      <strong>Multiplicação de Alcance com Tráfego Pago</strong>
+      <p>O investimento estratégico em campanhas pagas resultou em uma multiplicação de 27,9x do alcance orgânico, consolidando a efetividade da gestão integrada de tráfego.</p>
+    </div>
+  </div>
+
+  <!-- TOP POSTS -->
+  <div class="section">
+    <div class="section-eyebrow">Destaques do Mês</div>
+    <div class="section-title">Top 5 Publicações</div>
+    <div class="posts-grid">
+      <a href="https://www.instagram.com/p/DW1Na1GkX2a/" target="_blank" class="post-card">
+        <div class="post-card-rank">
+          <span class="rank-num">1º</span>
+          <span class="rank-tag">Reel</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">Central de Resíduos</div>
+          <div class="post-metrics">
+            <div>
+              <div class="metric-val">62.3K</div>
+              <div class="metric-label">Visualizações</div>
+            </div>
+            <div>
+              <div class="metric-val">52.997</div>
+              <div class="metric-label">Alcance</div>
+            </div>
+          </div>
+          <div class="post-link">→ Ver no Instagram</div>
+        </div>
+      </a>
+
+      <a href="https://www.instagram.com/p/DW6JtELFYB-/" target="_blank" class="post-card">
+        <div class="post-card-rank">
+          <span class="rank-num">2º</span>
+          <span class="rank-tag">Post</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">Você sabe o que está bebendo</div>
+          <div class="post-metrics">
+            <div>
+              <div class="metric-val">6.3K</div>
+              <div class="metric-label">Visualizações</div>
+            </div>
+            <div>
+              <div class="metric-val">2.031</div>
+              <div class="metric-label">Alcance</div>
+            </div>
+          </div>
+          <div class="post-link">→ Ver no Instagram</div>
+        </div>
+      </a>
+
+      <a href="https://www.instagram.com/saaenovamutum/" target="_blank" class="post-card">
+        <div class="post-card-rank verde">
+          <span class="rank-num">3º</span>
+          <span class="rank-tag">Reel</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">Nova Mutum Avançando</div>
+          <div class="post-metrics">
+            <div>
+              <div class="metric-val">1.6K</div>
+              <div class="metric-label">Visualizações</div>
+            </div>
+            <div>
+              <div class="metric-val">1.2K</div>
+              <div class="metric-label">Alcance</div>
+            </div>
+          </div>
+          <div class="post-link">→ Ver no Instagram</div>
+        </div>
+      </a>
+
+      <a href="https://www.instagram.com/saaenovamutum/" target="_blank" class="post-card">
+        <div class="post-card-rank verde">
+          <span class="rank-num">4º</span>
+          <span class="rank-tag">Reel</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">Material Reciclado</div>
+          <div class="post-metrics">
+            <div>
+              <div class="metric-val">1.4K</div>
+              <div class="metric-label">Visualizações</div>
+            </div>
+            <div>
+              <div class="metric-val">1.1K</div>
+              <div class="metric-label">Alcance</div>
+            </div>
+          </div>
+          <div class="post-link">→ Ver no Instagram</div>
+        </div>
+      </a>
+
+      <a href="https://www.instagram.com/saaenovamutum/" target="_blank" class="post-card">
+        <div class="post-card-rank">
+          <span class="rank-num">5º</span>
+          <span class="rank-tag">Post</span>
+        </div>
+        <div class="post-body">
+          <div class="post-title">Saneamento Valoriza a Cidade</div>
+          <div class="post-metrics">
+            <div>
+              <div class="metric-val">1.1K</div>
+              <div class="metric-label">Visualizações</div>
+            </div>
+            <div>
+              <div class="metric-val">890</div>
+              <div class="metric-label">Alcance</div>
+            </div>
+          </div>
+          <div class="post-link">→ Ver no Instagram</div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- DISTRIBUIÇÃO POR FORMATO -->
+  <div class="section">
+    <div class="section-eyebrow">Análise de Conteúdo</div>
+    <div class="section-title">Distribuição por Formato</div>
+    <div class="kpi-grid">
+      <div class="kpi azul">
+        <div class="kpi-label">🎬 Reels</div>
+        <div class="kpi-val">51,2%</div>
+        <div class="kpi-note">Visualizações</div>
+      </div>
+      <div class="kpi azul-l">
+        <div class="kpi-label">📱 Stories</div>
+        <div class="kpi-val">27,9%</div>
+        <div class="kpi-note">Visualizações</div>
+      </div>
+      <div class="kpi verde">
+        <div class="kpi-label">📸 Posts</div>
+        <div class="kpi-val">20,9%</div>
+        <div class="kpi-note">Visualizações</div>
+      </div>
+      <div class="kpi verde-mid">
+        <div class="kpi-label">💬 Engajamento</div>
+        <div class="kpi-val">68,8%</div>
+        <div class="kpi-note">Reels (principal)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TRÁFEGO PAGO -->
+  <div class="section">
+    <div class="section-eyebrow">Gestão de Verba</div>
+    <div class="section-title">Tráfego Pago</div>
+
+    <!-- BLOCO INFORMATIVO -->
+    <div class="highlight" style="background: linear-gradient(135deg, rgba(4,136,202,0.12), rgba(65,174,228,0.04)); border-left-color: #41AEE4;">
+      <div class="highlight-icon">📋</div>
+      <div class="highlight-text">
+        <strong>Verificação Estratégica — Pagamento Direto à Meta</strong>
+        <p style="margin-top: 8px; font-size: 12px;">Em resposta a uma dúvida levantada pelo cliente em abril/2026 sobre a possibilidade de estabelecer um contrato de pagamento direto com a Meta para gerenciamento de tráfego pago, mantendo a gestão estratégica com a Studio Virtually: a Meta não oferece contratos de pagamento direto com organizações. O modelo operacional funciona exclusivamente via Termos de Serviço Padrão para anunciantes. <strong>Método recomendado:</strong> recarga mensal via boleto bancário na conta Meta Ads Manager, oferecendo controle orçamentário preciso, rastreabilidade total e conformidade regulatória. O modelo atual de recarga mensal gerenciada atende a todas as exigências operacionais e regulatórias.</p>
+      </div>
+    </div>
+
+    <div class="kpi-grid" style="margin-top: 28px;">
+      <div class="kpi azul">
+        <div class="kpi-label">💰 Saldo Disponível</div>
+        <div class="kpi-val">R$ 119,17</div>
+        <div class="kpi-note">Atualizado em maio</div>
+      </div>
+      <div class="kpi verde">
+        <div class="kpi-label">📈 Investido em Abril</div>
+        <div class="kpi-val">R$ 184,25</div>
+        <div class="kpi-note">5 campanhas</div>
+      </div>
+      <div class="kpi azul-l">
+        <div class="kpi-label">👥 Alcance Abril</div>
+        <div class="kpi-val">68.210</div>
+        <div class="kpi-note">Pessoas alcançadas</div>
+      </div>
+      <div class="kpi verde-mid">
+        <div class="kpi-label">🎯 CPM Médio</div>
+        <div class="kpi-val">R$ 2,70</div>
+        <div class="kpi-note">Custo por mil</div>
+      </div>
+    </div>
+
+    <div class="section-title" style="margin-top: 36px; margin-bottom: 20px;">Campanhas Ativadas</div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Campanha</th>
+            <th>Período</th>
+            <th>Alcance</th>
+            <th>Impressões</th>
+            <th>Cliques</th>
+            <th>Investimento</th>
+            <th>CTR</th>
+            <th>CPC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Reel Central de Resíduos</strong></td>
+            <td>16-21 abr</td>
+            <td>52.997</td>
+            <td>78.408</td>
+            <td>183</td>
+            <td>R$ 99,55</td>
+            <td>0,23%</td>
+            <td>R$ 0,54</td>
+          </tr>
+          <tr>
+            <td><strong>Boosted Story (Comunicado)</strong></td>
+            <td>16-21 abr</td>
+            <td>7.375</td>
+            <td>8.164</td>
+            <td>58</td>
+            <td>R$ 10,35</td>
+            <td>0,71%</td>
+            <td>R$ 0,18</td>
+          </tr>
+          <tr>
+            <td><strong>Post "Descarte e Sustento"</strong></td>
+            <td>16-21 abr</td>
+            <td>3.374</td>
+            <td>4.214</td>
+            <td>67</td>
+            <td>R$ 14,76</td>
+            <td>1,59%</td>
+            <td>R$ 0,22</td>
+          </tr>
+          <tr>
+            <td><strong>Reel Fatura</strong></td>
+            <td>16-21 abr</td>
+            <td>2.813</td>
+            <td>3.714</td>
+            <td>3</td>
+            <td>R$ 29,80</td>
+            <td>0,08%</td>
+            <td>R$ 9,93</td>
+          </tr>
+          <tr>
+            <td><strong>Post "Você sabia que..."</strong></td>
+            <td>16-21 abr</td>
+            <td>2.031</td>
+            <td>3.702</td>
+            <td>39</td>
+            <td>R$ 29,79</td>
+            <td>1,05%</td>
+            <td>R$ 0,76</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="intro-card" style="margin-top: 28px;">
+      <p><strong>Gestão Realizada:</strong> Monitoramento contínuo da conta Meta Ads, análise diária de desempenho, otimização de segmentação, controle de orçamento, planejamento de ativações futuras, documentação de decisões estratégicas e conformidade com regulamentações aplicáveis.</p>
+    </div>
+
+    <div class="alert-card">
+      <strong>Nota Técnica — Contexto de Resultados:</strong> Os resultados apresentados neste relatório não são comparáveis com campanhas comerciais de venda direta. O objetivo da comunicação do SAAE Nova Mutum é informativo, educativo e de utilidade pública — voltado à conscientização da população e ao fortalecimento da autoridade institucional, não à conversão comercial. O sucesso é medido por alcance, engajamento e credibilidade junto ao cidadão.
+    </div>
+
+  </div>
+
+  <!-- INSIGHTS E RECOMENDAÇÕES -->
+  <div class="section">
+    <div class="section-eyebrow">Estratégia</div>
+    <div class="section-title">Recomendações para Maio/2026</div>
+    <div class="kpi-grid">
+      <div class="kpi azul">
+        <div class="kpi-label">1️⃣ Replicar Sucesso</div>
+        <div class="kpi-note">Replicar formato Reel "Central de Resíduos" com novos temas educativos. Alcance de 52.997 e CPM de R$ 1,27 demonstram alta eficiência.</div>
+      </div>
+      <div class="kpi verde">
+        <div class="kpi-label">2️⃣ Posts Estáticos</div>
+        <div class="kpi-note">Aumentar investimento em posts estáticos. CTR de 1,59% (Post "Descarte") e 1,05% (Post "Você sabia") superam significativamente o Reel Fatura (0,08%).</div>
+      </div>
+      <div class="kpi azul-l">
+        <div class="kpi-label">3️⃣ Horário de Pico</div>
+        <div class="kpi-note">Concentrar publicações para segunda-feira às 15h. Dados mostram 1.321 seguidores ativos nesse horário, pico de engajamento.</div>
+      </div>
+      <div class="kpi verde-mid">
+        <div class="kpi-label">4️⃣ Segmentação</div>
+        <div class="kpi-note">Manter foco em público 25-64 anos. Campanhas mostram maior engajamento nessa faixa etária. Público 100% localizado em MT.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIVIDER -->
+  <div class="divider"></div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-logo">Gestão Studio Virtually</div>
+    <p>Relatório Digital · SAAE Nova Mutum · Abril 2026</p>
+    <p style="margin-top: 12px; font-size: 11px; color: var(--texto-light);">Dados consolidados de Instagram, Facebook e Meta Ads Manager. Período: 1-30 de abril de 2026.</p>
+  </div>
+
+</div>
+
+</body>
+</html>

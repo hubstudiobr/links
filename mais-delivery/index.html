@@ -4,114 +4,1216 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Proposta Comercial — Mais Delivery Nobres × Virtually Studio</title>
-<meta name="description" content="Proposta comercial de gestão de redes sociais para o Mais Delivery Nobres. Produzido pelo Studio Virtually.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --preto: #0a0a0a; --preto-card: #111111; --preto-borda: #1e1e1e;
-    --branco: #f5f5f0; --branco-suave: #c8c8c0;
-    --verde-virtually: #2ebd70; --studio-indigo: #536280;
-    --vermelho-mais: #d32f2f; --laranja-mais: #f57c00; --cinza: #888880;
+    --preto: #0a0a0a;
+    --preto-card: #111111;
+    --preto-borda: #1e1e1e;
+    --branco: #f5f5f0;
+    --branco-suave: #c8c8c0;
+    
+    /* Cores de Identidade */
+    --verde-virtually: #2ebd70;  /* Verde exato da logo da Virtually */
+    --studio-indigo: #536280;    /* Tom azul-cinzento elegante para a palavra STUDIO */
+    --vermelho-mais: #d32f2f;    /* Vermelho oficial do Mais Delivery */
+    --laranja-mais: #f57c00;     /* Laranja oficial do Mais Delivery */
+    --cinza: #888880;
   }
-  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
-  body{background:var(--preto);color:var(--branco);font-family:'DM Sans',sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
-  .label{font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.25em;text-transform:uppercase;color:var(--verde-virtually)}
-  h1,h2{font-family:'Bebas Neue',sans-serif;letter-spacing:0.05em;line-height:1}
-  section{padding:100px 40px;max-width:1100px;margin:0 auto}
-  .section-divider{width:100%;height:1px;background:var(--preto-borda);max-width:1100px;margin:0 auto}
-  .hero{min-height:100vh;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr auto;max-width:100%;padding:0;position:relative;overflow:hidden;background:var(--preto)}
-  .hero-esquerda{background:var(--preto);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:80px 60px;position:relative;grid-row:1;border-right:1px solid var(--verde-virtually)}
-  .mais-delivery-logo{display:flex;flex-direction:column;align-items:center;gap:4px;text-align:center}
-  .mais-logo-top{font-family:'Bebas Neue',sans-serif;font-size:clamp(80px,9vw,120px);color:var(--branco);line-height:0.85;letter-spacing:0.02em;position:relative;font-weight:700}
-  .mais-logo-top span{color:var(--laranja-mais)}
-  .mais-logo-bottom{font-family:'Bebas Neue',sans-serif;font-size:clamp(24px,3.5vw,40px);letter-spacing:0.15em;background:var(--vermelho-mais);color:white;padding:6px 20px;display:inline-block;margin-top:12px;font-weight:700}
-  .mais-nobres{font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.2em;margin-top:24px;color:var(--laranja-mais);font-weight:700}
-  .hero-direita{background:var(--preto);display:flex;flex-direction:column;justify-content:center;align-items:center;padding:80px 60px;position:relative;grid-row:1}
-  .vs-logo{display:flex;flex-direction:column;align-items:center;text-align:center}
-  .vs-virtually{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,6.5vw,84px);color:#ffffff;letter-spacing:0.08em;line-height:0.95;position:relative;display:inline-block;font-weight:700}
-  .vs-virtually::after{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:linear-gradient(to bottom,transparent 0%,transparent 22%,var(--preto) 22%,var(--preto) 26%,transparent 26%,transparent 48%,var(--preto) 48%,var(--preto) 52%,transparent 52%,transparent 74%,var(--preto) 74%,var(--preto) 78%,transparent 78%,transparent 100%);pointer-events:none}
-  .vs-studio{font-family:'DM Sans',sans-serif;font-weight:400;font-size:clamp(11px,1.3vw,15px);letter-spacing:0.82em;color:var(--studio-indigo);text-transform:uppercase;margin-top:12px;padding-left:0.82em;width:100%}
-  .vs-marker{display:flex;flex-direction:column;align-items:center;margin-top:28px}
-  .vs-triangle{width:0;height:0;border-left:8px solid transparent;border-right:8px solid transparent;border-top:11px solid var(--verde-virtually)}
-  .vs-line{width:2px;height:38px;background:var(--verde-virtually)}
-  .hero-footer{grid-column:1/-1;grid-row:2;display:flex;flex-direction:column;justify-content:center;align-items:center;border-top:1px solid var(--preto-borda);background:#0c0c0c;padding:36px 40px;gap:12px;text-align:center}
-  .hero-tagline{font-family:'Bebas Neue',sans-serif;font-size:clamp(24px,2.5vw,36px);color:var(--branco);letter-spacing:0.08em;line-height:1.1}
-  .hero-tagline span{color:var(--vermelho-mais)}
-  .hero-proposta-sub{font-family:'Space Mono',monospace;font-size:clamp(10px,1vw,12px);letter-spacing:0.15em;text-transform:uppercase;color:var(--branco-suave);opacity:0.85}
-  .sobre{background:var(--preto)}
-  .section-header{margin-bottom:48px}
-  .section-header .label{display:block;margin-bottom:12px}
-  .section-header h2{font-size:clamp(36px,5vw,64px);color:var(--branco)}
-  .sobre-texto{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
-  .sobre-corpo{border-left:2px solid var(--verde-virtually);padding-left:28px}
-  .sobre-corpo p{font-size:1.05rem;color:var(--branco-suave);margin-bottom:20px}
-  .sobre-corpo p strong{color:var(--branco);font-weight:500}
-  .sobre-clientes h3{font-family:'Space Mono',monospace;font-size:0.65rem;letter-spacing:0.25em;color:var(--verde-virtually);text-transform:uppercase;margin-bottom:20px}
-  .clientes-lista{display:flex;flex-direction:column;gap:12px}
-  .cliente-item{font-size:0.9rem;color:var(--branco-suave);padding:12px 16px;border:1px solid var(--preto-borda);border-left:2px solid var(--preto-borda);transition:all 0.2s ease}
-  .cliente-item:hover{border-left-color:var(--verde-virtually);color:var(--branco);background:#121212}
-  .rodape{padding:48px 40px;max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
-  .rodape p{font-size:0.75rem;color:var(--cinza)}
-  @media(max-width:768px){
-    .hero{grid-template-columns:1fr;grid-template-rows:auto auto auto;min-height:auto}
-    .hero-esquerda{border-right:none;border-bottom:1px solid var(--verde-virtually);padding:60px 30px}
-    .hero-direita{padding:60px 30px}
-    .sobre-texto{grid-template-columns:1fr;gap:40px}
-    section{padding:60px 24px}
-    .rodape{padding:32px 24px;flex-direction:column;gap:8px;text-align:center}
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--preto);
+    color: var(--branco);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* ─── TIPOGRAFIA ─── */
+  .label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--verde-virtually);
+  }
+
+  h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1;
+  }
+
+  /* ─── LAYOUT ─── */
+  section {
+    padding: 100px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--preto-borda);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  /* ─── HERO / CAPA UNIFICADA ─── */
+  .hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    max-width: 100%;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background: var(--preto);
+  }
+
+  /* Coluna Esquerda: Mais Delivery */
+  .hero-esquerda {
+    background: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centralizado para simetria */
+    padding: 80px 60px;
+    position: relative;
+    grid-row: 1;
+    /* Linha verde de divisão central elegante */
+    border-right: 1px solid var(--verde-virtually);
+  }
+
+  .mais-delivery-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .mais-logo-top {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(80px, 9vw, 120px);
+    color: var(--branco);
+    line-height: 0.85;
+    letter-spacing: 0.02em;
+    position: relative;
+    font-weight: 700;
+  }
+
+  .mais-logo-top span {
+    color: var(--laranja-mais);
+  }
+
+  .mais-logo-bottom {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(24px, 3.5vw, 40px);
+    letter-spacing: 0.15em;
+    background: var(--vermelho-mais);
+    color: white;
+    padding: 6px 20px;
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  .mais-nobres {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    margin-top: 24px;
+    color: var(--laranja-mais);
+    font-weight: 700;
+  }
+
+  /* Coluna Direita: Virtually Studio (Logo Exata) */
+  .hero-direita {
+    background: var(--preto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 60px;
+    position: relative;
+    grid-row: 1;
+  }
+
+  .vs-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vs-virtually {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(48px, 6.5vw, 84px);
+    color: #ffffff;
+    letter-spacing: 0.08em;
+    line-height: 0.95;
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+  }
+
+  /* 3 Ranhuras Horizontais */
+  .vs-virtually::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 22%,
+      var(--preto) 22%,
+      var(--preto) 26%,
+      transparent 26%,
+      transparent 48%,
+      var(--preto) 48%,
+      var(--preto) 52%,
+      transparent 52%,
+      transparent 74%,
+      var(--preto) 74%,
+      var(--preto) 78%,
+      transparent 78%,
+      transparent 100%
+    );
+    pointer-events: none;
+  }
+
+  .vs-studio {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: clamp(11px, 1.3vw, 15px);
+    letter-spacing: 0.82em;
+    color: var(--studio-indigo);
+    text-transform: uppercase;
+    margin-top: 12px;
+    padding-left: 0.82em;
+    width: 100%;
+  }
+
+  /* Marcador Verde */
+  .vs-marker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+  }
+
+  .vs-triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 11px solid var(--verde-virtually);
+  }
+
+  .vs-line {
+    width: 2px;
+    height: 38px;
+    background: var(--verde-virtually);
+  }
+
+  /* Rodapé do Hero */
+  .hero-footer {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--preto-borda);
+    background: #0c0c0c;
+    padding: 36px 40px;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .hero-tagline {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(24px, 2.5vw, 36px);
+    color: var(--branco);
+    letter-spacing: 0.08em;
+    line-height: 1.1;
+  }
+
+  .hero-tagline span {
+    color: var(--vermelho-mais);
+  }
+
+  .hero-proposta-sub {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(10px, 1vw, 12px);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--branco-suave);
+    opacity: 0.85;
+  }
+
+  /* ─── SOBRE NÓS ─── */
+  .sobre {
+    background: var(--preto);
+  }
+
+  .section-header {
+    margin-bottom: 48px;
+  }
+
+  .section-header .label {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .section-header h2 {
+    font-size: clamp(36px, 5vw, 64px);
+    color: var(--branco);
+  }
+
+  .sobre-texto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .sobre-corpo {
+    border-left: 2px solid var(--verde-virtually);
+    padding-left: 28px;
+  }
+
+  .sobre-corpo p {
+    font-size: 1.05rem;
+    color: var(--branco-suave);
+    margin-bottom: 20px;
+  }
+
+  .sobre-corpo p strong {
+    color: var(--branco);
+    font-weight: 500;
+  }
+
+  .sobre-clientes h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.25em;
+    color: var(--verde-virtually);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .clientes-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .cliente-item {
+    font-size: 0.9rem;
+    color: var(--branco-suave);
+    padding: 12px 16px;
+    border: 1px solid var(--preto-borda);
+    border-left: 2px solid var(--preto-borda);
+    transition: all 0.2s ease;
+  }
+
+  .cliente-item:hover {
+    border-left-color: var(--verde-virtually);
+    color: var(--branco);
+    background: #121212;
+  }
+
+  /* ─── O QUE IDENTIFICAMOS ─── */
+  .identificamos-wrapper {
+    background: var(--preto-card);
+  }
+
+  .identificamos-wrapper section {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .card {
+    background: var(--preto);
+    border: 1px solid var(--preto-borda);
+    padding: 32px 28px;
+    position: relative;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .card:hover {
+    border-color: var(--verde-virtually);
+    transform: translateY(-4px);
+  }
+
+  .card-icon {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .card h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--branco);
+    margin-bottom: 10px;
+    letter-spacing: 0.02em;
+  }
+
+  .card p {
+    font-size: 0.88rem;
+    color: var(--cinza);
+    line-height: 1.6;
+  }
+
+  .frase-destaque {
+    margin-top: 56px;
+    padding: 36px 40px;
+    border-left: 3px solid var(--verde-virtually);
+    background: var(--preto);
+  }
+
+  .frase-destaque p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(1rem, 1.8vw, 1.25rem);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--branco-suave);
+    line-height: 1.6;
+  }
+
+  .frase-destaque p strong {
+    color: var(--verde-virtually);
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  /* ─── O QUE PROPOMOS ─── */
+  .propomos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    margin-top: 48px;
+    border: 1px solid var(--preto-borda);
+  }
+
+  .proposta-bloco {
+    padding: 40px 36px;
+    background: var(--preto-card);
+    border: 1px solid var(--preto-borda);
+    transition: background 0.2s;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .proposta-bloco:hover {
+    background: #161616;
+  }
+
+  .proposta-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .proposta-texto h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--branco);
+    margin-bottom: 8px;
+  }
+
+  .proposta-texto p {
+    font-size: 0.88rem;
+    color: var(--cinza);
+    line-height: 1.6;
+  }
+
+  /* ─── ENTREGAS ─── */
+  .entregas-wrapper {
+    background: var(--preto-card);
+  }
+
+  .entregas-lista {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid var(--preto-borda);
+  }
+
+  .entrega-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--preto-borda);
+    transition: background 0.15s;
+  }
+
+  .entrega-item:last-child { border-bottom: none; }
+
+  .entrega-item:hover {
+    background: #161616;
+  }
+
+  .entrega-num {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--verde-virtually);
+    letter-spacing: 0.1em;
+    flex-shrink: 0;
+    width: 28px;
+  }
+
+  .entrega-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+
+  .entrega-texto {
+    flex: 1;
+  }
+
+  .entrega-texto strong {
+    display: block;
+    font-weight: 500;
+    color: var(--branco);
+    font-size: 0.95rem;
+    margin-bottom: 2px;
+  }
+
+  .entrega-texto span {
+    font-size: 0.82rem;
+    color: var(--cinza);
+  }
+
+  .bonus-tag {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.15em;
+    color: var(--verde-virtually);
+    border: 1px solid var(--verde-virtually);
+    padding: 3px 8px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+
+  /* ─── REFERÊNCIAS ─── */
+  .refs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .ref-card {
+    background: var(--preto-card);
+    border: 1px solid var(--preto-borda);
+    padding: 36px 32px;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .ref-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 0;
+    background: var(--verde-virtually);
+    transition: height 0.3s;
+  }
+
+  .ref-card:hover::before { height: 100%; }
+  .ref-card:hover { border-color: var(--verde-virtually); }
+
+  .ref-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    color: var(--preto-borda);
+    line-height: 1;
+    margin-bottom: 8px;
+    transition: color 0.2s;
+  }
+
+  .ref-card:hover .ref-num { color: var(--verde-virtually); opacity: 0.3; }
+
+  .ref-card h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--branco);
+    margin-bottom: 10px;
+  }
+
+  .ref-card p {
+    font-size: 0.88rem;
+    color: var(--cinza);
+    line-height: 1.6;
+  }
+
+  /* ─── INVESTIMENTO ─── */
+  .investimento-wrapper {
+    background: var(--preto-card);
+  }
+
+  .investimento-box {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+  }
+
+  .invest-principal {
+    background: var(--preto);
+    border: 1px solid var(--preto-borda);
+    padding: 56px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .invest-valor {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(56px, 7vw, 88px);
+    color: var(--branco);
+    line-height: 1;
+    margin: 16px 0 4px;
+  }
+
+  .invest-valor span {
+    font-size: 0.45em;
+    color: var(--cinza);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    vertical-align: super;
+  }
+
+  .invest-periodo {
+    font-size: 0.82rem;
+    color: var(--cinza);
+    letter-spacing: 0.1em;
+  }
+
+  /* Gatilho mental de ancoragem diária solicitado pela Pri */
+  .invest-diario {
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(10px, 1.1vw, 13px);
+    color: var(--verde-virtually);
+    margin-top: 8px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  .invest-contrato {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    color: var(--verde-virtually);
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--preto-borda);
+  }
+
+  .invest-contexto {
+    background: #0f0f0f;
+    border: 1px solid var(--preto-borda);
+    padding: 40px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .invest-contexto h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    color: var(--verde-virtually);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .invest-contexto p {
+    font-size: 0.9rem;
+    color: var(--branco-suave);
+    line-height: 1.7;
+  }
+
+  .invest-contexto p strong {
+    color: var(--verde-virtually);
+    font-weight: 500;
+  }
+
+  /* ─── PRÓXIMOS PASSOS ─── */
+  .passos-lista {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .passo {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 32px;
+    align-items: center;
+    padding: 32px 40px;
+    background: var(--preto-card);
+    border: 1px solid var(--preto-borda);
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .passo:hover {
+    border-color: var(--verde-virtually);
+    background: #141414;
+  }
+
+  .passo-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5rem;
+    color: var(--preto-borda);
+    line-height: 1;
+    transition: color 0.2s;
+  }
+
+  .passo:hover .passo-num {
+    color: var(--verde-virtually);
+  }
+
+  .passo-texto strong {
+    display: block;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--branco);
+    margin-bottom: 4px;
+  }
+
+  .passo-texto span {
+    font-size: 0.85rem;
+    color: var(--cinza);
+  }
+
+  .cta-area {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .btn-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--verde-virtually);
+    color: var(--preto);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    padding: 18px 36px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+
+  .btn-cta:hover {
+    background: #25a85c;
+    transform: translateY(-2px);
+  }
+
+  .btn-cta svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .cta-obs {
+    font-size: 0.78rem;
+    color: var(--cinza);
+    font-family: 'Space Mono', monospace;
+    letter-spacing: 0.1em;
+  }
+
+  /* ─── RODAPÉ ─── */
+  .section-divider {
+    width: 100%;
+    height: 1px;
+    background: var(--preto-borda);
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  footer {
+    border-top: 1px solid var(--preto-borda);
+    padding: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+    color: var(--branco);
+  }
+
+  .footer-logo span {
+    color: var(--verde-virtually);
+  }
+
+  .footer-info {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.15em;
+    color: var(--cinza);
+    text-align: right;
+    line-height: 1.8;
+  }
+
+  .footer-info a {
+    color: var(--verde-virtually);
+    text-decoration: none;
+  }
+
+  /* ─── ANIMAÇÕES ─── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-esquerda > *, .hero-direita > * {
+    animation: fadeUp 0.7s ease both;
+  }
+
+  .hero-esquerda > *:nth-child(1) { animation-delay: 0.1s; }
+  .hero-direita > *:nth-child(1) { animation-delay: 0.3s; }
+
+  .hero-footer {
+    animation: fadeUp 0.6s ease 0.5s both;
+  }
+
+  /* ─── RESPONSIVO ─── */
+  @media (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto auto;
+      min-height: auto;
+    }
+
+    .hero-esquerda, .hero-direita {
+      padding: 60px 32px;
+      grid-row: auto;
+    }
+
+    .hero-esquerda {
+      border-right: none;
+      /* No mobile, vira uma divisão horizontal verde linda */
+      border-bottom: 1px solid var(--verde-virtually);
+    }
+
+    .hero-footer {
+      padding: 24px 32px;
+      gap: 8px;
+    }
+
+    .hero-tagline {
+      white-space: normal;
+      text-align: center;
+    }
+
+    section { padding: 72px 24px; }
+
+    .sobre-texto,
+    .cards-grid,
+    .propomos-grid,
+    .refs-grid,
+    .investimento-box {
+      grid-template-columns: 1fr;
+    }
+
+    .passo {
+      grid-template-columns: 60px 1fr;
+      padding: 24px 20px;
+    }
+
+    footer {
+      flex-direction: column;
+      gap: 24px;
+      text-align: center;
+      padding: 40px 24px;
+    }
+
+    .footer-info { text-align: center; }
   }
 </style>
 </head>
 <body>
+
+<!-- ═══════════════════════════════════════════
+     HERO / CAPA UNIFICADA
+════════════════════════════════════════════ -->
 <div class="hero">
+
+  <!-- Coluna esquerda: logo Mais Delivery (Com borda verde à direita no desktop) -->
   <div class="hero-esquerda">
     <div class="mais-delivery-logo">
-      <div class="mais-logo-top">MA<span>+</span>S</div>
+      <div class="mais-logo-top">MAIS</div>
       <div class="mais-logo-bottom">DELIVERY</div>
-      <div class="mais-nobres">NOBRES — MT</div>
+      <div class="mais-nobres">NOBRES · MATO GROSSO</div>
     </div>
   </div>
+
+  <!-- Coluna direita: logo Virtually Studio -->
   <div class="hero-direita">
     <div class="vs-logo">
       <div class="vs-virtually">VIRTUALLY</div>
       <div class="vs-studio">Studio</div>
-      <div class="vs-marker"><div class="vs-triangle"></div><div class="vs-line"></div></div>
+      <div class="vs-marker">
+        <div class="vs-triangle"></div>
+        <div class="vs-line"></div>
+      </div>
     </div>
   </div>
+
+  <!-- Rodapé elegante, centralizado e unificado -->
   <div class="hero-footer">
-    <div class="hero-tagline">Uma parceria para fazer <span>seu negócio crescer</span> nas redes.</div>
-    <div class="hero-proposta-sub">Proposta Comercial — Maio 2026</div>
+    <div class="hero-tagline">
+      PARCERIA QUE ENTREGA <span>MAIS!</span>
+    </div>
+    <div class="hero-proposta-sub">
+      Proposta Comercial · Conteúdo local para quem é de Nobres · Maio 2026
+    </div>
   </div>
+
 </div>
-<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════
+     SOBRE NÓS
+════════════════════════════════════════════ -->
 <section class="sobre">
   <div class="section-header">
-    <span class="label">Quem somos</span>
-    <h2>Studio Virtually</h2>
+    <span class="label">01 — Quem somos</span>
+    <h2>SOBRE NÓS</h2>
   </div>
+
   <div class="sobre-texto">
     <div class="sobre-corpo">
-      <p>Somos um estudio digital especializado em <strong>comunicação estratégica</strong> para marcas locais e regionais.</p>
-      <p>Combinamos produção de conteúdo, design e narrativa para criar presenças digitais que <strong>geram resultado real</strong> — não apenas engajamento.</p>
-      <p>Nossa metodologia parte de um entendimento profundo do negócio do cliente antes de qualquer criação.</p>
+      <p>A <strong>Virtually Studio</strong> é uma produtora de conteúdo audiovisual de Nobres, Mato Grosso. Somos especializados em vídeos para redes sociais, com produção local, direção criativa e edição profissional.</p>
+      <p>Conhecemos a cidade, conhecemos o público e sabemos como transformar isso em conteúdo que gera resultado.</p>
     </div>
+
     <div class="sobre-clientes">
-      <h3>Quem já confia na gente</h3>
+      <h3>Projetos atendidos</h3>
       <div class="clientes-lista">
-        <div class="cliente-item">SAAE Nova Mutum — Saneamento</div>
-        <div class="cliente-item">OdontoCompany Diamantino — Saúde</div>
-        <div class="cliente-item">Lince — Agência / Cuiabá</div>
+        <div class="cliente-item">OdontoCompany Diamantino</div>
+        <div class="cliente-item">SAAE Nova Mutum</div>
+        <div class="cliente-item">Prefeitura de Nova Marilândia</div>
+        <div class="cliente-item">Elevare Odontologia</div>
+        <div class="cliente-item">ImagemOdonto</div>
       </div>
     </div>
   </div>
 </section>
+
 <div class="section-divider"></div>
-<div class="rodape">
-  <p>Proposta Comercial · Mais Delivery Nobres · Maio 2026</p>
-  <p>Produzido por Studio Virtually — Documento confidencial</p>
+
+<!-- ═══════════════════════════════════════════
+     O QUE IDENTIFICAMOS
+════════════════════════════════════════════ -->
+<div class="identificamos-wrapper">
+  <section>
+    <div class="section-header">
+      <span class="label">02 — Diagnóstico</span>
+      <h2>O QUE IDENTIFICAMOS</h2>
+    </div>
+
+    <div class="cards-grid">
+      <div class="card">
+        <span class="card-icon">📱</span>
+        <h3>Perfil com baixo volume de conteúdo</h3>
+        <p>11 publicações no total. Pouca frequência significa menos alcance orgânico e menos presença na memória do público.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🎨</span>
+        <h3>Visual genérico da franquia</h3>
+        <p>Os templates padrão da rede funcionam pra identidade de marca, mas não criam conexão com quem é de Nobres. O público local precisa se ver no conteúdo.</p>
+      </div>
+
+      <div class="card">
+        <span class="card-icon">🎬</span>
+        <h3>Potencial de vídeo inexplorado</h3>
+        <p>Reels e vídeos curtos têm o maior alcance orgânico do Instagram hoje. O perfil ainda não usa esse formato de forma estratégica.</p>
+      </div>
+    </div>
+
+    <div class="frase-destaque">
+      <p>Nobres ainda está conhecendo o Mais Delivery. <strong>Esse é exatamente o momento de contar essa história do jeito certo.</strong></p>
+    </div>
+  </section>
 </div>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════
+     O QUE PROPOMOS
+════════════════════════════════════════════ -->
+<section>
+  <div class="section-header">
+    <span class="label">03 — Solução</span>
+    <h2>O QUE PROPOMOS</h2>
+  </div>
+
+  <div class="propomos-grid">
+    <div class="proposta-bloco">
+      <div class="proposta-icon">🎬</div>
+      <div class="proposta-texto">
+        <h3>Vídeos para Reels e Instagram</h3>
+        <p>Conteúdo em vídeo curto, editado e pronto pra publicar. Produzido em Nobres, com a cara da cidade e do público local.</p>
+      </div>
+    </div>
+
+    <div class="proposta-bloco">
+      <div class="proposta-icon">🚁</div>
+      <div class="proposta-texto">
+        <h3>Captação Aérea com Drone</h3>
+        <p>Um vídeo mensal com imagens aéreas de Nobres. Impacto visual que nenhum template de franquia consegue entregar.</p>
+      </div>
+    </div>
+
+    <div class="proposta-bloco">
+      <div class="proposta-icon">✂️</div>
+      <div class="proposta-texto">
+        <h3>Edição e Adaptação</h3>
+        <p>Todo o material editado e formatado para o Instagram: proporção, legenda, ritmo e identidade visual alinhados.</p>
+      </div>
+    </div>
+
+    <div class="proposta-bloco">
+      <div class="proposta-icon">🎨</div>
+      <div class="proposta-texto">
+        <h3>Artes Promocionais</h3>
+        <p>4 artes mensais de bônus para campanhas, promoções e ações do aplicativo. Design personalizado e pensado para o público de Nobres.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════
+     ENTREGAS MENSAIS
+════════════════════════════════════════════ -->
+<div class="entregas-wrapper">
+  <section>
+    <div class="section-header">
+      <span class="label">04 — Escopo</span>
+      <h2>ENTREGAS MENSAIS</h2>
+    </div>
+
+    <div class="entregas-lista">
+      <div class="entrega-item">
+        <span class="entrega-num">01</span>
+        <span class="entrega-icon">🎬</span>
+        <div class="entrega-texto">
+          <strong>4 vídeos mensais para Instagram e Reels</strong>
+          <span>Captação, edição e adaptação para o formato das redes</span>
+        </div>
+      </div>
+
+      <div class="entrega-item">
+        <span class="entrega-num">02</span>
+        <span class="entrega-icon">🚁</span>
+        <div class="entrega-texto">
+          <strong>1 captação aérea com drone por mês</strong>
+          <span>Imagens aéreas de Nobres com edição profissional</span>
+        </div>
+      </div>
+
+      <div class="entrega-item">
+        <span class="entrega-num">03</span>
+        <span class="entrega-icon">📅</span>
+        <div class="entrega-texto">
+          <strong>1 sessão de captação mensal (até 4h)</strong>
+          <span>Período otimizado em campo para produção ágil de todo o conteúdo</span>
+        </div>
+      </div>
+
+      <div class="entrega-item">
+        <span class="entrega-num">04</span>
+        <span class="entrega-icon">✂️</span>
+        <div class="entrega-texto">
+          <strong>Edição e adaptação para redes sociais</strong>
+          <span>Corte, legenda, trilha e formatação para cada plataforma</span>
+        </div>
+      </div>
+
+      <div class="entrega-item">
+        <span class="entrega-num">05</span>
+        <span class="entrega-icon">🎨</span>
+        <div class="entrega-texto">
+          <strong>4 artes promocionais mensais</strong>
+          <span>Design personalizado para campanhas e ações do aplicativo</span>
+        </div>
+        <span class="bonus-tag">bônus</span>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════
+     REFERÊNCIAS DE CONTEÚDO
+════════════════════════════════════════════ -->
+<section>
+  <div class="section-header">
+    <span class="label">05 — Criativo</span>
+    <h2>REFERÊNCIAS DE CONTEÚDO</h2>
+  </div>
+
+  <div class="refs-grid">
+    <div class="ref-card">
+      <div class="ref-num">01</div>
+      <h3>Bastidores da Entrega</h3>
+      <p>Vídeo curto mostrando o motoboy em movimento pela cidade. Humaniza o serviço e justifica o valor da taxa de entrega de forma natural, sem precisar falar nisso diretamente.</p>
+    </div>
+
+    <div class="ref-card">
+      <div class="ref-num">02</div>
+      <h3>Sabores de Nobres</h3>
+      <p>Close nos pratos dos restaurantes parceiros. Desperta desejo, apresenta a variedade do app e incentiva o primeiro pedido de quem ainda não baixou.</p>
+    </div>
+
+    <div class="ref-card">
+      <div class="ref-num">03</div>
+      <h3>Por que vender pelo app?</h3>
+      <p>Conteúdo direto para pequenos empreendedores da cidade. Mostra em poucos segundos como estar no Mais Delivery amplia o alcance do negócio local.</p>
+    </div>
+
+    <div class="ref-card">
+      <div class="ref-num">04</div>
+      <h3>Nobres lá de cima</h3>
+      <p>Imagens aéreas da cidade com o serviço em movimento. Gera identidade local, orgulho de cidade e posiciona o Mais Delivery como parte da rotina de Nobres.</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════
+     INVESTIMENTO
+════════════════════════════════════════════ -->
+<div class="investimento-wrapper">
+  <section>
+    <div class="section-header">
+      <span class="label">06 — Investimento</span>
+      <h2>INVESTIMENTO</h2>
+    </div>
+
+    <div class="investimento-box">
+      <div class="invest-principal">
+        <span class="label">Plano mensal</span>
+        <div class="invest-valor"><span>R$</span> 1.890</div>
+        <div class="invest-periodo">por mês · contrato mínimo de 3 meses</div>
+        <!-- Gatilho de ancoragem mental inserido aqui -->
+        <div class="invest-diario">(Apenas R$ 63/dia — menos de R$ 65 por dia!)</div>
+        <div class="invest-contrato">PRODUÇÃO LOCAL · EDIÇÃO · DRONE · ESTRATÉGIA</div>
+      </div>
+
+      <div class="invest-contexto">
+        <h3>Contexto de mercado</h3>
+        <p>A produção de vídeo para redes sociais no Brasil custa em média <strong>R$ 400 a R$ 1.000 por unidade</strong>, apenas de edição. No pacote Virtually Studio, você recebe captação, edição, drone e estratégia inclusos, por menos do que contratar um único vídeo avulso no mercado.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="section-divider"></div>
+
+<!-- ═══════════════════════════════════════════
+     PRÓXIMOS PASSOS
+════════════════════════════════════════════ -->
+<section>
+  <div class="section-header">
+    <span class="label">07 — Próximos passos</span>
+    <h2>VAMOS COMEÇAR?</h2>
+  </div>
+
+  <div class="passos-lista">
+    <div class="passo">
+      <div class="passo-num">01</div>
+      <div class="passo-texto">
+        <strong>Análise da proposta e alinhamento de expectativas</strong>
+        <span>Você lê, avalia e nos conta o que faz sentido pra vocês</span>
+      </div>
+    </div>
+
+    <div class="passo">
+      <div class="passo-num">02</div>
+      <div class="passo-texto">
+        <strong>Reunião rápida para tirar dúvidas e definir início</strong>
+        <span>Uma conversa de 20 minutos já resolve tudo</span>
+      </div>
+    </div>
+
+    <div class="passo">
+      <div class="passo-num">03</div>
+      <div class="passo-texto">
+        <strong>Assinatura do contrato e início da produção</strong>
+        <span>A gente já sai daqui com data de captação marcada</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-area">
+    <a class="btn-cta" href="https://wa.me/5565981703304?text=Ol%C3%A1!%20Vi%20a%20proposta%20da%20Virtually%20Studio%20e%20quero%20conversar." target="_blank">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Quero conversar sobre essa proposta
+    </a>
+    <span class="cta-obs">(65) 98170-3304 · @studiovirtually</span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     RODAPÉ
+════════════════════════════════════════════ -->
+<div class="section-divider"></div>
+<footer>
+  <div class="footer-logo">VIRTUALLY <span>STUDIO</span></div>
+  <div class="footer-info">
+    Nobres · Mato Grosso · Brasil<br>
+    <a href="https://instagram.com/studiovirtually" target="_blank">@studiovirtually</a> · (65) 98170-3304 · (65) 99625-7009
+  </div>
+</footer>
+
 </body>
 </html>

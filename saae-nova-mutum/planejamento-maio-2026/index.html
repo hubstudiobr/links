@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planejamento Estratégico — SAAE Nova Mutum | Maio 2026</title>
+<meta name="description" content="Planejamento estratégico de conteúdo do SAAE Nova Mutum para Maio de 2026. Produzido pelo Studio Virtually.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --saae-blue:#0488CA; --saae-blue-dark:#0369A1; --saae-blue-mid:#0EA5E9;
+    --saae-blue-light:#E0F2FE; --saae-blue-xlight:#F0F9FF;
+    --surface-bg:#F8FAFC; --surface-card:#FFFFFF; --surface-subtle:#F1F5F9;
+    --border:#E2E8F0; --border-strong:#CBD5E1;
+    --text-primary:#0F172A; --text-secondary:#475569; --text-muted:#94A3B8;
+    --tag-reels-bg:#DCFCE7; --tag-reels-tx:#14532D;
+    --tag-post-bg:#DBEAFE; --tag-post-tx:#1E3A8A;
+    --tag-story-bg:#FEF9C3; --tag-story-tx:#713F12;
+    --tag-status-bg:#FFEDD5; --tag-status-tx:#7C2D12;
+    --tag-done-bg:#F0FDF4; --tag-done-tx:#166534;
+    --tag-plan-bg:#EFF6FF; --tag-plan-tx:#1E40AF;
+    --tag-edit-bg:#FDF4FF; --tag-edit-tx:#6B21A8;
+    --sp-sm:1rem; --sp-md:1.5rem; --sp-lg:2rem; --sp-xl:3rem;
+    --r-sm:0.75rem; --r-md:1.25rem; --r-lg:1.75rem; --r-xl:2rem;
+    --shadow-sm:0 1px 3px rgba(0,0,0,0.06),0 1px 2px rgba(0,0,0,0.04);
+    --shadow-md:0 4px 16px rgba(0,0,0,0.07);
+    --ease:cubic-bezier(0.4,0,0.2,1);
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--surface-bg);color:var(--text-primary);font-family:'Plus Jakarta Sans',sans-serif;font-weight:400;line-height:1.6;overflow-x:hidden}
+  h1,h2,h3,h4{font-family:'Syne',sans-serif;line-height:1.1}
+  .site-header{position:sticky;top:0;z-index:100;background:rgba(248,250,252,0.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:14px 40px;display:flex;align-items:center;justify-content:space-between}
+  .header-brand{display:flex;align-items:center;gap:14px}
+  .header-logo-icon{width:36px;height:36px;background:var(--saae-blue);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem}
+  .header-brand-text{display:flex;flex-direction:column;line-height:1.2}
+  .header-brand-name{font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:var(--text-primary);letter-spacing:0.02em}
+  .header-brand-sub{font-size:0.68rem;color:var(--text-muted);letter-spacing:0.05em}
+  .header-meta{display:flex;align-items:center;gap:12px}
+  .header-badge{font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--saae-blue);background:var(--saae-blue-light);padding:5px 12px;border-radius:999px}
+  .header-by{font-size:0.72rem;color:var(--text-muted)}
+  .hero{background:linear-gradient(135deg,#0F172A 0%,#0C2340 60%,#083358 100%);padding:72px 40px 80px;position:relative;overflow:hidden}
+  .hero::before{content:'';position:absolute;top:-60%;right:-10%;width:600px;height:600px;background:radial-gradient(circle,rgba(4,136,202,0.15) 0%,transparent 70%);pointer-events:none}
+  .hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--saae-blue),transparent)}
+  .hero-inner{max-width:900px;margin:0 auto;position:relative;z-index:1}
+  .hero-eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:0.65rem;font-weight:600;letter-spacing:0.25em;text-transform:uppercase;color:var(--saae-blue-mid);margin-bottom:24px}
+  .hero-eyebrow::before{content:'';display:block;width:20px;height:1px;background:var(--saae-blue-mid)}
+  .hero h1{font-size:clamp(2.2rem,5vw,3.6rem);font-weight:800;color:#FFF;margin-bottom:12px;letter-spacing:-0.02em}
+  .hero-subtitle{font-size:1.15rem;color:rgba(255,255,255,0.55);font-weight:300;margin-bottom:48px}
+  .hero-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+  .kpi-card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);border-radius:var(--r-md);padding:20px 18px;backdrop-filter:blur(8px)}
+  .kpi-number{font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:#FFF;line-height:1;margin-bottom:6px}
+  .kpi-number span{color:var(--saae-blue-mid)}
+  .kpi-label{font-size:0.68rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.4)}
+  .container{max-width:900px;margin:0 auto;padding:var(--sp-xl) 40px}
+  .section-heading{display:flex;align-items:center;gap:14px;margin-bottom:var(--sp-lg)}
+  .section-heading-label{font-size:0.6rem;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
+  .section-heading-line{flex:1;height:1px;background:var(--border)}
+  .visao-card{background:var(--surface-card);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--sp-lg);box-shadow:var(--shadow-sm);border-top:4px solid var(--saae-blue);margin-bottom:var(--sp-xl)}
+  .visao-card h2{font-size:1.3rem;color:var(--text-primary);margin-bottom:var(--sp-md);display:flex;align-items:center;gap:10px}
+  .visao-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-lg)}
+  .visao-grid p{font-size:0.93rem;color:var(--text-secondary);line-height:1.8}
+  .visao-grid p strong{color:var(--text-primary);font-weight:600}
+  .published-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:var(--sp-xl)}
+  .pub-card{background:var(--surface-subtle);border:1px solid var(--border);border-radius:var(--r-md);padding:var(--sp-md);opacity:0.8}
+  .pub-card-meta{display:flex;align-items:center;gap:8px;margin-bottom:10px}
+  .pub-card-date{font-size:0.65rem;font-weight:700;color:var(--text-muted);letter-spacing:0.05em}
+  .pub-card h4{font-size:0.9rem;font-weight:700;color:var(--text-secondary);margin-bottom:4px}
+  .pub-card p{font-size:0.78rem;color:var(--text-muted);line-height:1.5}
+  .plan-card{background:var(--surface-card);border:1px solid var(--border);border-left:5px solid var(--saae-blue);border-radius:var(--r-lg);padding:var(--sp-lg);box-shadow:var(--shadow-sm);margin-bottom:var(--sp-md);transition:box-shadow 0.2s var(--ease),transform 0.2s var(--ease)}
+  .plan-card:hover{box-shadow:var(--shadow-md);transform:translateY(-1px)}
+  .plan-card-header{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:14px}
+  .plan-card-title-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+  .plan-card h3{font-size:1.05rem;font-weight:700;color:var(--text-primary)}
+  .plan-card-date{font-size:0.65rem;font-weight:700;color:var(--text-muted);letter-spacing:0.08em;margin-bottom:4px}
+  .plan-card-desc{font-size:0.88rem;color:var(--text-secondary);line-height:1.7;margin-bottom:16px}
+  .tag{display:inline-block;font-size:0.6rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;border-radius:999px}
+  .tag-reels{background:var(--tag-reels-bg);color:var(--tag-reels-tx)}
+  .tag-post{background:var(--tag-post-bg);color:var(--tag-post-tx)}
+  .tag-story{background:var(--tag-story-bg);color:var(--tag-story-tx)}
+  .tag-status{background:var(--tag-status-bg);color:var(--tag-status-tx)}
+  .tag-done{background:var(--tag-done-bg);color:var(--tag-done-tx)}
+  .tag-plan{background:var(--tag-plan-bg);color:var(--tag-plan-tx)}
+  .tag-edit{background:var(--tag-edit-bg);color:var(--tag-edit-tx)}
+  .status-badge{display:inline-flex;align-items:center;gap:5px;font-size:0.65rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:4px 10px;border-radius:999px}
+  .status-badge::before{content:'';width:5px;height:5px;border-radius:50%;display:block}
+  .status-publicado{background:var(--tag-done-bg);color:var(--tag-done-tx)}
+  .status-publicado::before{background:#22C55E}
+  .status-agendado{background:var(--tag-plan-bg);color:var(--tag-plan-tx)}
+  .status-agendado::before{background:#3B82F6}
+  .status-em-edicao{background:var(--tag-edit-bg);color:var(--tag-edit-tx)}
+  .status-em-edicao::before{background:#A855F7}
+  .status-planejado{background:var(--tag-status-bg);color:var(--tag-status-tx)}
+  .status-planejado::before{background:#F97316}
+  .media-box{background:var(--surface-subtle);border:1px solid var(--border);border-radius:var(--r-sm);padding:var(--sp-md);margin-top:var(--sp-sm);display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+  .media-spec{display:flex;flex-direction:column;gap:2px}
+  .media-spec-label{font-size:0.6rem;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:var(--text-muted)}
+  .media-spec-value{font-size:0.82rem;color:var(--text-secondary);font-weight:500}
+  .semana-header{display:flex;align-items:center;gap:14px;margin:var(--sp-xl) 0 var(--sp-md)}
+  .semana-badge{background:var(--saae-blue);color:white;font-family:'Syne',sans-serif;font-size:0.7rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;padding:6px 14px;border-radius:999px;white-space:nowrap}
+  .semana-line{flex:1;height:1px;background:var(--border)}
+  .semana-periodo{font-size:0.7rem;color:var(--text-muted);white-space:nowrap}
+  .site-footer{background:var(--surface-card);border-top:1px solid var(--border);padding:var(--sp-lg) 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+  .footer-brand{display:flex;flex-direction:column;gap:2px}
+  .footer-brand-name{font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:var(--text-primary)}
+  .footer-brand-sub{font-size:0.7rem;color:var(--text-muted)}
+  .footer-info{text-align:right}
+  .footer-info p{font-size:0.72rem;color:var(--text-muted)}
+  @media(max-width:640px){
+    .site-header{padding:12px 20px} .header-by{display:none}
+    .hero{padding:48px 20px 56px} .container{padding:var(--sp-lg) 20px}
+    .visao-grid{grid-template-columns:1fr} .published-grid{grid-template-columns:1fr}
+    .media-box{grid-template-columns:1fr 1fr} .site-footer{padding:var(--sp-md) 20px} .footer-info{display:none}
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-brand">
+    <div class="header-logo-icon">💧</div>
+    <div class="header-brand-text">
+      <span class="header-brand-name">SAAE Nova Mutum</span>
+      <span class="header-brand-sub">Planejamento de Conteúdo</span>
+    </div>
+  </div>
+  <div class="header-meta">
+    <span class="header-badge">Maio 2026</span>
+    <span class="header-by">Studio Virtually</span>
+  </div>
+</header>
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-eyebrow">Studio Virtually × SAAE Nova Mutum</p>
+    <h1>Planejamento Estratégico<br>de Conteúdo</h1>
+    <p class="hero-subtitle">Maio de 2026 — Gestão de redes sociais e comunicação digital</p>
+    <div class="hero-kpis">
+      <div class="kpi-card"><div class="kpi-number">12<span>+</span></div><div class="kpi-label">Conteúdos<br>Planejados</div></div>
+      <div class="kpi-card"><div class="kpi-number">4</div><div class="kpi-label">Semanas<br>do Mês</div></div>
+      <div class="kpi-card"><div class="kpi-number">3</div><div class="kpi-label">Formatos<br>Post · Reels · Story</div></div>
+      <div class="kpi-card"><div class="kpi-number" style="font-size:1.4rem">✓</div><div class="kpi-label">Baseado em<br>enquetes reais</div></div>
+    </div>
+  </div>
+</section>
+<main class="container">
+  <div class="visao-card">
+    <h2>🎯 Visão Estratégica do Mês</h2>
+    <div class="visao-grid">
+      <p>O planejamento de Maio foi estruturado a partir de <strong>dúvidas reais</strong> levantadas pela população nas enquetes do Instagram do SAAE, além das demandas recorrentes percebidas nos atendimentos e interações.</p>
+      <p>A proposta não é apenas divulgar serviços, mas fortalecer a percepção do SAAE como agente ativo de saneamento, aproximando a população de temas técnicos através de <strong>linguagem acessível</strong> e utilidade pública.</p>
+    </div>
+  </div>
+  <div class="section-heading"><span class="section-heading-label">Histórico do Mês</span><div class="section-heading-line"></div></div>
+  <div class="published-grid">
+    <div class="pub-card"><div class="pub-card-meta"><span class="pub-card-date">01/05</span><span class="tag tag-post">Post</span><span class="status-badge status-publicado">Publicado</span></div><h4>Dia do Trabalhador</h4><p>Homenagem aos colaboradores do SAAE com identidade visual comemorativa.</p></div>
+    <div class="pub-card"><div class="pub-card-meta"><span class="pub-card-date">05/05</span><span class="tag tag-reels">Reels</span><span class="status-badge status-publicado">Publicado</span></div><h4>De onde vem a água que você bebe?</h4><p>Série educativa sobre o ciclo do tratamento de água para consumo humano.</p></div>
+    <div class="pub-card"><div class="pub-card-meta"><span class="pub-card-date">08/05</span><span class="tag tag-post">Post</span><span class="status-badge status-publicado">Publicado</span></div><h4>Dia das Mães</h4><p>Post institucional comemorativo com identidade da data.</p></div>
+    <div class="pub-card"><div class="pub-card-meta"><span class="pub-card-date">12/05</span><span class="tag tag-reels">Reels</span><span class="status-badge status-publicado">Publicado</span></div><h4>Por que a água às vezes fica com gosto ou cheiro?</h4><p>Resposta às dúvidas recorrentes dos moradores sobre qualidade da água.</p></div>
+    <div class="pub-card"><div class="pub-card-meta"><span class="pub-card-date">15/05</span><span class="tag tag-story">Story</span><span class="status-badge status-publicado">Publicado</span></div><h4>Enquete: Sua maior dúvida sobre saneamento</h4><p>Interação direta com o público para coletar pautas futuras.</p></div>
+    <div class="pub-card"><div class="pub-card-meta"><span class="pub-card-date">19/05</span><span class="tag tag-reels">Reels</span><span class="status-badge status-publicado">Publicado</span></div><h4>O que acontece com o esgoto após o uso?</h4><p>Educativo sobre o sistema de coleta e tratamento de esgoto da cidade.</p></div>
+  </div>
+  <div class="section-heading"><span class="section-heading-label">Planejamento — Próximas Semanas</span><div class="section-heading-line"></div></div>
+  <div class="semana-header"><span class="semana-badge">Semana 3</span><div class="semana-line"></div><span class="semana-periodo">19 – 25 de Maio</span></div>
+  <div class="plan-card">
+    <div class="plan-card-header"><div><div class="plan-card-date">21/05 • Quarta-feira</div><div class="plan-card-title-row"><h3>Minha conta chegou alta — o que pode ser?</h3><span class="tag tag-reels">Reels</span><span class="status-badge status-agendado">Agendado</span></div></div></div>
+    <p class="plan-card-desc">Aborda os principais motivos de aumento na conta de água: vazamentos internos, torneiras pingando, caixa d'água transbordando e mudanças no consumo familiar. Tom: didático, sem culpar o morador, com foco em orientação prática.</p>
+    <div class="media-box"><div class="media-spec"><span class="media-spec-label">Formato</span><span class="media-spec-value">Reels 9:16 vertical</span></div><div class="media-spec"><span class="media-spec-label">Duração</span><span class="media-spec-value">45–60 segundos</span></div><div class="media-spec"><span class="media-spec-label">Referência visual</span><span class="media-spec-value">Minimalista, texto em legenda</span></div><div class="media-spec"><span class="media-spec-label">CTA</span><span class="media-spec-value">"Salva pra não esquecer"</span></div></div>
+  </div>
+  <div class="plan-card">
+    <div class="plan-card-header"><div><div class="plan-card-date">23/05 • Sexta-feira</div><div class="plan-card-title-row"><h3>SAAE nos bastidores: a equipe que trabalha por você</h3><span class="tag tag-post">Post</span><span class="status-badge status-em-edicao">Em edição</span></div></div></div>
+    <p class="plan-card-desc">Post humanizado mostrando equipes em campo. Objetivo: aproximar o SAAE da população e valorizar os colaboradores.</p>
+    <div class="media-box"><div class="media-spec"><span class="media-spec-label">Formato</span><span class="media-spec-value">Carrossel 1:1</span></div><div class="media-spec"><span class="media-spec-label">Fotos</span><span class="media-spec-value">3–5 imagens dos bastidores</span></div><div class="media-spec"><span class="media-spec-label">Tom</span><span class="media-spec-value">Humanizado, orgulho do trabalho</span></div><div class="media-spec"><span class="media-spec-label">CTA</span><span class="media-spec-value">"Marca quem você conhece no SAAE"</span></div></div>
+  </div>
+  <div class="semana-header"><span class="semana-badge">Semana 4</span><div class="semana-line"></div><span class="semana-periodo">26 – 31 de Maio</span></div>
+  <div class="plan-card">
+    <div class="plan-card-header"><div><div class="plan-card-date">27/05 • Terça-feira</div><div class="plan-card-title-row"><h3>Posso ligar para o SAAE com qualquer dúvida?</h3><span class="tag tag-reels">Reels</span><span class="status-badge status-planejado">Planejado</span></div></div></div>
+    <p class="plan-card-desc">Desmistifica o atendimento do SAAE e apresenta os canais oficiais de comunicação. Incentiva o morador a registrar reclamações e pedidos.</p>
+    <div class="media-box"><div class="media-spec"><span class="media-spec-label">Formato</span><span class="media-spec-value">Reels 9:16 vertical</span></div><div class="media-spec"><span class="media-spec-label">Duração</span><span class="media-spec-value">30–45 segundos</span></div><div class="media-spec"><span class="media-spec-label">Destaque</span><span class="media-spec-value">Canais + horários de atendimento</span></div><div class="media-spec"><span class="media-spec-label">CTA</span><span class="media-spec-value">"Salva o contato do SAAE agora"</span></div></div>
+  </div>
+  <div class="plan-card">
+    <div class="plan-card-header"><div><div class="plan-card-date">29/05 • Quinta-feira</div><div class="plan-card-title-row"><h3>Dicas para economizar água em casa</h3><span class="tag tag-post">Post</span><span class="status-badge status-planejado">Planejado</span></div></div></div>
+    <p class="plan-card-desc">Carrossel com 5 dicas práticas de economia hídrica. Linguagem leve, visual com ícones. Reforça o posicionamento do SAAE como educador ambiental.</p>
+    <div class="media-box"><div class="media-spec"><span class="media-spec-label">Formato</span><span class="media-spec-value">Carrossel 1:1, 6 slides</span></div><div class="media-spec"><span class="media-spec-label">Visual</span><span class="media-spec-value">Azul SAAE + ícones flat</span></div><div class="media-spec"><span class="media-spec-label">Tom</span><span class="media-spec-value">Leve, prático, acessível</span></div><div class="media-spec"><span class="media-spec-label">CTA</span><span class="media-spec-value">"Qual você já pratica? Comenta!"</span></div></div>
+  </div>
+  <div class="plan-card">
+    <div class="plan-card-header"><div><div class="plan-card-date">31/05 • Sábado</div><div class="plan-card-title-row"><h3>Fechamento de Maio: resultados e próximos passos</h3><span class="tag tag-story">Story</span><span class="status-badge status-planejado">Planejado</span></div></div></div>
+    <p class="plan-card-desc">Story de encerramento com retrospectiva dos conteúdos publicados e prévia de Junho. Fortalece a percepção de continuidade.</p>
+    <div class="media-box"><div class="media-spec"><span class="media-spec-label">Formato</span><span class="media-spec-value">Story 9:16, 3–4 slides</span></div><div class="media-spec"><span class="media-spec-label">Elementos</span><span class="media-spec-value">Enquete de satisfação</span></div><div class="media-spec"><span class="media-spec-label">Tom</span><span class="media-spec-value">Agradecimento + antecipação</span></div><div class="media-spec"><span class="media-spec-label">CTA</span><span class="media-spec-value">"O que quer ver em Junho?"</span></div></div>
+  </div>
+</main>
+<footer class="site-footer">
+  <div class="footer-brand">
+    <span class="footer-brand-name">Studio Virtually</span>
+    <span class="footer-brand-sub">Documento confidencial — uso exclusivo do cliente</span>
+  </div>
+  <div class="footer-info">
+    <p>Planejamento Estratégico · SAAE Nova Mutum · Maio 2026</p>
+    <p>Produzido por Studio Virtually</p>
+  </div>
+</footer>
+</body>
+</html>
