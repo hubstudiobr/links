@@ -435,7 +435,7 @@
     overflow: hidden;
   }
 
-  .scope-card:hover {
+  .scope-card:hover, .scope-card.active {
     border-color: var(--primary);
     background: linear-gradient(145deg, var(--surface-dark), rgba(4, 136, 202, 0.08));
     transform: translateY(-3px);
@@ -462,7 +462,7 @@
     line-height: 1;
   }
 
-  .scope-card:hover .scope-toggle {
+  .scope-card:hover .scope-toggle, .scope-card.active .scope-toggle {
     transform: rotate(45deg);
     color: var(--text-light);
   }
@@ -474,7 +474,7 @@
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .scope-card:hover .scope-content {
+  .scope-card:hover .scope-content, .scope-card.active .scope-content {
     max-height: 500px;
     opacity: 1;
     margin-top: 20px;
@@ -964,6 +964,14 @@
   </footer>
 
 </main>
+
+<script>
+  document.querySelectorAll('.scope-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      this.classList.toggle('active');
+    });
+  });
+</script>
 
 </body>
 </html>
