@@ -370,22 +370,60 @@
 
   .scope-card {
     background: var(--surface-dark);
-    padding: 36px 40px;
+    padding: 28px 36px;
     border-radius: 16px;
     border: 1px solid var(--border);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
   }
 
-  .scope-card.featured {
-    border-color: rgba(4, 136, 202, 0.3);
-    background: linear-gradient(145deg, var(--surface-dark), rgba(4, 136, 202, 0.05));
+  .scope-card:hover {
+    border-color: var(--primary);
+    background: linear-gradient(145deg, var(--surface-dark), rgba(4, 136, 202, 0.08));
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
   }
 
-  .scope-card h4 {
+  .scope-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .scope-header h4 {
     font-size: 1.35rem;
     color: var(--text-light);
-    margin-bottom: 16px;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 12px;
+    margin-bottom: 0;
+  }
+
+  .scope-toggle {
+    font-size: 1.8rem;
+    color: var(--primary);
+    font-weight: 300;
+    transition: transform 0.4s ease;
+    line-height: 1;
+  }
+
+  .scope-card:hover .scope-toggle {
+    transform: rotate(45deg);
+    color: var(--text-light);
+  }
+
+  .scope-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scope-card:hover .scope-content {
+    max-height: 500px;
+    opacity: 1;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.05);
   }
 
   .scope-card p {
@@ -729,41 +767,59 @@
   <!-- ESCOPO -->
   <h2 class="section-title">Escopo de Trabalho</h2>
   <section class="scope-grid">
-    <div class="scope-card featured">
-      <h4>Início do Projeto</h4>
-      <p>
-        Planejamento estratégico inicial para organizar prioridades, mapear necessidades de comunicação, definir linha editorial, padronizar linguagem visual e estruturar os primeiros meses de conteúdo.
-      </p>
+    <div class="scope-card">
+      <div class="scope-header">
+        <h4>Início do Projeto</h4>
+        <div class="scope-toggle">+</div>
+      </div>
+      <div class="scope-content">
+        <p>
+          Planejamento estratégico inicial para organizar prioridades, mapear necessidades de comunicação, definir linha editorial, padronizar linguagem visual e estruturar os primeiros meses de conteúdo.
+        </p>
+      </div>
     </div>
 
     <div class="scope-card">
-      <h4>Identidade & Gestão</h4>
-
-      <ul>
-        <li>Padronização visual do perfil: foto, bio, destaques, paleta de cores e tipografia de apoio.</li>
-        <li>Planejamento editorial mensal com linha de conteúdo definida.</li>
-        <li>6 posts estáticos por mês.</li>
-        <li>Até 10 stories mensais sob demanda para comunicados simples, avisos, orientações e campanhas educativas.</li>
-        <li>Relatório mensal de desempenho com análise e recomendações.</li>
-      </ul>
+      <div class="scope-header">
+        <h4>Identidade & Gestão</h4>
+        <div class="scope-toggle">+</div>
+      </div>
+      <div class="scope-content">
+        <ul>
+          <li>Padronização visual do perfil: foto, bio, destaques, paleta de cores e tipografia de apoio.</li>
+          <li>Planejamento editorial mensal com linha de conteúdo definida.</li>
+          <li>6 posts estáticos por mês.</li>
+          <li>Até 10 stories mensais sob demanda para comunicados simples, avisos, orientações e campanhas educativas.</li>
+          <li>Relatório mensal de desempenho com análise e recomendações.</li>
+        </ul>
+      </div>
     </div>
 
     <div class="scope-card">
-      <h4>Produção em Vídeo</h4>
-
-      <ul>
-        <li>4 Reels por mês com roteirização, edição e legenda.</li>
-        <li>Conteúdos educativos, institucionais e de utilidade pública.</li>
-        <li>Adaptação de conteúdos para stories quando aplicável.</li>
-        <li>Direcionamento de linguagem para vídeos com equipe, bastidores e serviços essenciais.</li>
-      </ul>
+      <div class="scope-header">
+        <h4>Produção em Vídeo</h4>
+        <div class="scope-toggle">+</div>
+      </div>
+      <div class="scope-content">
+        <ul>
+          <li>4 Reels por mês com roteirização, edição e legenda.</li>
+          <li>Conteúdos educativos, institucionais e de utilidade pública.</li>
+          <li>Adaptação de conteúdos para stories quando aplicável.</li>
+          <li>Direcionamento de linguagem para vídeos com equipe, bastidores e serviços essenciais.</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="scope-card featured">
-      <h4>Observação sobre demandas urgentes</h4>
-      <p>
-        Comunicados urgentes serão atendidos conforme disponibilidade operacional da equipe e mediante envio das informações necessárias pela ESAN. O objetivo é manter agilidade, sem comprometer a clareza e a responsabilidade da comunicação pública.
-      </p>
+    <div class="scope-card">
+      <div class="scope-header">
+        <h4>Observação sobre urgências</h4>
+        <div class="scope-toggle">+</div>
+      </div>
+      <div class="scope-content">
+        <p>
+          Comunicados urgentes serão atendidos conforme disponibilidade operacional da equipe e mediante envio das informações necessárias pela ESAN. O objetivo é manter agilidade, sem comprometer a clareza e a responsabilidade da comunicação pública.
+        </p>
+      </div>
     </div>
   </section>
 
