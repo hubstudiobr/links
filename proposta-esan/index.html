@@ -106,17 +106,40 @@
     font-size: clamp(1.8rem, 5vw, 3.2rem);
     font-weight: 800;
     margin-bottom: 24px;
+    line-height: 1.2;
   }
 
-  .hero h1 span {
+  .hero-subtext {
+    font-size: clamp(1.3rem, 4vw, 2.2rem);
     color: var(--primary);
+    display: block;
+    margin-top: 8px;
+  }
+
+  .highlight-underline {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+
+  .highlight-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: rgba(250, 204, 21, 0.7);
+    z-index: -1;
+    border-radius: 4px;
   }
 
   .hero p {
-    font-size: 1.14rem;
+    font-size: 1.02rem;
     color: var(--text-muted);
-    max-width: 820px;
+    max-width: 620px;
     margin: 0 auto;
+    line-height: 1.7;
   }
 
   .container {
@@ -590,14 +613,15 @@
 
   .price {
     font-family: 'Syne', sans-serif;
-    font-size: clamp(3rem, 6vw, 4rem);
+    font-size: clamp(2.2rem, 8vw, 4rem);
     font-weight: 800;
     color: var(--text-light);
     margin: 24px 0 18px;
+    line-height: 1.1;
   }
 
   .price span {
-    font-size: 1.35rem;
+    font-size: clamp(1.1rem, 4vw, 1.35rem);
     color: var(--text-muted);
     font-weight: 500;
   }
@@ -613,16 +637,40 @@
   }
 
   .cta-section p {
-    font-size: 1.16rem;
+    font-size: 1.12rem;
     color: var(--text-light);
     max-width: 820px;
     margin: 0 auto 24px;
     line-height: 1.7;
+    text-align: justify;
   }
 
   .cta-section h3 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     color: var(--primary);
+    margin-bottom: 12px;
+  }
+
+  .btn-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #25D366;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 16px 36px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 32px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.2);
+  }
+  
+  .btn-whatsapp:hover {
+    background: #20BD5A;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
   }
 
   footer {
@@ -695,7 +743,7 @@
 
 <header class="hero">
   <span class="badge">Proposta de Comunicação Institucional</span>
-  <h1>Nobres conhece a ESAN pela conta de água. <span>Está na hora de ampliar essa percepção.</span></h1>
+  <h1>Nobres conhece a ESAN pela conta de água.<br><span class="hero-subtext">Está na hora de ampliar essa <span class="highlight-underline">percepção</span>.</span></h1>
   <p>
     A ESAN está presente na rotina de toda a cidade. O próximo passo é transformar essa presença em uma comunicação mais clara, constante e confiável para a população.
   </p>
@@ -912,6 +960,10 @@
     <h3>
       A ESAN já faz parte da rotina de Nobres. Agora, essa presença também precisa ser reconhecida no digital.
     </h3>
+
+    <a href="https://wa.me/556596257009?text=Ol%C3%A1%20Juan!%20Acabamos%20de%20avaliar%20a%20proposta%20da%20ESAN%20Nobres." class="btn-whatsapp" target="_blank">
+      Falar com o Juan no WhatsApp
+    </a>
   </section>
 
   <footer>
