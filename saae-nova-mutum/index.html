@@ -3,73 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portal do Cliente · SAAE Nova Mutum</title>
+<title>Portal do Cliente — SAAE Nova Mutum</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Instrument+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
   :root {
-    --azul: #0488CA;
-    --azul-deep: #0369A1;
-    --verde: #7CB013;
-    --verde-mid: #A7D240;
-    --bg: #080F18;
-    --bg2: #0D1B2A;
-    --bg3: #112233;
-    --borda: rgba(4,136,202,0.18);
-    --borda2: rgba(255,255,255,0.06);
-    --texto: #E8F4FD;
-    --texto-mid: #8BAFC8;
-    --texto-light: #4D7A9E;
-    --syne: 'Syne', sans-serif;
-    --sans: 'Instrument Sans', sans-serif;
-    --radius: 12px;
+    --saae-blue: #0488CA;
+    --saae-blue-mid: #38BDF8;
+    --saae-green: #00A859;
+    --saae-green-mid: #10B981;
+    --surface-bg: #0F172A;
+    --surface-card: rgba(30, 41, 59, 0.7);
+    --border: rgba(255, 255, 255, 0.08);
   }
   
   body { 
-    background-color: var(--bg);
-    color: var(--texto); 
-    font-family: var(--sans); 
+    background: linear-gradient(135deg, #0F172A 0%, #0C2340 60%, #083358 100%) no-repeat fixed;
+    min-height: 100vh;
+    color: #F8FAFC; 
+    font-family: 'Plus Jakarta Sans', sans-serif; 
     margin: 0;
     padding: 0;
     overflow-x: hidden;
   }
 
-  /* Efeitos de Fundo (Orbs) do Relatório */
-  .hero-orb {
+  /* Animated background accent */
+  .bg-accent {
     position: fixed;
-    border-radius: 50%;
-    filter: blur(80px);
-    pointer-events: none;
+    top: -50%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle, rgba(14, 165, 233, 0.1) 0%, transparent 60%);
     z-index: -1;
+    animation: pulse 12s ease-in-out infinite alternate;
   }
-  .hero-orb.o1 { width: 600px; height: 600px; background: rgba(4,136,202,0.15); top: -200px; right: -100px; }
-  .hero-orb.o2 { width: 400px; height: 400px; background: rgba(124,176,19,0.1); bottom: -100px; left: -100px; }
+
+  @keyframes pulse {
+    0% { transform: scale(1) translate(0, 0); opacity: 0.4; }
+    100% { transform: scale(1.05) translate(2%, 2%); opacity: 0.7; }
+  }
 
   .portal-header {
-    background: rgba(8, 15, 24, 0.7);
+    background: rgba(15, 23, 42, 0.85);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    padding: 24px 40px;
-    border-bottom: 1px solid var(--borda);
+    padding: 18px 40px;
+    border-bottom: 1px solid var(--border);
     display: flex;
     align-items: center;
     gap: 16px;
     position: sticky;
     top: 0;
     z-index: 100;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
   }
 
   .logo-icon {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--bg2);
-    border: 1px solid var(--borda2);
-    border-radius: 50%;
-    padding: 8px;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  
+  .logo-icon:hover {
+    transform: scale(1.08) rotate(-4deg);
   }
 
   .logo-icon img {
@@ -84,22 +85,22 @@
   }
   .portal-title h1 {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.35rem;
     font-weight: 800;
-    font-family: var(--syne);
-    color: var(--texto);
-    letter-spacing: -0.5px;
+    font-family: 'Syne', sans-serif;
+    color: #FFF;
+    letter-spacing: -0.02em;
   }
   .portal-title span {
-    font-size: 11px;
+    font-size: 0.75rem;
     font-weight: 600;
-    color: var(--texto-light);
-    letter-spacing: 1px;
+    color: #64748B;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
   .container {
-    max-width: 920px;
+    max-width: 900px;
     margin: 60px auto 100px;
     padding: 0 24px;
     display: grid;
@@ -108,11 +109,15 @@
   }
 
   .section-card {
-    background: var(--bg2);
-    border: 1px solid var(--borda2);
-    border-radius: var(--radius);
-    padding: 32px;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #004d26 0%, #007D43 50%, #10B981 100%);
+    padding: 36px;
+    border-radius: 24px;
+    box-shadow: 
+      0 20px 40px rgba(0,0,0,0.3),
+      inset 0 1px 0 rgba(255,255,255,0.1);
+    border: 1px solid rgba(16, 185, 129, 0.25);
+    backdrop-filter: blur(10px);
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease;
     position: relative;
     overflow: hidden;
   }
@@ -120,35 +125,34 @@
   .section-card::before {
     content: '';
     position: absolute;
-    top: 0; left: 0; right: 0; height: 3px;
-    background: linear-gradient(90deg, var(--azul), var(--verde-mid));
-    opacity: 0.5;
-    transition: opacity 0.3s;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, transparent 100%);
+    pointer-events: none;
   }
 
   .section-card:hover {
-    transform: translateY(-4px);
-    border-color: var(--borda);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform: translateY(-6px);
+    box-shadow: 
+      0 25px 50px rgba(0,0,0,0.4),
+      0 0 30px rgba(16, 185, 129, 0.3);
   }
 
-  .section-card:hover::before {
-    opacity: 1;
-  }
-
-  .section-eyebrow {
-    display: flex; align-items: center; gap: 10px;
-    font-family: var(--syne);
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 3px;
+  .section-card h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--azul);
+    display: flex;
+    align-items: center;
+    gap: 12px;
     margin-bottom: 24px;
-  }
-  .section-eyebrow::before {
-    content:''; width:20px; height:3px;
-    background:var(--azul); border-radius:2px; flex-shrink:0;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    position: relative;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.15);
   }
 
   .link-list {
@@ -157,42 +161,57 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 14px;
+    position: relative;
   }
 
   .link-list a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 22px;
-    background: var(--bg3);
-    color: var(--texto);
+    padding: 16px 22px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #FFF;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 12px;
     font-weight: 600;
-    font-size: 15px;
-    font-family: var(--syne);
-    transition: all 0.2s ease;
-    border: 1px solid transparent;
+    font-size: 0.95rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
   
   .link-list a::after {
     content: '→';
-    font-size: 16px;
-    color: var(--texto-mid);
-    transition: all 0.2s ease;
+    font-size: 1.2rem;
+    color: #A7F3D0;
+    opacity: 0.8;
+    transform: translateX(-5px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .link-list a:hover {
-    background: rgba(4, 136, 202, 0.1);
-    color: #fff;
-    border-color: var(--borda);
-    transform: translateX(4px);
+    background: rgba(255, 255, 255, 0.18);
+    color: #FFF;
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateX(8px) scale(1.02);
+    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.1);
   }
   
   .link-list a:hover::after {
-    color: var(--azul);
-    transform: translateX(4px);
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .empty-state {
+    font-size: 0.9rem;
+    color: #A7F3D0;
+    font-style: italic;
+    padding: 16px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    border: 1px dashed rgba(255,255,255,0.25);
   }
 
   @media(max-width: 640px) {
@@ -203,8 +222,7 @@
 </head>
 <body>
 
-<div class="hero-orb o1"></div>
-<div class="hero-orb o2"></div>
+<div class="bg-accent"></div>
 
 <header class="portal-header">
   <div class="logo-icon">
@@ -217,21 +235,22 @@
 </header>
 
 <main class="container">
-  <!-- Coluna de Relatórios -->
+  <!-- Coluna de Planejamentos -->
   <div class="section-card">
-    <div class="section-eyebrow">Acompanhamento</div>
+    <h2>PLANEJAMENTOS</h2>
     <ul class="link-list">
-      <li><a href="relatorio-maio-2026/">Relatório de Maio 2026</a></li>
-      <li><a href="relatorio-abril-2026/">Relatório de Abril 2026</a></li>
-      <li><a href="relatorio-marco-2026/">Relatório de Março 2026</a></li>
+      <li><a href="planejamento-junho-2026/index.html">Junho 2026</a></li>
+      <li><a href="planejamento-maio-2026/index.html">Maio 2026</a></li>
     </ul>
   </div>
 
-  <!-- Coluna de Planejamentos -->
+  <!-- Coluna de Relatórios -->
   <div class="section-card">
-    <div class="section-eyebrow">Estratégia</div>
+    <h2>RELATÓRIOS</h2>
     <ul class="link-list">
-      <li><a href="planejamento-maio-2026/">Planejamento Maio 2026</a></li>
+      <li><a href="relatorio-maio-2026/index.html">Maio 2026</a></li>
+      <li><a href="relatorio-abril-2026/index.html">Abril 2026</a></li>
+      <li><a href="relatorio-marco-2026/index.html">Março 2026</a></li>
     </ul>
   </div>
 </main>

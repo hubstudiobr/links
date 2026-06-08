@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planejamento Estratégico — SAAE Nova Mutum | Junho 2026</title>
+<meta name="description" content="Planejamento estratégico de conteúdo do SAAE Nova Mutum para Junho de 2026. Produzido pelo Studio Virtually.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --saae-blue:#0488CA; --saae-blue-dark:#025E8C; --saae-blue-mid:#38BDF8;
+    --saae-blue-light:rgba(4, 136, 202, 0.15); --saae-blue-xlight:rgba(14, 165, 233, 0.1);
+    --saae-green:#00A859; --saae-green-mid:#10B981; --saae-green-dark:#064E3B;
+    --surface-bg:#0F172A;
+    --surface-card:rgba(30, 41, 59, 0.7);
+    --surface-subtle:rgba(15, 23, 42, 0.5);
+    --border:rgba(255, 255, 255, 0.08);
+    --border-strong:rgba(255, 255, 255, 0.15);
+    --text-primary:#F8FAFC;
+    --text-secondary:#CBD5E1;
+    --text-muted:#64748B;
+    --tag-reels-bg:rgba(34, 197, 94, 0.15); --tag-reels-tx:#4ADE80;
+    --tag-post-bg:rgba(59, 130, 246, 0.15); --tag-post-tx:#60A5FA;
+    --tag-carrossel-bg:rgba(139, 92, 246, 0.15); --tag-carrossel-tx:#A78BFA;
+    --tag-story-bg:rgba(234, 179, 8, 0.15); --tag-story-tx:#FDE047;
+    --tag-trafego-bg:rgba(239, 68, 68, 0.15); --tag-trafego-tx:#FCA5A5;
+    --sp-sm:1rem; --sp-md:1.5rem; --sp-lg:2rem; --sp-xl:3rem;
+    --r-sm:0.75rem; --r-md:1.25rem; --r-lg:1.75rem; --r-xl:2rem;
+    --shadow-sm:0 4px 20px rgba(0,0,0,0.15);
+    --shadow-md:0 10px 30px rgba(0,0,0,0.25);
+    --ease:cubic-bezier(0.4,0,0.2,1);
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background: linear-gradient(135deg, #0F172A 0%, #0C2340 60%, #083358 100%) no-repeat fixed;
+    color:var(--text-primary);
+    font-family:'Plus Jakarta Sans',sans-serif;
+    font-weight:400;
+    line-height:1.6;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,h4{font-family:'Syne',sans-serif;line-height:1.1}
+
+  /* HEADER */
+  .site-header{position:sticky;top:0;z-index:100;background:rgba(15, 23, 42, 0.85);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:14px 40px;display:flex;align-items:center;justify-content:space-between}
+  .header-brand{display:flex;align-items:center;gap:14px}
+  .header-logo{height:38px;width:auto;object-fit:contain}
+  .header-brand-text{display:flex;flex-direction:column;line-height:1.2}
+  .header-brand-name{font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:var(--text-primary);letter-spacing:0.02em}
+  .header-brand-sub{font-size:0.68rem;color:var(--text-muted);letter-spacing:0.05em}
+  .header-meta{display:flex;align-items:center;gap:12px}
+  .header-badge{font-size:0.65rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#38BDF8;background:rgba(56, 189, 248, 0.15);padding:5px 12px;border-radius:999px}
+  .header-by{font-size:0.72rem;color:var(--text-muted)}
+
+  /* CONTAINER */
+  .container{max-width:900px;margin:0 auto;padding:var(--sp-xl) 40px}
+
+  /* ESTRATÉGIA DO MÊS (HERO) */
+  .estrategia-hero {
+    background: linear-gradient(135deg, #004d26 0%, #007D43 50%, #10B981 100%);
+    color: #FFF;
+    border-radius: var(--r-xl);
+    padding: var(--sp-lg);
+    margin-bottom: var(--sp-xl);
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(16, 185, 129, 0.25);
+    box-shadow: 0 10px 40px rgba(16, 185, 129, 0.2), inset 0 0 20px rgba(255, 255, 255, 0.05);
+  }
+  .estrategia-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .estrategia-hero-header {
+    max-width: 750px;
+    margin-bottom: var(--sp-lg);
+    position: relative;
+    z-index: 1;
+  }
+  .estrategia-eyebrow {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #A7F3D0;
+    margin-bottom: 12px;
+  }
+  .estrategia-hero h1 {
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+  .estrategia-subtitle {
+    font-size: 0.95rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+  }
+  .pillars-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--sp-md);
+    position: relative;
+    z-index: 1;
+    margin-top: var(--sp-md);
+  }
+  .pillar-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: var(--r-lg);
+    padding: var(--sp-md);
+    display: flex;
+    gap: 16px;
+    backdrop-filter: blur(4px);
+    transition: transform 0.2s var(--ease), background 0.2s var(--ease), box-shadow 0.2s var(--ease);
+  }
+  .pillar-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .pillar-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .pillar-content h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 6px;
+  }
+  .pillar-content p {
+    font-size: 0.82rem;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.6;
+  }
+
+  /* SECTION HEADINGS */
+  .section-heading{display:flex;align-items:center;gap:14px;margin-bottom:var(--sp-lg)}
+  .section-heading-icon{font-size:1.1rem}
+  .section-heading-label{font-size:0.6rem;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap}
+  .section-heading-line{flex:1;height:1px;background:var(--border)}
+
+  /* PLAN CARDS */
+  .plan-card{
+    background:var(--surface-card);
+    border:1px solid var(--border);
+    border-left:5px solid var(--saae-blue);
+    border-radius:var(--r-lg);
+    padding:var(--sp-md) var(--sp-lg);
+    box-shadow:var(--shadow-sm);
+    margin-bottom:var(--sp-sm);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+    transition:box-shadow 0.2s var(--ease),transform 0.2s var(--ease),background-color 0.2s var(--ease);
+  }
+  .plan-card:hover{
+    box-shadow:var(--shadow-md);
+    transform:translateY(-1px);
+    background-color:rgba(30, 41, 59, 0.9);
+    border-color:rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.15) rgba(255, 255, 255, 0.15) var(--saae-blue);
+  }
+  .plan-card-header{display:flex;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:6px}
+  .plan-card-title-row{display:flex;align-items:center;flex-wrap:wrap;gap:8px}
+  .plan-card-number{font-family:'Syne',sans-serif;font-size:0.7rem;font-weight:800;color:#FFF;background:var(--saae-blue);width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+  .plan-card h3{font-size:0.95rem;font-weight:700;color:var(--text-primary)}
+  .plan-card-desc{font-size:0.84rem;color:var(--text-secondary);line-height:1.6;margin-left:34px}
+  .plan-card-meta{display:flex;flex-wrap:wrap;gap:6px;margin-left:34px;margin-top:8px}
+  .plan-card-note{font-size:0.78rem;color:var(--text-muted);font-style:italic;margin-left:34px;margin-top:4px}
+
+  /* TAGS */
+  .tag{display:inline-block;font-size:0.58rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;padding:3px 10px;border-radius:999px}
+  .tag-reels{background:var(--tag-reels-bg);color:var(--tag-reels-tx)}
+  .tag-post{background:var(--tag-post-bg);color:var(--tag-post-tx)}
+  .tag-carrossel{background:var(--tag-carrossel-bg);color:var(--tag-carrossel-tx)}
+  .tag-story{background:var(--tag-story-bg);color:var(--tag-story-tx)}
+  .tag-trafego{background:var(--tag-trafego-bg);color:var(--tag-trafego-tx)}
+
+  /* STATUS */
+  .status-badge{display:inline-flex;align-items:center;gap:5px;font-size:0.58rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:3px 10px;border-radius:999px;border:1px solid transparent}
+  .status-badge::before{content:'';width:5px;height:5px;border-radius:50%;display:block}
+  .status-em-edicao{background:rgba(168, 85, 247, 0.15);color:#E9D5FF;border-color:rgba(168, 85, 247, 0.3)}
+  .status-em-edicao::before{background:#C084FC}
+  .status-planejado{background:rgba(249, 115, 22, 0.15);color:#FFD8A8;border-color:rgba(249, 115, 22, 0.3)}
+  .status-planejado::before{background:#FB923C}
+  .status-conceito{background:rgba(148, 163, 184, 0.15);color:#CBD5E1;border-color:rgba(148, 163, 184, 0.3)}
+  .status-conceito::before{background:#94A3B8}
+
+  /* STORIES CARD */
+  .stories-card{background:var(--surface-card);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--sp-lg);box-shadow:var(--shadow-sm);border-top:4px solid #EAB308;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+  .stories-card h2{font-size:1.3rem;color:var(--text-primary);margin-bottom:var(--sp-sm);display:flex;align-items:center;gap:10px}
+  .stories-card h3{font-family:'Plus Jakarta Sans',sans-serif;font-size:0.85rem;font-weight:600;color:var(--text-secondary);margin-bottom:8px}
+  .stories-list{list-style:none;display:flex;flex-direction:column;gap:6px}
+  .stories-list li{font-size:0.84rem;color:var(--text-secondary);padding-left:18px;position:relative}
+  .stories-list li::before{content:'';position:absolute;left:0;top:9px;width:6px;height:6px;border-radius:50%;background:#EAB308}
+
+  /* COMPLEMENTARES */
+  .complementares-card{background:var(--surface-subtle);border:1px solid var(--border);border-radius:var(--r-lg);padding:var(--sp-md) var(--sp-lg);margin-top:var(--sp-md)}
+  .complementares-card h3{font-size:0.85rem;font-weight:700;color:var(--text-primary);margin-bottom:8px}
+  .complementares-list{list-style:none;display:flex;flex-direction:column;gap:4px}
+  .complementares-list li{font-size:0.82rem;color:var(--text-secondary);padding-left:18px;position:relative}
+  .complementares-list li::before{content:'';position:absolute;left:0;top:9px;width:5px;height:5px;border-radius:50%;background:var(--border-strong)}
+
+  /* TRÁFEGO */
+  .trafego-card{background:var(--surface-card);border:1px solid var(--border);border-radius:var(--r-xl);padding:var(--sp-lg);box-shadow:var(--shadow-sm);border-top:4px solid #DC2626;margin-top:var(--sp-xl);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+  .trafego-card h2{font-size:1.3rem;color:var(--text-primary);margin-bottom:var(--sp-md);display:flex;align-items:center;gap:10px}
+  .trafego-item{display:flex;justify-content:space-between;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--border)}
+  .trafego-item:last-of-type{border-bottom:none}
+  .trafego-item-info{flex:1}
+  .trafego-item-name{font-size:0.88rem;font-weight:600;color:var(--text-primary);margin-bottom:2px}
+  .trafego-item-obj{font-size:0.78rem;color:var(--text-muted)}
+  .trafego-item-value{font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:800;color:var(--text-primary);white-space:nowrap;margin-left:var(--sp-md)}
+  .trafego-total{display:flex;justify-content:space-between;align-items:center;margin-top:var(--sp-md);padding-top:var(--sp-sm);border-top:2px solid var(--saae-blue)}
+  .trafego-total-label{font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted)}
+  .trafego-total-value{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:#38BDF8}
+
+  /* FOOTER */
+  .site-footer{background:rgba(15, 23, 42, 0.8);border-top:1px solid var(--border);padding:var(--sp-lg) 40px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+  .footer-brand{display:flex;flex-direction:column;gap:2px}
+  .footer-brand-name{font-family:'Syne',sans-serif;font-size:0.85rem;font-weight:700;color:var(--text-primary)}
+  .footer-brand-sub{font-size:0.7rem;color:var(--text-muted)}
+  .footer-info{text-align:right}
+  .footer-info p{font-size:0.72rem;color:var(--text-muted)}
+
+  /* RESPONSIVE */
+  @media(max-width:640px){
+    .site-header{padding:12px 20px} .header-by{display:none}
+    .container{padding:var(--sp-lg) 20px}
+    .plan-card{padding:var(--sp-sm) var(--sp-md)}
+    .site-footer{padding:var(--sp-md) 20px} .footer-info{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div class="header-brand">
+    <img src="../logo.png" alt="SAAE Nova Mutum" class="header-logo">
+    <div class="header-brand-text">
+      <span class="header-brand-name">SAAE Nova Mutum</span>
+      <span class="header-brand-sub">Planejamento de Conteúdo</span>
+    </div>
+  </div>
+  <div class="header-meta">
+    <span class="header-badge">Junho 2026</span>
+    <span class="header-by">Studio Virtually</span>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ESTRATÉGIA DO MÊS (HERO-STYLE) -->
+  <section class="estrategia-hero">
+    <div class="estrategia-hero-header">
+      <p class="estrategia-eyebrow">Planejamento Estratégico · Junho 2026</p>
+      <h1>🎯 Estratégia do Mês</h1>
+      <p class="estrategia-subtitle">O planejamento de junho está estruturado em três frentes principais de atuação para fortalecer a comunicação institucional e o engajamento comunitário:</p>
+    </div>
+    <div class="pillars-grid">
+      <div class="pillar-card">
+        <div class="pillar-icon">🌱</div>
+        <div class="pillar-content">
+          <h3>1. Semana do Meio Ambiente</h3>
+          <p>Aproveitar a proximidade da Semana do Meio Ambiente para reforçar temas relacionados à reciclagem, descarte correto de resíduos e conscientização ambiental, culminando com a participação do SAAE no evento do dia 20 de junho.</p>
+        </div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon">📢</div>
+        <div class="pillar-content">
+          <h3>2. Utilidade Pública</h3>
+          <p>Produzir conteúdos que ajudem a população a compreender melhor os serviços oferecidos pelo SAAE, reduzindo dúvidas recorrentes e fortalecendo os canais oficiais de informação e atendimento.</p>
+        </div>
+      </div>
+      <div class="pillar-card">
+        <div class="pillar-icon">⚽</div>
+        <div class="pillar-content">
+          <h3>3. Comunicação Temática</h3>
+          <p>Aproveitar o contexto esportivo do mês para desenvolver conteúdos leves e educativos, utilizando analogias visuais para abordar temas relacionados ao saneamento, descarte correto e responsabilidade coletiva.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REELS ================================================== -->
+  <div class="section-heading"><span class="section-heading-icon">📅</span><span class="section-heading-label">Reels</span><div class="section-heading-line"></div></div>
+
+  <div class="plan-card">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">01</span><h3>PEV 2: Nova Localização e Horários de Funcionamento</h3></div></div>
+    <p class="plan-card-desc">Informar a população sobre a nova estrutura, horários de funcionamento e orientações de uso do Ponto de Entrega Voluntária.</p>
+    <div class="plan-card-meta"><span class="status-badge status-em-edicao">Gravado / Em edição</span><span class="tag tag-trafego">R$ 150,00</span></div>
+  </div>
+
+  <div class="plan-card">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">02</span><h3>Site do SAAE: Informação e Serviços em um Só Lugar</h3></div></div>
+    <p class="plan-card-desc">Apresentar o site como canal oficial para acesso a informações, notícias, serviços e transparência.</p>
+    <div class="plan-card-meta"><span class="status-badge status-em-edicao">Gravado / Em edição</span><span class="tag tag-trafego">R$ 100,00</span></div>
+  </div>
+
+  <div class="plan-card">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">03</span><h3>Quem Recicla o ReCiclo — Episódio 04</h3></div></div>
+    <p class="plan-card-desc">Episódio especial da série abordando reciclagem, descarte correto e valorização do trabalho realizado no ReCiclo durante a Semana do Meio Ambiente.</p>
+    <div class="plan-card-meta"><span class="status-badge status-em-edicao">Produção / Edição</span><span class="tag tag-trafego">R$ 200,00</span></div>
+  </div>
+
+  <div class="plan-card">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">04</span><h3>Ligação Nova: Dúvidas Frequentes</h3></div></div>
+    <p class="plan-card-desc">Esclarecer as principais dúvidas da população sobre solicitação de ligação nova de água e procedimentos relacionados.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span><span class="tag tag-trafego">R$ 150,00</span></div>
+  </div>
+
+  <div class="plan-card">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">05</span><h3>Institucional Temático</h3></div></div>
+    <p class="plan-card-desc">Conteúdo institucional leve e humanizado, conectado ao contexto esportivo do mês.</p>
+    <div class="plan-card-meta"><span class="status-badge status-conceito">Conceito em desenvolvimento</span></div>
+  </div>
+
+  <div class="plan-card">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">06</span><h3>PEV, Central de Resíduos e ReCiclo: Qual a Diferença?</h3></div></div>
+    <p class="plan-card-desc">Responder dúvidas recorrentes da população sobre os diferentes locais e fluxos de descarte existentes no município.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+    <p class="plan-card-note">Conteúdo sujeito a alinhamento técnico prévio.</p>
+  </div>
+
+  <!-- POSTS E CARROSSÉIS ===================================== -->
+  <div class="section-heading" style="margin-top:var(--sp-xl)"><span class="section-heading-icon">🖼️</span><span class="section-heading-label">Posts e Carrosséis</span><div class="section-heading-line"></div></div>
+
+  <div class="plan-card" style="border-left-color:#3B82F6">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">01</span><h3>Post Conceito da Campanha Temática</h3></div></div>
+    <p class="plan-card-desc">Torcer junto faz parte da Copa. Cuidar de Nova Mutum faz parte de nós.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+  </div>
+
+  <div class="plan-card" style="border-left-color:#3B82F6">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">02</span><h3>Cartão Vermelho para o Desperdício</h3></div></div>
+    <p class="plan-card-desc">Utilizar linguagem visual inspirada no contexto esportivo para conscientizar sobre desperdício de água e atitudes inadequadas.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+  </div>
+
+  <div class="plan-card" style="border-left-color:#3B82F6">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">03</span><h3>Regras do Jogo do Descarte</h3></div></div>
+    <p class="plan-card-desc">Explicar, de forma leve e didática, boas práticas relacionadas ao descarte correto de resíduos.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+  </div>
+
+  <div class="plan-card" style="border-left-color:#3B82F6">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">04</span><h3>Divulgação do Evento da Semana do Meio Ambiente</h3></div></div>
+    <p class="plan-card-desc">Convidar a população para participar das atividades promovidas durante a Semana do Meio Ambiente.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+  </div>
+
+  <div class="plan-card" style="border-left-color:#3B82F6">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">05</span><h3>Você Sabe Para Que Serve o PEV?</h3></div></div>
+    <p class="plan-card-desc">Reforçar a função do Ponto de Entrega Voluntária e orientar sobre os materiais aceitos.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+  </div>
+
+  <div class="plan-card" style="border-left-color:#3B82F6">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">06</span><h3>3 Erros Comuns no Descarte de Recicláveis</h3></div></div>
+    <p class="plan-card-desc">Corrigir comportamentos frequentes observados no processo de reciclagem e fortalecer a educação ambiental.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+  </div>
+
+  <div class="plan-card" style="border-left-color:#3B82F6">
+    <div class="plan-card-header"><div class="plan-card-title-row"><span class="plan-card-number">07</span><h3>Conteúdo Institucional Complementar</h3></div></div>
+    <p class="plan-card-desc">Reserva estratégica para oportunidades de comunicação, demandas institucionais ou necessidades operacionais identificadas ao longo do mês.</p>
+    <div class="plan-card-meta"><span class="status-badge status-planejado">Planejado</span></div>
+  </div>
+
+  <!-- COMPLEMENTARES -->
+  <div class="complementares-card">
+    <h3>Conteúdos Complementares</h3>
+    <p style="font-size:0.82rem;color:var(--text-secondary);margin-bottom:10px">Os demais conteúdos serão definidos ao longo do mês conforme:</p>
+    <ul class="complementares-list">
+      <li>Demandas institucionais</li>
+      <li>Necessidades operacionais</li>
+      <li>Dúvidas recorrentes da população</li>
+      <li>Oportunidades identificadas durante a execução do calendário</li>
+      <li>Cobertura de ações e eventos realizados pelo SAAE</li>
+    </ul>
+  </div>
+
+  <!-- STORIES ================================================ -->
+  <div class="section-heading" style="margin-top:var(--sp-xl)"><span class="section-heading-icon">📱</span><span class="section-heading-label">Stories</span><div class="section-heading-line"></div></div>
+
+  <div class="stories-card">
+    <h2>Stories Interativos</h2>
+    <h3>Conteúdos de apoio voltados para:</h3>
+    <ul class="stories-list">
+      <li>Bastidores das ações do SAAE</li>
+      <li>Cobertura de eventos</li>
+      <li>Enquetes e interações com a população</li>
+      <li>Reforço dos conteúdos publicados no feed</li>
+      <li>Comunicados e utilidade pública quando necessário</li>
+    </ul>
+  </div>
+
+  <!-- TRÁFEGO ================================================ -->
+  <div class="trafego-card">
+    <h2>💰 Estratégia de Tráfego Pago</h2>
+
+    <div class="trafego-item">
+      <div class="trafego-item-info">
+        <div class="trafego-item-name">Quem Recicla o ReCiclo — Episódio 04</div>
+        <div class="trafego-item-obj">Ampliação do alcance e fortalecimento da mensagem principal durante a Semana do Meio Ambiente.</div>
+      </div>
+      <div class="trafego-item-value">R$ 200,00</div>
+    </div>
+
+    <div class="trafego-item">
+      <div class="trafego-item-info">
+        <div class="trafego-item-name">PEV 2 — Nova Localização e Horários</div>
+        <div class="trafego-item-obj">Utilidade pública e orientação da população sobre o novo espaço.</div>
+      </div>
+      <div class="trafego-item-value">R$ 150,00</div>
+    </div>
+
+    <div class="trafego-item">
+      <div class="trafego-item-info">
+        <div class="trafego-item-name">Ligação Nova — Dúvidas Frequentes</div>
+        <div class="trafego-item-obj">Reduzir dúvidas recorrentes e ampliar o acesso à informação.</div>
+      </div>
+      <div class="trafego-item-value">R$ 150,00</div>
+    </div>
+
+    <div class="trafego-item">
+      <div class="trafego-item-info">
+        <div class="trafego-item-name">Site do SAAE</div>
+        <div class="trafego-item-obj">Estimular o uso dos canais digitais oficiais.</div>
+      </div>
+      <div class="trafego-item-value">R$ 100,00</div>
+    </div>
+
+    <div class="trafego-total">
+      <span class="trafego-total-label">Total previsto</span>
+      <span class="trafego-total-value">R$ 600,00</span>
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-brand">
+    <span class="footer-brand-name">Studio Virtually</span>
+    <span class="footer-brand-sub">Documento confidencial — uso exclusivo do cliente</span>
+  </div>
+  <div class="footer-info">
+    <p>Planejamento Estratégico · SAAE Nova Mutum · Junho 2026</p>
+    <p>Produzido por Studio Virtually</p>
+  </div>
+</footer>
+
+</body>
+</html>
