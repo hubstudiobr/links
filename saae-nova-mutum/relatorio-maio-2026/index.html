@@ -47,6 +47,8 @@
       .kpi-grid { page-break-inside: avoid; }
       .posts-grid { page-break-inside: avoid; }
       .table-container { page-break-inside: avoid; }
+      .acc-body { display: block !important; }
+      .acc-arrow { display: none !important; }
     }
 
     /* HERO */
@@ -710,55 +712,117 @@
       </div>
     </div>
 
-    <div class="section-title" style="margin-top:32px; margin-bottom:16px; font-size:18px;">Entregas Complementares</div>
+    <div class="section-title" style="margin-top:32px; margin-bottom:16px; font-size:18px;">Escopo do Contrato vs. Entregas Realizadas (Maio 2026)</div>
     <div class="table-container">
       <table>
         <thead>
           <tr>
-            <th>Entrega</th>
-            <th>Tipo</th>
-            <th>Status</th>
-            <th>Observação</th>
+            <th>Entregável Contratual</th>
+            <th>Previsto</th>
+            <th>Realizado</th>
+            <th>Diferença</th>
+            <th>Observação / Status</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong>Faixa Fachada PEV 2</strong></td>
-            <td>Material gráfico</td>
-            <td style="color:var(--verde-mid);">✓ Produzida</td>
-            <td>Material entregue para produção física</td>
+            <td><strong>Posts Estáticos / Carrosséis</strong></td>
+            <td>10</td>
+            <td>2</td>
+            <td style="color:#F87171; font-weight:700;">-8</td>
+            <td>Compensado proporcionalmente por materiais extras sob demanda</td>
           </tr>
           <tr>
-            <td><strong>Vídeo PEV 2</strong></td>
-            <td>Reel</td>
-            <td style="color:var(--verde-mid);">✓ Produzido e editado</td>
-            <td>Editado. Não publicado por solicitação interna do SAAE</td>
+            <td><strong>Vídeos tipo Reels</strong></td>
+            <td>6</td>
+            <td>4</td>
+            <td style="color:#F87171; font-weight:700;">-2</td>
+            <td>1 Reel extra ("Vídeo PEV 2") produzido/editado e entregue à autarquia</td>
           </tr>
           <tr>
-            <td><strong>Banner/backdrop para Semana do Meio Ambiente</strong></td>
-            <td>Material gráfico</td>
-            <td style="color:var(--verde-mid);">✓ Produzido</td>
-            <td>Material institucional desenvolvido para a campanha de junho</td>
+            <td><strong>Stories (Instagram)</strong></td>
+            <td>8</td>
+            <td>5</td>
+            <td style="color:#F87171; font-weight:700;">-3</td>
+            <td>Foco em stories de utilidade pública e avisos pontuais</td>
           </tr>
           <tr>
-            <td><strong>Adesivos variados para Semana do Meio Ambiente</strong></td>
-            <td>Material gráfico</td>
-            <td style="color:var(--verde-mid);">✓ Produzidos</td>
-            <td>Peças complementares para ações da Semana do Meio Ambiente</td>
+            <td><strong>Visitas Presenciais de Captação</strong></td>
+            <td>2</td>
+            <td>2</td>
+            <td style="color:var(--verde-mid); font-weight:700;">0 (Em dia)</td>
+            <td>Realizadas em 20 e 28 de maio (Escopo Contratual Padrão)</td>
           </tr>
           <tr>
-            <td><strong>Visitas de campo</strong></td>
-            <td>Produção audiovisual</td>
-            <td style="color:var(--verde-mid);">✓ Realizadas</td>
-            <td>2 visitas — 20 e 28 de maio</td>
+            <td><strong>Visita Extra / Cobertura de Emergência</strong></td>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>Não solicitada pelo SAAE no período</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section-title" style="margin-top:32px; margin-bottom:16px; font-size:18px;">Tabela de Equilíbrio Contratual (Compensação e Equivalência)</div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Material Extra Produzido (Fora do Escopo)</th>
+            <th>Complexidade / Rigor Técnico</th>
+            <th>Equivalência Pactuada</th>
+            <th>Saldo Compensado</th>
+            <th>Observação / Destino</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Faixa Fachada PEV 2 (Grande Porte)</strong></td>
+            <td>Design em altíssima resolução, escala de impressão industrial, CMYK</td>
+            <td>4 Posts Estáticos</td>
+            <td style="color:var(--verde-mid); font-weight:700;">+4</td>
+            <td>Arte entregue e aprovada para produção física da fachada do PEV 2</td>
+          </tr>
+          <tr>
+            <td><strong>Banner / Backdrop Semana do Meio Ambiente</strong></td>
+            <td>Layout institucional comemorativo de médio/grande porte</td>
+            <td>3 Posts Estáticos</td>
+            <td style="color:var(--verde-mid); font-weight:700;">+3</td>
+            <td>Campanha de conscientização ambiental de Junho/2026</td>
+          </tr>
+          <tr>
+            <td><strong>Vídeo PEV 2 (Reel Extra)</strong></td>
+            <td>Captação em campo, edição de vídeo, sonorização e roteirização</td>
+            <td>3 Posts Estáticos</td>
+            <td style="color:var(--verde-mid); font-weight:700;">+3</td>
+            <td>Produzido e editado. Publicação suspensa temporariamente a pedido do SAAE</td>
+          </tr>
+          <tr>
+            <td><strong>Adesivos Variados Semana do Meio Ambiente</strong></td>
+            <td>Design de peças de identidade de campanha complementares</td>
+            <td>2 Posts Estáticos</td>
+            <td style="color:var(--verde-mid); font-weight:700;">+2</td>
+            <td>Brindes e sinalização física para a campanha ambiental</td>
+          </tr>
+          <tr style="background: rgba(4,136,202,0.1); font-weight: 700; color: #FFF;">
+            <td colspan="3">Total Compensado via Equivalência de Materiais Extras</td>
+            <td style="color:var(--verde-mid);">+12 Posts</td>
+            <td>Saldo positivo / compensação integral</td>
           </tr>
         </tbody>
       </table>
     </div>
 
     <!-- NOTA DE EQUILÍBRIO CONTRATUAL -->
-    <div class="alert-card" style="margin-top: 24px;">
-      <strong>* Nota de Equilíbrio Contratual:</strong> Ao longo do mês, o SAAE demandou a criação de diversos materiais extras que não compõem o escopo padrão do contrato (como roteiros para rádio/TV, faixas e materiais gráficos impressos). Para garantir o atendimento ágil de todas as necessidades da autarquia sem gerar custos adicionais, realizamos um <em>equilíbrio produtivo</em>: a dedicação de horas da equipe criativa para essas entregas complementares listadas acima substitui de forma proporcional uma parcela do volume de publicações de redes sociais estipuladas em contrato.
+    <div class="info-card" style="margin-top: 24px;">
+      <strong>Metodologia de Equilíbrio Contratual e Compensação de Horas:</strong><br>
+      A dedicação da equipe criativa para desenvolvimento de peças sob demanda fora do escopo de redes sociais (como roteirização de rádio/TV, faixas gigantes e materiais gráficos em altíssima qualidade de impressão) consome horas produtivas adicionais. Para garantir o atendimento ágil e contínuo de todas as necessidades de sinalização e comunicação institucional da autarquia sem onerar o orçamento, adota-se a <strong>equivalência produtiva de equilíbrio</strong>.<br><br>
+      Em Maio de 2026, as demandas extras totalizaram <strong>12 créditos (equivalentes a 12 posts estáticos)</strong>. Esse montante compensa integralmente o saldo de postagens em redes sociais (-8 posts estáticos, -3 stories e -2 reels), mantendo a integridade financeira e a conformidade técnica das entregas da Contratada.
+    </div>
+
+    <div class="alert-card" style="margin-top: 14px;">
+      <strong>⚠️ Nota sobre Visitas Técnicas:</strong> Conforme regido pelo Termo de Referência nº 040/2025, as 2 visitas presençaismensais de captação e a visita eventual extra em caso de emergência são itens fixos do escopo e <strong>não entram no cálculo de equilíbrio contratual</strong>. Suas realizações seguem fluxo independente conforme cronograma acordado.
     </div>
 
   </div>
