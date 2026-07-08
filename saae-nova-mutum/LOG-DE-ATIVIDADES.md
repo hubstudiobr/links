@@ -130,3 +130,33 @@ Estrutura padrão contexto → explicação → orientação → fechamento, com
 - O arquivo registrará estratégias, conceitos, textos, legendas, roteiros, direcionamentos visuais, alterações, aprovações e materiais concluídos.
 
 **Status:** Concluído.
+
+---
+
+## 18 de junho de 2026 — Gemini (Antigravity)
+
+### Análise de Contrato e Regras de Equilíbrio Contratual
+
+**Demanda:** Análise técnica do Contrato nº 021/2025 e do Termo de Referência (TR nº 040/2025) do SAAE Nova Mutum após questionamentos do cliente sobre a quantidade de publicações entregues em Maio/2026, com formulação de regra e tabela de equilíbrio de compensação produtiva.
+
+**Entregas e Decisões de Equilíbrio Contratual:**
+- **Metas contratuais mapeadas:**
+  - 10 posts estáticos (incluindo carrosséis)
+  - 6 Reels
+  - 8 Stories
+  - 2 visitas presenciais mensais planejadas
+  - 1 visita eventual extra sob demanda
+- **Tabela de Equivalência Oficial (aprovada por Pri):**
+  - *Faixa Fachada PEV 2 (Grande Porte / CMYK):* Equivale a **4 posts estáticos** (devido à alta resolução, CMYK e complexidade de arquivo para gráfica).
+  - *Banner / Backdrop Semana do Meio Ambiente (Médio Porte):* Equivale a **3 posts estáticos**.
+  - *Vídeo PEV 2 (Reel Extra produzido e editado):* Equivale a **3 posts estáticos**.
+  - *Adesivos Variados Semana do Meio Ambiente:* Equivale a **2 posts estáticos**.
+- **Regra de Exclusão:** Visitas e coberturas de campo seguem fluxo e cláusula independente no contrato e **não** entram na compensação de posts.
+
+**Alterações em Arquivos:**
+- Atualização do relatório de Maio de 2026 (`saae-nova-mutum/relatorio-maio-2026/index.html`) para incluir a tabela explicativa "Escopo do Contrato vs. Entregas Realizadas", a "Tabela de Equilíbrio Contratual" e a nota metodológica.
+- Correção no script de renderização (`gen_pdf.js`) para garantir que os acordeões e as notas fiquem visíveis no PDF final.
+- Geração bem-sucedida do novo PDF e PNG (`relatorio-maio-2026-SAAE-V2.pdf` e `relatorio-maio-2026-SAAE-V2.png`).
+
+**Status:** Concluído e enviado ao repositório `links`.
+
