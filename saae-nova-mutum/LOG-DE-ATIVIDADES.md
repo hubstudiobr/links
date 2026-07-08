@@ -17,6 +17,36 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 08 de julho de 2026 (atualização 3) — Claude (Saulo)
+
+### Carrossel Vila União — produção visual das 4 telas concluída + legenda
+
+**Demanda:** Continuação da produção do carrossel Vila União (ver entrada anterior "Carrossel Vila União — comunicação sobre manutenção dos pontos de coleta"). Geração dos prompts de arte para uso em GPT externo de design, revisão crítica de cada tela gerada, e escrita da legenda final.
+
+**Mudança de direção visual (decisão de Pri, durante o processo):**
+- Paleta migrada de azul para **verde institucional**, com nova regra de cor por tema: água = azul, resíduos/lixo = verde, esgoto = verde escuro. Regra ainda não aplicada retroativamente a outros materiais — vale para conteúdos futuros sobre resíduos.
+- Estilo visual "liquid glass" (painel de vidro fosco/glassmorphism) adotado para o bloco de texto em todas as 4 telas, a pedido de Pri. **Atenção:** essa estética está fora do padrão documentado no guia de direção visual do SAAE (que pede estilo editorial puro, sem elementos de tendência de UI). Decisão tomada por prazo e por preferência estética de Pri, com ressalva registrada pelo Claude sobre risco de datar a peça e destoar do padrão "atemporal" do projeto.
+- Logomarca reposicionada para canto inferior, pequena, como assinatura (ver entrada de atualização 2 — já registrada como novo padrão de marca).
+
+**Processo de revisão (etapa por etapa):**
+- **Tela 1:** ajustada 2x — primeiro por proporção de fotografia excessiva (55-60% em vez de 30-35%), depois por excesso de azul monocromático (resolvido com a virada para paleta verde + liquid glass).
+- **Tela 2:** elemento ilustrativo (lixeira + saco de lixo, line art) inicialmente saiu grande demais e com painel de vidro cortado nas bordas — aprovada mesmo assim por Pri, priorizando prazo.
+- **Tela 3:** corrigiu o problema de bordas cortadas da Tela 2. Lista de itens proibidos mantida em texto corrido (não checklist), com apenas um elemento ilustrativo (pneu). Observação registrada: linhas de "movimento/poeira" no pneu destoam do tom neutro institucional — não corrigido, aprovado pelo prazo.
+- **Tela 4:** ajuste de conteúdo (adição de texto de apoio para resolver sensação de painel vazio) e correção de erro ortográfico gerado pelo GPT ("seguírá" → "seguirá").
+
+**Legenda final (aprovada):**
+Estrutura padrão contexto → explicação → orientação → fechamento, com hashtags. Sem menção a canais de atendimento (WhatsApp) para evitar dependência de terceiros antes da publicação. Sem comparação "antes/depois". Menciona a placa oficial já existente no local como base da orientação sobre itens não aceitos.
+
+**Fotos utilizadas (fornecidas por Pri, originadas do Cristiano/SAAE):**
+- Tela 1: foto do caminhão com munck e equipe uniformizada em serviço.
+- Tela 4: foto dos contêineres metálicos já organizados/esvaziados.
+- Uma terceira foto (da placa oficial fixada no ponto de coleta) foi identificada como valiosa para uso futuro (Stories de apoio ou material de alinhamento interno com Ezaque), mas não utilizada no carrossel do feed.
+- Todas as fotos exigiram remoção de carimbo de data/hora/geolocalização visível (aplicado no tratamento via prompt).
+
+**Status:** Carrossel de 4 telas e legenda concluídos e aprovados por Pri. Pronto para publicação.
+
+---
+
 ## 08 de julho de 2026 (atualização 2) — Claude (Saulo)
 
 ### Nova regra de identidade visual: posicionamento da logomarca SAAE
