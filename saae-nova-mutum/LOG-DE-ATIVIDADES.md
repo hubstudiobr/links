@@ -13,10 +13,11 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 - Cada entrada deve indicar data, demanda, entregas, decisões, status e, quando houver, arquivos ou páginas relacionadas.
 - Diferenciar claramente materiais em desenvolvimento, aprovados, revisados ou concluídos.
 - Utilizar linguagem objetiva e descritiva.
+- Toda entrada deve identificar claramente qual assistente realizou a atualização (ex: **Claude (Saulo)** ou **ChatGPT**), já que ambos podem atualizar o mesmo log em sessões/demandas diferentes.
 
 ---
 
-## 08 de julho de 2026 (atualização)
+## 08 de julho de 2026 (atualização) — Claude (Saulo)
 
 ### Definição do fluxo de atualização do log via Claude
 
