@@ -16,6 +16,25 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 08 de julho de 2026 (atualização)
+
+### Definição do fluxo de atualização do log via Claude
+
+**Demanda:** Alinhar como o Claude (Saulo) atualiza este log diretamente, sem depender de colar manualmente o conteúdo.
+
+**Entregas:**
+- Confirmado acesso de leitura e escrita ao repositório `hubstudiobr/links` via Personal Access Token do GitHub, usado diretamente no ambiente do Claude (bash + git).
+- Regra de fechamento de conversa estabelecida: ao identificar um encerramento de conversa (ex: "ok obrigada", "por enquanto é isso"), o Claude deve perguntar se a atualização do log é desejada.
+
+**Decisões:**
+- Pri optou por token com acesso amplo (classic, escopo `repo`) para uso imediato, com plano de revisar/restringir escopo futuramente conforme o plano de acesso evoluir.
+- Recomendação registrada: revogar o token utilizado nesta sessão após uso, por ele ter sido compartilhado em texto simples no chat.
+- Push direto ao repositório confirmado como funcional a partir deste momento.
+
+**Status:** Concluído.
+
+---
+
 ## 08 de julho de 2026
 
 ### Estruturação do log de atividades
