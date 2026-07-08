@@ -160,3 +160,56 @@ Estrutura padrão contexto → explicação → orientação → fechamento, com
 
 **Status:** Concluído e enviado ao repositório `links`.
 
+---
+
+## 19 de maio de 2026 — Manu (ChatGPT)
+
+### Roteiros de Gravação e Status do ReCiclo Ep. 3
+
+**Demanda:** Alinhamento do status do vídeo ReCiclo Ep. 3 e planejamento de roteiros para a diária de captação do SAAE de maio.
+
+**Entregas e Decisões:**
+- **Status do ReCiclo Ep. 3:** Gravado e em edição com Pri (não necessita de captação na nova diária).
+- **Roteiros planejados para a diária:**
+  - *Horários do PEV na prática:* Utilidade pública baseada nos horários oficiais do ponto.
+  - *ETE (Estação de Tratamento de Esgoto):* Foco institucional de tecnologia urbana.
+  - *Sugestões extras:* Planejar mais 2 temas adicionais para totalizar 4 roteiros de captação.
+
+**Status:** Concluído.
+
+---
+
+## 14 de maio de 2026 — Manu (ChatGPT)
+
+### Organização e Hospedagem do Design System
+
+**Demanda:** Criação de estrutura centralizada para documentação visual do SAAE no GitHub e atualização das diretrizes de marca.
+
+**Entregas e Decisões:**
+- **Diretório `design-system/` criado:**
+  - `design-system-saae.md` (paleta, tipografia, famílias de comunicação e Heróis).
+  - `motion-system-saae-complemento.md` (motion graphics, transições e linguagem de Reels).
+  - `colors.json` e `typography.json` (design tokens).
+- **Mascotes da marca:**
+  - Capitão Hydro e Capitã Flora ativos na linha Heróis do Saneamento.
+  - Mascote Gotinha descontinuado devido à semelhança com o Zé Gotinha do Ministério da Saúde.
+  - Regra de grid rígida (70% estrutura editorial, 30% mascote como isca visual, sem adornos).
+
+**Status:** Concluído.
+
+---
+
+## 12 de maio de 2026 — Manu (ChatGPT)
+
+### Revisão do Planejamento Editorial de Maio
+
+**Demanda:** Correção e revisão do planejamento de conteúdos do mês de maio após identificação de temas redundantes em relação a abril.
+
+**Entregas e Decisões:**
+- **Ajuste de eixos editoriais:**
+  - Água definida como o ativo institucional e tema central dominante do mês.
+  - Saneamento/ETE inserido como tema educativo focado em infraestrutura e na inauguração das novas instalações.
+  - ReCiclo Ep. 3 agendado para o Dia Mundial da Reciclagem.
+- **Governança:** Estabelecido que o log geral e o do SAAE devem ser atualizados ao final de cada entrega para permitir rastreamento multiplataforma por IAs.
+
+**Status:** Concluído.
