@@ -17,6 +17,21 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 08 de julho de 2026 (atualização 2) — Claude (Saulo)
+
+### Nova regra de identidade visual: posicionamento da logomarca SAAE
+
+**Demanda:** Durante a produção da Tela 1 do carrossel Vila União, identificado que a fotografia estava ocupando área maior que a especificada (55-60% em vez de 30-35%), competindo com a tipografia. No ajuste, Pri decidiu também mudar o posicionamento padrão da logomarca.
+
+**Decisão registrada:**
+- A logomarca do SAAE passa a ser posicionada no **canto inferior** das artes, em **tamanho pequeno, como assinatura discreta** — não mais no topo em tamanho de destaque.
+- Essa mudança não é pontual desta peça: **é o novo padrão de marca para todos os materiais do SAAE daqui em diante.**
+- Pendente: avaliar se essa mudança deve ser refletida no arquivo `DESIGN_SYSTEM_SAAE.md` (repositório `hubstudiobr/automacoes-ia`), que documenta as diretrizes visuais completas do projeto.
+
+**Status:** Regra aprovada por Pri. Aplicação no design system ainda não realizada — repositório diferente do utilizado para este log.
+
+---
+
 ## 08 de julho de 2026 — Claude (Saulo)
 
 ### Carrossel Vila União — comunicação sobre manutenção dos pontos de coleta
