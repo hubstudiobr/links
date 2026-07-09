@@ -17,6 +17,50 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 09 de julho de 2026 — 19h20 — ChatGPT
+
+### Aditivo de registro — conteúdos, roteiros, legendas e materiais offline desenvolvidos no ciclo recente
+
+**Solicitação:** Atualização solicitada por Pri para registrar, neste log de produção/criativo, um resumo consolidado dos materiais e conteúdos tratados no ChatGPT para o SAAE Nova Mutum. Este registro não contempla discussões administrativas, financeiras, contratuais ou jurídicas, que pertencem ao arquivo `LOG-ADMINISTRATIVO-CONTRATUAL.md`.
+
+**Materiais efetivamente finalizados, aprovados ou encaminhados para uso:**
+- **Planejamento editorial mensal:** fechamento do planejamento de posts/carrosséis e stories interativos, com ajustes para reduzir saturação de Copa, retirar conteúdos menos prioritários e manter uma pauta mais enxuta, funcional e compatível com a rotina de produção do mês.
+- **Credenciamento para catadores, transportadores, empreendedores e empresas do setor de resíduos:** criação de texto de arte e direcionamento visual para Story institucional com chamada para consulta do edital completo no site do SAAE.
+- **Folheto educativo sobre ETE para Semana do Meio Ambiente:** definição de caminho de conteúdo em formato de panfleto frente única, com foco em explicar de forma simples o que é a ETE, por que ela importa e como se conecta à qualidade de vida da população; também foi gerado prompt completo para design, com espaço para aplicação posterior da logomarca.
+- **Legendas de vídeos sobre PEV e descarte correto:** criação e refinamento de legendas para vídeos institucionais sobre PEV 2/PEV Palmeiras e sobre descarte correto como parte do saneamento, com cuidado para não repetir literalmente o conteúdo falado nos vídeos.
+- **Legenda complementar para PEV Palmeiras:** ajuste para deixar claro que o novo ponto é acréscimo de local e que o outro ponto permanece em operação.
+- **Materiais educativos/offline da Semana do Meio Ambiente:** apoio na estruturação de prompts, revisão de layout e avaliação crítica de materiais como banners/dinâmicas educativas, adesivo institucional horizontal, material 70x100 cm de gestão de resíduos e educação ambiental, com revisão de dados, tabelas e orientações para impressão.
+- **Material 70x100 cm — Gestão de Resíduos e Educação Ambiental:** apoio na reformulação do layout, substituição de tabela extensa por tabela-resumo, conferência dos dados finais por escola, validação dos indicadores principais e parecer final sobre layout antes de impressão.
+- **Série “Quem Recicla o ReCiclo” — Episódio 4:** análise das transcrições da entrevista com Claudineia, definição da base narrativa do episódio, com foco na mensagem “por trás da reciclagem existem pessoas”, orientação de edição, seleção de falas-chave e sugestão de encerramento humanizado.
+- **9º Evento Ecológico Todos Pela Natureza:** criação de sugestão para story em tempo real e estrutura para vídeo geral de feed; posteriormente, apoio na edição conceitual do vídeo com fala de criança, definição de fechamento emocional, texto final de tela e legenda aprovada.
+- **Legenda final do vídeo do Evento Ecológico:** texto aprovado com abertura na fala “Eu faria isso pra todo mundo”, conectando educação ambiental, atitude prática e o trabalho contínuo do SAAE para além da Semana do Meio Ambiente.
+- **Capa do vídeo do Evento Ecológico:** definição de direcionamento para capa com foco na frase da criança, evitando transformar o conteúdo em simples cobertura de evento.
+- **Roteiro para TV — PEVs:** criação e aprovação do roteiro curto para TV sobre os dois Pontos de Entrega Voluntária, com distinção entre PEV Jardim América 2 e PEV Palmeiras, incluindo orientação para consultar endereços e horários no site do SAAE.
+- **Roteiro para TV — ETE/coletor-tronco:** criação e refinamento do roteiro institucional sobre nova etapa do esgotamento sanitário, evitando abrir com “obra” e priorizando a percepção de infraestrutura, crescimento e futuro. Roteiro final aprovado em blocos curtos para facilitar gravação.
+- **PDF de captação — PEV e ETE:** geração de PDF final com dois roteiros em tabela de captação, contendo direcionamento de cena de um lado e contexto falado no áudio do outro, sem nomes de apresentador e sem elementos gráficos extras.
+- **Aniversário de 38 anos de Nova Mutum:** definição de conceito para post estático institucional, escolha da linha “38 anos olhando para o futuro”, prompt completo para design com foto aérea e logo, além de sugestão de legenda curta e institucional.
+- **Legenda para Reels dos PEVs:** criação de legenda mais concisa e complementar ao vídeo, reforçando que Nova Mutum conta com dois PEVs, citando PEV Jardim América 2 e PEV Palmeiras, e direcionando ao site do SAAE.
+- **Legenda para vídeo do site oficial do SAAE:** resgate da proposta do roteiro e sugestão de legenda para reforçar o hábito de consultar informações no site oficial `saaenm.com.br` antes de buscar informações em outros canais.
+- **Demanda Vila União — postagem emergencial:** análise das fotos enviadas pela equipe operacional, avaliação da baixa qualidade das imagens e recomendação de não usar a foto como protagonista; desenvolvimento de prompt para arte estática mais editorial, com fotografia como apoio documental, e legenda final com orientação sobre lixo doméstico ensacado, descarte dentro da lixeira e proibição de móveis, entulho e galhos.
+
+**Materiais discutidos, planejados ou encaminhados, mas sem confirmação final de execução nesta sessão:**
+- **Carrossel Vila União:** discussão inicial e posterior mudança de direção para carrossel educativo, com proposta de gancho, exemplificação de erros de descarte e orientação sobre destino correto; a execução visual final foi continuada em outro fluxo/chat e não deve ser considerada concluída apenas por este registro do ChatGPT.
+- **Possível vídeo futuro sobre descarte na Vila União:** levantado a partir da fala do Ezaque, mas considerado dependente de nova ocorrência, deslocamento e captação futura; não foi roteirizado como entrega final.
+- **Diretrizes sobre materiais de ETE para evento:** exploradas ideias como panfleto educativo e comunicação de preparação da população para futuras obras, mas apenas o folheto/prompt foi efetivamente encaminhado como solução prática.
+- **Relação entre conteúdos digitais, materiais impressos e relatórios:** discutida como contexto de organização do projeto, mas registrada no âmbito criativo apenas quando relacionada a materiais produzidos; questões contratuais/financeiras seguem separadas no log administrativo.
+
+**Decisões e aprendizados criativos registrados:**
+- Para conteúdos de utilidade pública do SAAE, a legenda deve complementar o vídeo/post, não repetir o que já está na arte ou na fala.
+- Em materiais emergenciais com fotos operacionais de baixa qualidade, priorizar design editorial, tipografia forte e fotografia como apoio documental, evitando aparência de relatório interno.
+- Para materiais de resíduos, consolidou-se a preferência por tom educativo, respeitoso e positivo, evitando comunicação de repreensão direta à comunidade.
+- Em conteúdos de ETE e esgotamento sanitário, a comunicação deve abrir pelo benefício e pela percepção de infraestrutura/futuro, não pelo transtorno da obra.
+- Em vídeos com depoimentos espontâneos, valorizar a fala humana real, evitando engolir a autenticidade com frases institucionais excessivas.
+- Para roteiros de gravação, o formato operacional preferido por Pri é tabela simples com “Direcionamento de captação” de um lado e “Contexto falado no áudio” do outro.
+
+**Status:** Aditivo de produção/criativo registrado por ChatGPT a pedido de Pri. Itens concluídos e itens apenas discutidos foram separados para evitar confusão no histórico.
+
+---
+
 ## 09 de julho de 2026 (atualização 2) — Claude (Saulo)
 
 ### Ajuste pós-aprovação no carrossel Vila União + status de publicações
