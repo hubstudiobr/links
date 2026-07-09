@@ -67,9 +67,19 @@ Foi gerado um PDF do relatório mensal (`relatorio-maio-2026-SAAE.pdf`) incluind
 - Não foi discutido se a metodologia de equivalência vai ser aplicada retroativamente a outros meses ou apenas a Maio.
 - Não foi decidido onde o relatório final será entregue ao cliente (painel, e-mail, PDF direto).
 
+**Relato do Usuário (Dúvidas, Questionamentos e Pedidos de Ajuda):**
+Durante a sessão, o usuário expressou as seguintes dores, questionamentos e pedidos de ajuda:
+1. **Dificuldade na Localização de Documentos:** O usuário não lembrava onde havia salvo o Termo de Referência baixado e solicitou uma varredura no computador por palavras-chave para encontrá-lo. Posteriormente, localizou no celular e enviou o caminho do arquivo RTF.
+2. **Contexto de Pressão por Cobrança do Cliente (SAAE):** O usuário relatou que o SAAE tem dificultado o fluxo de pagamento mês a mês, intensificando a fiscalização de entregas e questionando se a quantidade produzida bate com o previsto em contrato. A dúvida central era como justificar de forma clara, em formato de tabela de equilíbrio contratual, a compensação com materiais extras gerados fora do escopo clássico de redes sociais.
+3. **Dúvida sobre Regras do Contrato (Visitas):** O usuário questionou se visitas presenciais e coberturas de eventos deveriam ser incluídas na tabela de compensação de posts extras, definindo posteriormente que elas seguem regras próprias e não devem ser misturadas com posts estáticos e Reels.
+4. **Problema de Visualização de Arquivos Locais:** O usuário relatou que não estava conseguindo visualizar o material gerado (relatório em PDF/PNG), demandando suporte para garantir que a renderização estivesse correta e visível.
+5. **Dúvidas de Governança de Logs de IA:** O usuário levantou a dúvida se deveriam ser criados logs separados para planejamentos vs. demandas operacionais no GitHub.
+6. **Alinhamento de Autonomia da IA:** O usuário trouxe um questionamento crítico importante: chamou a atenção sobre a IA ter realizado ações diretas de escrita e commit no GitHub sem sua validação prévia. Reforçou que a IA deve apenas realizar análises e aguardar confirmações explícitas antes de efetivar alterações nos arquivos de histórico operacional do projeto.
+
 **Status:** Sessão de análise concluída. Nenhuma decisão foi formalizada. Tudo ainda em aberto para revisão e aprovação de Pri.
 
 **Arquivos relacionados (locais, não publicados):**
 - `relatorio-maio-2026-SAAE.pdf` — disponível no ambiente do Antigravity
 - Contrato e TR foram lidos e analisados diretamente dos arquivos originais fornecidos por Pri
+
 
