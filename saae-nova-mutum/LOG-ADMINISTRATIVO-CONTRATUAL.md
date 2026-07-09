@@ -23,4 +23,53 @@ Este log **não** deve conter: textos de posts, roteiros, prompts de arte, ou de
 
 ---
 
-*Nenhuma entrada registrada ainda. Aguardando conteúdo a ser subido pelo Antigravity referente às análises de contrato e relatórios já produzidos.*
+## 08/07/2026 — Antigravity (Gemini)
+
+### Análise do Contrato Nº 021/2025 e do Termo de Referência Nº 040/2025
+
+**Contexto da demanda:**
+Pri trouxe a questão porque o cliente (SAAE) questionou a quantidade de publicações entregues em Maio/2026. A sessão foi iniciada para entender os limites contratuais e elaborar uma lógica de equilíbrio para justificar materiais extras produzidos fora do escopo padrão.
+
+**Documentos analisados:**
+- Contrato Nº 021/2025 (JUAN S. DAMACENO LTDA — Studio Virtually)
+- Termo de Referência Nº 040/2025 — Serviço de Comunicação e Marketing Digital
+
+**Metas contratuais mensais identificadas nos documentos:**
+- 10 posts estáticos (incluindo carrosséis)
+- 6 Reels
+- 8 Stories
+- 2 visitas presenciais mensais previstas no contrato
+- 1 visita eventual extra de emergência, se necessária
+
+**Regra discutida (não aprovada formalmente):**
+Foi proposta uma lógica de equivalência para compensar materiais extras produzidos em Maio/2026 que não se encaixam diretamente na contagem padrão de posts. A ideia é que materiais de maior complexidade técnica ou de produção mais longa sejam contabilizados como equivalentes a mais de um post.
+
+**Tabela de equivalência proposta (não é regra aprovada — ainda em discussão):**
+
+| Material extra produzido | Equivalência proposta |
+|---|---|
+| Faixa/Fachada PEV 2 — Grande Porte, CMYK, alta resolução | 4 posts estáticos |
+| Banner / Backdrop Semana do Meio Ambiente — Médio Porte | 3 posts estáticos |
+| Vídeo PEV 2 — Reel extra editado | 3 posts estáticos |
+| Adesivos variados — Semana do Meio Ambiente | 2 posts estáticos |
+
+> ⚠️ Importante: esses valores foram discutidos e usados como base para o relatório de Maio, mas **não foram formalmente validados ou aprovados por Pri**. A tabela ainda precisa de revisão e aprovação antes de ser tratada como regra definitiva.
+
+**Regra clara definida (essa sim confirmada por Pri):**
+Visitas presenciais e coberturas de campo são itens com cláusula independente no contrato e **não entram** na lógica de compensação de posts — nem nas 2 visitas mensais previstas, nem na visita eventual de emergência.
+
+**Relatório de Maio/2026:**
+Foi gerado um PDF do relatório mensal (`relatorio-maio-2026-SAAE.pdf`) incluindo uma seção com a tabela de equivalência e a nota metodológica explicando a lógica de equilíbrio. O relatório foi produzido para subsidiar a conversa com o cliente, mas **não foi enviado ao painel do cliente** nem publicado. Está disponível apenas localmente.
+
+**Pendências e questões em aberto:**
+- A tabela de equivalência ainda não foi aprovada por Pri — precisa de revisão antes de qualquer uso oficial.
+- Não está definido se/como essa tabela será comunicada ao cliente.
+- Não foi discutido se a metodologia de equivalência vai ser aplicada retroativamente a outros meses ou apenas a Maio.
+- Não foi decidido onde o relatório final será entregue ao cliente (painel, e-mail, PDF direto).
+
+**Status:** Sessão de análise concluída. Nenhuma decisão foi formalizada. Tudo ainda em aberto para revisão e aprovação de Pri.
+
+**Arquivos relacionados (locais, não publicados):**
+- `relatorio-maio-2026-SAAE.pdf` — disponível no ambiente do Antigravity
+- Contrato e TR foram lidos e analisados diretamente dos arquivos originais fornecidos por Pri
+
