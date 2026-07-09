@@ -58,8 +58,21 @@ Foi proposta uma lógica de equivalência para compensar materiais extras produz
 **Regra clara definida (essa sim confirmada por Pri):**
 Visitas presenciais e coberturas de campo são itens com cláusula independente no contrato e **não entram** na lógica de compensação de posts — nem nas 2 visitas mensais previstas, nem na visita eventual de emergência.
 
-**Relatório de Maio/2026:**
-Foi gerado um PDF do relatório mensal (`relatorio-maio-2026-SAAE.pdf`) incluindo uma seção com a tabela de equivalência e a nota metodológica explicando a lógica de equilíbrio. O relatório foi produzido para subsidiar a conversa com o cliente, mas **não foi enviado ao painel do cliente** nem publicado. Está disponível apenas localmente.
+**Relatórios e Entregas Administrativas:**
+Foi desenvolvida e mantida uma estrutura dedicada de entregas no repositório `links`:
+- **Portal do Cliente SAAE (`saae-nova-mutum/index.html`):** Interface estática e responsiva em glassmorphism que serve como centralizador de acessos para o cliente final (Ezaque/Cristiano). Organiza o acesso rápido para planejamentos e relatórios de desempenho.
+- **Relatórios Mensais de Desempenho:**
+  - *Relatório de Março/2026 (`saae-nova-mutum/relatorio-marco-2026/index.html`):* Primeiro relatório de métricas entregue no contrato.
+  - *Relatório de Abril/2026 (`saae-nova-mutum/relatorio-abril-2026/index.html`):* Dados operacionais e de tráfego de abril.
+  - *Relatório de Maio/2026 (`saae-nova-mutum/relatorio-maio-2026/index.html`):* Atualizado na sessão de 18/06 para incluir as tabelas propostas de equivalência quantitativa ("Escopo do Contrato vs. Entregas Realizadas" e "Tabela de Equilíbrio Contratual") e a Nota de Equilíbrio Contratual.
+- **Planejamentos de Conteúdo:**
+  - *Planejamento de Maio/2026 (`saae-nova-mutum/planejamento-maio-2026/index.html`)*
+  - *Planejamento de Junho/2026 (`saae-nova-mutum/planejamento-junho-2026/index.html`)*
+
+**Automação de Exportação (Script PDF):**
+- Foi desenvolvido o script local `scratch/gen_pdf.js` utilizando Puppeteer para automatizar a geração do PDF e PNG dos relatórios HTML interativos.
+- O script contém uma lógica específica para forçar a abertura de todos os acordeões ocultos em tela (como a Nota Técnica de Equilíbrio Contratual e as tabelas quantitativas) antes de capturar a imagem ou imprimir o PDF. Isso garante que nenhum dado relevante seja omitido na versão impressa entregue ao cliente.
+- A última versão local gerada é a `relatorio-maio-2026-SAAE-V2.pdf`.
 
 **Pendências e questões em aberto:**
 - A tabela de equivalência ainda não foi aprovada por Pri — precisa de revisão antes de qualquer uso oficial.
@@ -81,5 +94,6 @@ Durante a sessão, o usuário expressou as seguintes dores, questionamentos e pe
 **Arquivos relacionados (locais, não publicados):**
 - `relatorio-maio-2026-SAAE.pdf` — disponível no ambiente do Antigravity
 - Contrato e TR foram lidos e analisados diretamente dos arquivos originais fornecidos por Pri
+
 
 
