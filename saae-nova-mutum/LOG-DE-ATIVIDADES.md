@@ -17,6 +17,24 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 09 de julho de 2026 (atualização 2) — Claude (Saulo)
+
+### Ajuste pós-aprovação no carrossel Vila União + status de publicações
+
+**Contexto:** O carrossel Vila União (produzido em sessão anterior) ainda **não havia sido publicado** — estava em fase de aprovação com o Ezaque quando ele solicitou um ajuste na Tela 1.
+
+**Ajuste solicitado pelo Ezaque:** Substituir a headline da Tela 1 pela frase da primeira versão do conceito ("Manter a Vila União limpa é um compromisso de todos"), que ele preferiu em relação à versão final aprovada anteriormente ("Os pontos de coleta da Vila União passaram por manutenção").
+
+**Execução:** Pri ajustou o texto diretamente no Canva (camada de texto), sem necessidade de reprocessar via GPT de design. Resultado: headline trocada, texto de apoio simplificado para "Saiba como você pode ajudar a mantê-la organizada" (evitando repetir "Vila União", já presente na headline). Layout revisado e aprovado pelo Claude — sem sobreposições, painel de vidro intacto.
+
+**Status atualizado das peças da campanha Vila União:**
+- **Carrossel (Tela 1 com nova headline):** Ajustado, **aguardando aprovação do Ezaque** — ainda não publicado.
+- **Reel "Equipe SAAE — Tempo de Casa"** (trend "quanto tempo de empresa", publicado em 02/06): **Aprovado e publicado.**
+
+**Nota de processo:** Reforçada a importância de o Claude acompanhar o status real de cada peça (em produção / em aprovação / publicado), evitando presumir publicação apenas por ter concluído a produção.
+
+---
+
 ## 09 de julho de 2026 — Claude (Saulo)
 
 ### Relatório de Junho/2026 finalizado + Metodologia de Referência publicada + reforma do portal
