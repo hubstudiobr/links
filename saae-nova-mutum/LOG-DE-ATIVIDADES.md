@@ -17,6 +17,45 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 09 de julho de 2026 — Claude (Saulo)
+
+### Relatório de Junho/2026 finalizado + Metodologia de Referência publicada + reforma do portal
+
+**Contexto:** Continuação direta da sessão anterior (definição da metodologia de equilíbrio contratual). Nesta sessão, Pri trouxe o histórico completo de discussões sobre relatórios e riscos jurídicos (resumo do ChatGPT desde Janeiro/2026, incluindo o episódio de origem do tráfego pago), o que reforçou a decisão de aplicar a nova metodologia com rigor máximo no relatório de Junho.
+
+**Levantamento de dados de Junho (com correções no processo):**
+- Identificados 2 erros de contabilização antes de fechar os números: (1) reel "Anos de Empresa" (trend "quanto tempo de empresa") gravado em Maio mas publicado em 02/06 — não contado em Junho pois o crédito já foi usado no relatório de Maio; (2) reel "Quem Recicla o ReCiclo Ep.3" — confirmado como duplicata do já publicado em Maio, removido da contagem de Junho. Essa correção reduziu os reels válidos de Junho de 4 para 3, o que **mudou o resultado de "compensação integral" para "compensação parcial"**.
+- Confirmado por Pri: TR ainda vigente é 10 posts / 6 reels / 8 stories (a mudança para "até 6" discutida com Ezaque **ainda não é oficial**).
+- Números finais de Junho: 0 posts estáticos, 3 reels, 11 stories, 2 visitas presenciais (20/06 e 26/06). Materiais extras: 1 adesivo, 1 banner institucional, 2 banners de dinâmica educativa (todos ligados ao 9º Evento Ecológico Todos Pela Natureza).
+- Déficit total: 22 créditos. Compensado: 14,5 créditos. **Resultado: compensação parcial**, com saldo de 7,5 créditos (~8 posts) a ser somado à produção de Julho.
+
+**Relatório de Junho — decisões de conteúdo e enquadramento:**
+- Resumo executivo reformulado para enquadrar o investimento em tráfego pago concentrado (PEV Palmeiras, custo por ThruPlay R$0,04) como resposta direta a uma reclamação anterior do SAAE ("tem que rodar tráfego mesmo que pouco") — não apenas como estratégia genérica.
+- Tabela "Escopo do Contrato vs. Entregas Realizadas" (formato previsto/realizado/diferença) **abolida permanentemente**, substituída por tabela "Produzido no Mês" (só o que foi feito, sem comparação direta com a meta contratual). Decisão de Pri: mostrar "0" explicitamente quando aplicável (não omitir a linha), pois omissão de categoria conhecida gera mais desconfiança do que um número baixo já justificado.
+- Parágrafo de justificativa do déficit reescrito e reposicionado para vir **antes** da tabela de produção (para "preparar o terreno" do leitor) e ampliado com duas razões, propositalmente en enquadradas de forma suave: (1) capacidade reservada para demandas sob demanda de curto prazo; (2) cronograma de finalização/edição de materiais já captados. Combinado com a quantificação explícita do saldo a favor de Julho (7,5 créditos).
+- Removida a "Nota sobre Visitas Técnicas" (alert-card); visitas presenciais agora aparecem como linha simples na tabela de produção.
+- Tabela completa de equivalência (a mesma da Metodologia de Referência) removida do corpo do relatório, substituída por link direto à página de metodologia — relatório mais enxuto, evita duplicação de conteúdo entre documentos.
+
+**Metodologia de Referência (nova página permanente):**
+- Criada em `saae-nova-mutum/metodologia-equilibrio/index.html` — documento fixo, sem data de mês, contendo a tabela de equivalência com valores de mercado (pesquisados via web search: post ~R$60, reel ~R$250, peça impressa simples/média/grande, spot de rádio, motion design, vídeo institucional para TV ~R$5.500 — valores ajustados por Pri para a realidade regional de Mato Grosso).
+- Linkada no portal do cliente em nova seção "Referência".
+
+**Reforma do Portal do Cliente:**
+- Seção "Planejamentos" removida do portal (arquivos mantidos no repositório, apenas não linkados mais).
+- Adicionado bloco de headline/contexto abaixo do cabeçalho.
+- Portal agora com 2 colunas: Relatórios e Referência (antes 3, incluindo Planejamentos).
+
+**Entregáveis adicionais:**
+- PDF do relatório de Junho gerado em duas versões (paginado A4 e "página única"/scroll contínuo) via wkhtmltopdf/wkhtmltoimage, para anexo do Juan junto aos materiais compactados. Limitação registrada: Google Fonts bloqueado no ambiente de geração, then fontes saem como fallback do sistema em vez de Syne/Instrument Sans — para fidelidade visual total, recomendado usar Chrome (Ctrl+P → Salvar como PDF → Gráficos de fundo) a partir do link publicado.
+
+**Pendências:**
+- Portal do cliente (`hubstudiobr.github.io/links/saae-nova-mutum/`) continua **público, sem autenticação** — decisão consciente de Pri de aceitar o risco por ora e revisar depois. Agora inclui valores reais de mercado (tabela de preços da Studio Virtually) na página de metodologia.
+- Saldo de 7,5 créditos prometido para Julho é um compromisso real que precisa ser cumprido no próximo relatório.
+
+**Status:** Relatório de Junho publicado e completo, sem pendências de dado. Metodologia de Referência publicada. Portal reformado.
+
+---
+
 ## 08 de julho de 2026 (atualização 3) — Claude (Saulo)
 
 ### Carrossel Vila União — produção visual das 4 telas concluída + legenda
