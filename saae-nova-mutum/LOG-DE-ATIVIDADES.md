@@ -17,6 +17,40 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 09 de julho de 2026 (atualização 3) — Claude (Saulo)
+
+### Roteiros para visita de campo (10/07) — 5 vídeos + 1 áudio de rádio
+
+**Contexto:** Transcrição de áudio do Cristiano trazida por Pri, detalhando as demandas da visita de campo do dia seguinte. Demandas identificadas: vídeo de uso consciente da água (urgente, com a Natália, antes de ela entrar de férias), áudio para rádio sobre PEVs, e abertura para mais conteúdo a definir. Vila União ficou de fora desta visita (condição do local incerta).
+
+**Fonte de dados usada:** `BASE-DE-CONHECIMENTO.md` (subido pelo ChatGPT nesta mesma data) — localização e materiais aceitos dos PEVs Jardim América 2 e Palmeiras; status do coletor-tronco e ETE.
+
+**Roteiros desenvolvidos:**
+1. **Uso Consciente da Água** — 2 versões (mais sóbria / mais criativa), sem mencionar captação em manancial (SAAE capta de poços profundos, não rio — correção importante de Pri). Tom educativo de reforço de hábito, não alarmista sobre aumento de tarifa.
+2. **Áudio para Rádio — PEVs** — locução de 30 segundos, com localização e materiais aceitos de cada PEV. Horários de funcionamento omitidos por estarem pendentes de confirmação oficial; direciona para saaenm.com.br.
+3. **"Tudo Que Acontece, a Gente Avisa Aqui"** — vídeo formato pergunta-resposta (perguntas em tela, sem fala; respostas faladas pelo colaborador), cobrindo manutenção programada, manutenção emergencial, falta de energia elétrica (⚠️ este bloco depende de confirmação do Ezaque no local) e avisos de coleta (lixo domiciliar e Reciclo).
+4. **Coletor-Tronco** (versão filmável, opcional) — alternativa ao vídeo 100% IA que Pri produzirá separadamente. Sem datas, ruas ou percentual de obra (dados pendentes).
+5. **"A ETE Está Chegando" — Episódio 1** — início de nova série institucional (tom direto, sem apelo emocional, inspirada em referência de "cronograma de obras" de outro perfil do setor). Conceito: acompanhar a ETE e as obras de saneamento em capítulos curtos.
+
+**Formato do PDF de entrega — decisões de padronização (valem para os próximos roteiros):**
+- Estrutura em tabela: **CENA | DIRECIONAMENTO DE CAPTAÇÃO | CONTEXTO FALADO NO ÁUDIO**, no padrão que Pri já usa com o ChatGPT (página paisagem, cabeçalho azul por roteiro com formato/duração).
+- Sem comentários de tom ou atuação (regra já vigente, reconfirmada).
+- Sem contexto pessoal (nomes, prazos internos) ou notas de confirmação pendente no corpo do roteiro entregável — isso fica só em conversa/log, não no material de captação.
+- Ordem de apresentação: **locução de rádio primeiro, roteiros de vídeo depois.**
+- Cada roteiro deve ficar **inteiro na mesma página** (sem quebrar tabela no meio) — implementado tecnicamente via `KeepTogether` no gerador (reportlab).
+- Textos falados devem ser fluidos (frases conectadas), não blocos isolados por tópico — a separação por "causa 1/causa 2" só deve existir como marcação de cena para quem grava, nunca como texto que soa decorado.
+
+**Arquivos gerados:** `Roteiros_SAAE_Julho2026.pdf` (entregue a Pri, não versionado no GitHub — arquivo local de produção).
+
+**Pendências para confirmar na visita:**
+- Bloco "falta de energia elétrica" do Roteiro 03 — depende de validação do Ezaque.
+- Coletor-Tronco — gravar apenas se houver tempo/aprovação no local.
+- Horários oficiais dos PEVs (para uso em materiais futuros).
+
+**Status:** Todos os 6 materiais (5 vídeos + 1 áudio) prontos para levar à visita de campo do dia 10/07.
+
+---
+
 ## 09 de julho de 2026 — 19h20 — ChatGPT
 
 ### Aditivo de registro — conteúdos, roteiros, legendas e materiais offline desenvolvidos no ciclo recente
