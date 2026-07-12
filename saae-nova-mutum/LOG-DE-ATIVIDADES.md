@@ -17,6 +17,31 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 10 de julho de 2026 — Claude (Saulo)
+
+### Conteúdo discutido na visita de campo (reunião com Cristiano)
+
+**Vila União — vídeo sobre limpeza/descarte:**
+- Esclarecido: SAAE não cobra tributo no local por ser assentamento irregular (termo usado internamente: "grilo"). Sujeira recorrente é causada por descarte incorreto da população, não omissão do SAAE.
+- Limpeza já é rotina existente (coleta 2x/semana na região, verificação a cada 15 dias) — mas parecia reativa a uma crítica pública (vídeo publicado por um vereador). Decisão: o vídeo deve mostrar histórico real de atuação, **sem vincular à pressão política**.
+- Carrossel estático já produzido como conteúdo-ponte, usando fotos disponíveis (algumas descartadas por marcação de posição inadequada), enquanto o vídeo definitivo não é gravado.
+- Pendência: **atualizar a placa de sinalização** no local (a atual foi adaptada às pressas no fim de 2025/início de 2026, após a original ser destruída).
+- Colaborador cotado para narrar o vídeo — nome não confirmado na transcrição (ver observação no Log Administrativo).
+
+**Série "A ETE Está Chegando":**
+- Episódio 1 confirmado como gravado e aprovado.
+- Direção estratégica para próximos episódios: explicar por que o SAAE constrói a ETE e a rede coletora **antes** da ligação nas casas — ordem que confunde a população por parecer "de trás pra frente" comparado a outros municípios. Mencionado prazo estimado de ~2 gestões (~10 anos) para cobertura de 100% da rede de esgoto (abastecimento de água já está em 100%).
+- Oportunidade de conteúdo identificada: confusão comum da população entre rede de drenagem pluvial e rede de esgoto (referência citada: vídeo de outra concessionária, de Manaus, que já abordou esse tema).
+
+**Outros pontos:**
+- Reforçada intencionalidade da recorrência de temas do ReCiclo ("bater na mesma tecla" é estratégico, não repetição por falta de ideia).
+- Uso de IA para conteúdo institucional mencionado como recurso em exploração (referências: governadores de SP e MT usando efeito "slow motion" de obra sendo construída), com ressalva de qualidade ainda inconsistente.
+- Pendência: envio de fotos para atualização do site oficial.
+
+**Status:** Reunião registrada via transcrição (TurboScribe) e ata automática (Claude Code). Itens de conteúdo ainda não têm roteiro/produção formal — ficam como pauta para desenvolvimento.
+
+---
+
 ## 09 de julho de 2026 (atualização 3) — Claude (Saulo)
 
 ### Roteiros para visita de campo (10/07) — 5 vídeos + 1 áudio de rádio

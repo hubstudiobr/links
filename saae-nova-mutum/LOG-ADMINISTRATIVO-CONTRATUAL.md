@@ -23,6 +23,31 @@ Este log **não** deve conter: textos de posts, roteiros, prompts de arte, ou de
 
 ---
 
+## 10/07/2026 — Claude (Saulo)
+
+### Reunião presencial com Cristiano (Diretor Geral) — Alinhamento de escopo e proposta de aditivo
+
+**Contexto:** Reunião presencial (Pri, Ezaque, Juan, Cristiano) na visita de campo, gravada e transcrita (via TurboScribe e via Claude Code/faster-whisper, com ata gerada pelo Code). Pauta: alinhar formalmente a prática de substituição entre entregáveis (posts estáticos ↔ vídeo/TV ↔ rádio ↔ material gráfico), que já vinha ocorrendo informalmente.
+
+**Achados documentais prévios à reunião (Claude):**
+- Termo de Referência nº 040/2025 confirma oficialmente, em dois pontos do texto (itens 3.4 e 5.2): **10 posts estáticos, 6 Reels, 8 Stories** — mesma base já usada nos relatórios. Uma proposta comercial antiga (rascunho, "12 posts/4 reels/12 stories") encontrada no projeto foi identificada como superada pela proposta revisada (a que efetivamente venceu, com os números 10/6/8 e valor de R$4.000/mês).
+- TR confirma também: **banner, folder, faixa, cartaz já estão previstos no escopo** como "materiais sob demanda, quando necessário" — ou seja, tecnicamente já inclusos no valor mensal, sem gerar crédito extra por si só. O argumento válido não é "não está no escopo", é "a frequência/volume virou recorrente, muito acima do 'esporádico' previsto".
+- **Rádio e vídeo para TV não são mencionados em nenhum ponto do TR** — confirmado também verbalmente pelo Cristiano na reunião. Esses dois são o argumento mais forte e limpo para tratamento como demanda extraordinária/aditivo.
+
+**Decisões da reunião:**
+1. **Contrato principal não será alterado por ora.** Risco identificado pelo Cristiano: uma alteração relevante poderia obrigar reabertura de processo, expondo a uma disputa de preço com concorrente (valor de concorrente varia entre R$3.000 e ~R$5.000 nas falas, com tendência de aproximação ao valor atual — risco de undercut reduzido, mas não eliminado).
+2. **Caminho aprovado: formalizar futuramente via aditivo contratual**, condicionando a substituição de parte da cota de posts estáticos por vídeo/TV, rádio ou material gráfico às "novas demandas" (TV, rádio, ciclo de vídeo quinzenal). Cristiano vai levar para o jurídico e avaliar com calma — sem prazo definido.
+3. Toda substituição, formal ou informal, deve ter **aval explícito do diretor** registrado (mesma lógica já aplicada à validação de relatórios e conteúdo).
+4. **O "termo de equivalência" já usado no relatório de Junho foi validado pelo Cristiano como o formato correto** — deve continuar sendo usado enquanto o aditivo formal não é assinado.
+5. **Novo compromisso:** Studio Virtually passa a enviar o planejamento mensal (ex: Julho) ao Cristiano com antecedência, reduzindo a necessidade de reuniões presenciais e dando previsibilidade a ambos os lados.
+6. Valor de referência de mercado para produção de vídeo institucional avulso para TV (R$5.000–R$10.000) foi trazido por Pri como argumento de apoio — não é uma cotação vinda do Cristiano.
+
+**Nota sobre a transcrição:** dois nomes próprios ("Gabriel", "Uriel") aparecem na transcrição automática, mas foram sinalizados por Pri como possíveis erros de captação (sala com 4 pessoas, áudio imperfeito) — não usar esses nomes como referência até confirmação.
+
+**Status:** Sem aditivo formal ainda. Aguardando encaminhamento do Cristiano com o jurídico. Prática de equivalência via relatório mensal segue validada e em uso.
+
+---
+
 ## 08/07/2026 — Antigravity (Gemini)
 
 ### Análise do Contrato Nº 021/2025 e do Termo de Referência Nº 040/2025
