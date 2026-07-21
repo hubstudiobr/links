@@ -17,6 +17,169 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 21 de julho de 2026 — ChatGPT
+
+### Atualização consolidada — redesign do folder ReCiclo, revisão de conteúdo e identidade institucional permanente
+
+**Contexto:** Entre 17 e 21 de julho, Pri conduziu uma revisão ampla de materiais institucionais do SAAE, com foco principal no redesign completo do folder do Programa ReCiclo e na criação de uma nova capa permanente para o Facebook. Também foram refinadas peças emergenciais e capas de vídeo dentro da identidade editorial do órgão.
+
+### 1. Folder ReCiclo — mudança de abordagem e arquitetura editorial
+
+**Demanda:** Redesenhar integralmente o folder atual do Programa ReCiclo, utilizando o material anterior apenas como fonte de conteúdo, sem reaproveitar layout, composição, arquitetura, grid ou estilo gráfico.
+
+**Decisões estratégicas:**
+- O material deixa de funcionar como folder institucional explicativo e passa a ser um **guia prático para o cidadão**.
+- A pergunta central deixa de ser “como funciona o programa?” e passa a ser “como eu participo?”.
+- O conteúdo deve responder rapidamente às dúvidas reais da população, sem pressupor conhecimento prévio sobre coleta seletiva.
+- Formato mantido como **A4 tríptico**, com reorganização total das seis faces.
+- Estrutura consolidada:
+  1. Capa;
+  2. Como participar;
+  3. O que pode ser reciclado;
+  4. O que não deve ser colocado no ReCiclo;
+  5. Calendário da coleta;
+  6. Canais de atendimento.
+- A seção “Serviços Online” foi retirada do folder para reduzir ruído e preservar foco operacional.
+- A organização deve ser enxuta, didática e escaneável, com títulos diretos, blocos curtos, infográficos simples e bastante espaço em branco.
+
+**Direção visual definida:**
+- Redesign editorial completo, sem adaptação do folder antigo.
+- Aparência de grande estúdio de design editorial e comunicação pública.
+- Uso prioritário de fundo branco, grid limpo, hierarquia tipográfica forte e ilustrações/ícones funcionais.
+- Paleta ligada ao Programa ReCiclo e ao sistema institucional do SAAE, evitando aparência promocional.
+- Não utilizar excesso de curvas, gotas, ondas, texturas, formas decorativas ou estética genérica de órgão público.
+- A marca oficial do Programa ReCiclo deve ser aplicada exatamente como fornecida, sem redesenho, alteração de cores, proporções, tipografia, símbolo ou efeitos.
+
+### 2. Folder ReCiclo — revisão do texto após orientação do Ezaque/Reves
+
+**Contexto:** Ezaque repassou uma orientação do Reves para retirar do folder a ideia de que a sacola oficial do ReCiclo seria obrigatória. A comunicação precisava deixar claro que os recicláveis também podem ser colocados em sacolas comuns/resistentes, desde que corretamente separados, e que o cidadão deve verificar o dia da coleta.
+
+**Decisões de conteúdo:**
+- A sacola oficial do Programa ReCiclo **não será apresentada como obrigatória**.
+- O folder deve informar que os materiais podem ser acondicionados em **sacola resistente ou recipiente adequado**.
+- A orientação “saco de lixo normal” não será usada de forma isolada, por poder gerar confusão com lixo orgânico ou descarte misturado.
+- Os recicláveis devem estar **limpos, secos e separados corretamente**.
+- O cidadão deve consultar o calendário e disponibilizar os materiais somente no dia correspondente ao bairro.
+- O calendário passa a ter papel operacional central no folder, não apenas informativo.
+- Preferência de linguagem: usar “materiais recicláveis” ou “recicláveis” em vez de “lixo reciclável”.
+
+**Estrutura textual consolidada:**
+
+**Capa**
+- Título: “ReCiclo — Guia da Coleta Seletiva”.
+- Texto de apoio sobre separação correta, preservação de recursos naturais, limpeza urbana e fortalecimento da reciclagem em Nova Mutum.
+
+**Como participar**
+1. **Separe:** separar materiais recicláveis dos resíduos orgânicos.
+2. **Acondicione:** colocar os recicláveis limpos e secos em sacola resistente ou recipiente adequado.
+3. **Disponibilize:** consultar o calendário e colocar os materiais em frente à residência somente no dia da coleta do bairro.
+- Destaque: “Não é obrigatório utilizar a sacola do Programa ReCiclo.”
+
+**O que pode ser reciclado**
+- Papel: jornais, revistas, caixas, papelão, folhas e embalagens de papel.
+- Plástico: garrafas PET, embalagens, potes, frascos, sacolas e plásticos em geral.
+- Vidro: garrafas, potes e frascos.
+- Metal: latas de alumínio, latas de aço e outros metais.
+- Embalagens longa vida: caixas de leite, sucos e outras embalagens cartonadas.
+
+**O que não deve ser colocado no ReCiclo**
+- Restos de alimentos;
+- papel higiênico;
+- fraldas descartáveis;
+- absorventes;
+- guardanapos e papéis engordurados;
+- resíduos contaminados;
+- lixo orgânico.
+
+**Descarte especial**
+- Pilhas, baterias, lâmpadas e equipamentos eletrônicos exigem destinação específica e não devem ser colocados junto aos recicláveis.
+- Direcionar o cidadão para consulta dos pontos de entrega no site do SAAE.
+
+**Por que separar**
+- Redução do volume enviado ao aterro sanitário;
+- preservação de recursos naturais;
+- fortalecimento da reciclagem;
+- contribuição para uma cidade mais limpa e sustentável.
+
+**Calendário**
+- Chamada principal: “Confira o dia da coleta no seu bairro.”
+- Reforço obrigatório: “Disponibilize os recicláveis somente no dia correspondente ao calendário da coleta seletiva.”
+
+**Canais de atendimento**
+- Telefone, WhatsApp, site, Instagram, endereço e QR Code, condicionados à conferência dos dados oficiais.
+
+**Pendências de validação institucional do folder:**
+- Confirmar lista final de bairros e dias da coleta.
+- Confirmar contatos e endereço que serão publicados.
+- Confirmar pontos oficiais para descarte especial.
+- Validar a lista final de materiais aceitos e não aceitos.
+- Definir se haverá menção explícita à retirada/distribuição da sacola oficial do ReCiclo.
+
+**Status:** Texto bruto estruturado e direção editorial definidos. Material ainda em revisão e validação institucional; diagramação final e arquivo de impressão não concluídos neste registro.
+
+### 3. Nova capa oficial do Facebook — identidade permanente
+
+**Demanda:** Criar uma nova capa oficial da página do Facebook do SAAE Nova Mutum, sem caráter de campanha ou peça comemorativa, com vida útil de vários anos.
+
+**Diagnóstico da capa anterior:**
+- A capa existente estava associada ao aniversário de 36 anos e apresentava curvas e elementos de campanha.
+- Foi considerada datada, comemorativa e pouco adequada como identidade institucional permanente.
+
+**Conceito aprovado:**
+- Headline: **“NOVA MUTUM CRESCE. O SAAE ACOMPANHA.”**
+- Texto de apoio: **“Infraestrutura, saneamento e qualidade de vida para uma cidade em constante evolução.”**
+- A cidade é a protagonista; o SAAE aparece como estrutura essencial que acompanha o crescimento urbano.
+
+**Fotografia escolhida:**
+- Foto aérea real de Nova Mutum com a sede do SAAE integrada naturalmente à paisagem urbana.
+- A escolha evita transformar a capa em peça sobre uma unidade específica e reforça pertencimento, infraestrutura e presença institucional na cidade.
+
+**Direção visual:**
+- Fotografia em tela cheia/full-bleed.
+- Tratamento fotográfico editorial premium, com melhora de alcance dinâmico, contraste, profundidade, nitidez e equilíbrio de cor.
+- Degradê azul institucional extremamente suave apenas na lateral esquerda, exclusivamente para legibilidade.
+- Composição minimalista, corporativa, editorial, atemporal e sem aparência de campanha.
+- Poucos elementos, amplo respiro e tipografia Montserrat ExtraBold.
+- Uma única linha orgânica muito discreta inspirada no fluxo da água, sem protagonismo.
+- Proibição de caixas, blocos, ondas grandes, gotas, folhas, ícones, texturas, padrões, efeitos 3D, lens flare, colagens ou múltiplas fotos.
+
+**Proteção dos anexos no briefing:**
+- A fotografia deve ser usada exatamente como fornecida, sem alterar cidade, geografia, construções, vegetação, vias ou enquadramento.
+- A marca institucional oficial do SAAE deve ser usada exatamente como fornecida.
+- Não alterar símbolo, tipografia, proporções, cores, composição ou espaçamentos.
+- Não redesenhar, recriar, vetorizar novamente ou aplicar sombra, brilho, contorno, transparência, efeito 3D ou deformação.
+- A marca deve respeitar área de respiro e permanecer sem fundo ou efeitos.
+
+**Status:** Conceito, texto e prompt final consolidados. Arte visual definitiva ainda em desenvolvimento.
+
+### 4. Refinamento de capa de vídeo institucional
+
+**Demanda:** Refinar de forma extremamente sutil um print retirado de vídeo já finalizado, preservando integralmente enquadramento, pessoa, expressão, texto, tipografia, cores, escala e composição.
+
+**Direção definida:**
+- Manter aparência de frame real do vídeo.
+- Aplicar apenas profundidade editorial sutil.
+- Utilizar degradê institucional suave partindo da base.
+- Acrescentar no máximo uma linha gráfica discreta.
+- Não adicionar logo quando ele não fizer parte da necessidade da capa.
+- Não inserir marca d’água, letras, símbolos ou elementos não solicitados.
+
+**Correção importante:** Em uma tentativa de geração surgiu um caractere/marca indevida no canto inferior esquerdo. Foi solicitada a remoção completa dessa marca e reforçado que o foco deveria permanecer apenas na estilização da capa.
+
+**Status:** Direção de refinamento definida; resultado visual ainda sujeito a nova geração/aprovação.
+
+### 5. Aprendizados de processo registrados
+
+- Prompts de direção de arte devem ser entregues completos desde a primeira versão, evitando ciclos sucessivos de “só mais um ajuste”.
+- Toda peça com logo anexado deve conter regra explícita de preservação integral da marca.
+- Em materiais permanentes, evitar conceitos associados a datas, campanhas ou tendências visuais passageiras.
+- Em materiais de utilidade pública, priorizar comportamento esperado do cidadão em vez de explicação institucional abstrata.
+- Para o ReCiclo, o conteúdo deve remover barreiras práticas à participação — especialmente a ideia de que só é possível participar usando uma sacola oficial.
+
+**Status geral desta atualização:** Registro consolidado. Folder ReCiclo e capa do Facebook permanecem em desenvolvimento; decisões estratégicas, textos-base e direções visuais já estão documentados.
+
+---
+
 ## 10 de julho de 2026 — Claude (Saulo)
 
 ### Conteúdo discutido na visita de campo (reunião com Cristiano)
