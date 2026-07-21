@@ -17,6 +17,77 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 21 de julho de 2026 (atualização 2) — ChatGPT
+
+### Aditivo consolidado — demandas dos chats “COMUNICAÇÃO 1” e “/OFF Comunicação” ainda não registradas
+
+**Solicitação:** Atualização realizada por ChatGPT a pedido de Pri, após conferência das atividades desenvolvidas desde a última atualização anterior do log nos chats do projeto SAAE Nova Mutum “COMUNICAÇÃO 1” e “/OFF Comunicação”. Este aditivo registra somente demandas que não estavam contempladas na atualização anterior de 21 de julho, evitando duplicar o redesign do folder ReCiclo, a capa permanente do Facebook e o refinamento da capa de vídeo.
+
+### 1. Programa PRÓ-CATADORES — Story institucional
+
+**Demanda:** Criar um Story 1080 × 1920 para comunicar o início do planejamento do Programa PRÓ-CATADORES, desenvolvido em parceria entre SAAE Nova Mutum, SEBRAE e Associação ReCiclo.
+
+**Texto e conceito definidos:**
+- Headline: **“Planejamento hoje. Mais resultados para a coleta seletiva amanhã.”**
+- Texto de apoio: **“SAAE, SEBRAE e Associação ReCiclo iniciaram o planejamento de ações para fortalecer a coleta seletiva e valorizar o trabalho dos coletores de materiais recicláveis em Nova Mutum.”**
+- Assinatura: **“Programa PRÓ-CATADORES”.**
+- O foco da comunicação foi direcionado ao avanço representado pela parceria, e não à reunião em si.
+
+**Direção visual:**
+- Uso de duas fotografias reais da reunião, preservadas sem alteração de pessoas ou criação de elementos inexistentes.
+- Fotografia principal ocupando aproximadamente 70% da composição e segunda imagem menor sobreposta.
+- Verde institucional `#7CB013` como cor protagonista, texto branco e tipografia Montserrat.
+- Painel translúcido em estilo Liquid Glass institucional, com composição limpa, corporativa e sem aparência de PowerPoint ou arte genérica de IA.
+- Após a primeira geração, Pri solicitou a correção da logomarca e forneceu o arquivo oficial para substituição.
+
+**Status:** Texto, conceito e direção visual concluídos. A correção da logomarca foi solicitada; não há confirmação explícita, no histórico recuperado, de aprovação final ou publicação da versão corrigida.
+
+### 2. Capa de Reels — vídeo sobre o site oficial do SAAE
+
+**Demanda:** Criar uma capa de Reels para o vídeo que apresenta o site oficial `saaenm.com.br` como ponto de acesso aos principais serviços, orientações e informações do SAAE.
+
+**Direção escolhida:**
+- Pri escolheu a **Opção 3**, construída a partir da ideia **“Precisa de um serviço do SAAE? Comece por aqui.”**
+- O endereço `saaenm.com.br` poderia aparecer no layout como elemento de navegação.
+- A capa deveria funcionar somente como chamada para abrir o vídeo no feed, com leitura rápida e sem excesso de informação.
+
+**Correções após a primeira versão:**
+- Não utilizar a página inicial real do site como protagonista, porque sua interface prejudicava o acabamento visual da capa.
+- Evitar poluição visual e não repetir o endereço do site em dois pontos da mesma composição.
+- Trabalhar com uma representação gráfica simplificada da navegação, sem reproduzir literalmente a homepage.
+- Aplicar a paleta institucional identificada no site e preservar uma composição limpa.
+
+**Status:** Conceito escolhido e primeira versão revisada. As correções de simplificação foram definidas, mas não há confirmação explícita, no histórico recuperado, de aprovação final da versão ajustada.
+
+### 3. Comunicado emergencial — rompimento na rede de abastecimento
+
+**Demanda:** Comunicar um rompimento na rede de abastecimento provocado durante uma intervenção externa, informando a população com transparência e sem transformar a mensagem em acusação direta.
+
+**Decisão de formato e narrativa:**
+- Limitar a comunicação a, no máximo, **dois Stories**.
+- Deixar claro que a ocorrência teve causa externa, com redação neutra e institucional.
+- Story 1: informar a manutenção emergencial e contextualizar que a rede foi rompida durante a remoção de uma árvore.
+- Story 2: informar que as equipes do SAAE e da Secretaria de Infraestrutura e Obras atuavam no reparo desde o início da tarde, alertando para possível baixa pressão ou interrupção temporária até a conclusão do serviço.
+- Áreas citadas no comunicado: Jardim Ágata, América e parte do Edelmina Querubim.
+- Reforçar agilidade, responsabilidade e restabelecimento do abastecimento o quanto antes.
+
+**Direção visual:**
+- Formato Instagram Stories 1080 × 1920.
+- Uso obrigatório da fotografia operacional fornecida, sem alterar enquadramento, pessoas, máquinas ou elementos da cena; somente tratamento profissional de cor, contraste, iluminação, nitidez e alcance dinâmico.
+- Fotografia como elemento principal, faixa superior azul com o título **“COMUNICADO”** e painel inferior ocupando aproximadamente 35% da peça em Liquid Glass institucional.
+- Texto branco, destaques pontuais em verde institucional e ausência de ícones, gradientes exagerados ou aparência de panfleto.
+
+**Status:** Estrutura textual e direção visual concluídas para produção do comunicado. A publicação não foi confirmada no histórico recuperado.
+
+### 4. Critério de status aplicado neste aditivo
+
+- Foram separados materiais efetivamente estruturados de etapas ainda sem confirmação de aprovação ou publicação.
+- Não foram registradas como concluídas correções visuais cuja versão final não aparece confirmada nos chats consultados.
+- Demandas já documentadas na atualização anterior de 21 de julho não foram repetidas.
+
+**Status geral:** Aditivo inserido para completar o período posterior à atualização de 10 de julho, com base nos dois chats indicados por Pri.
+
+---
 ## 21 de julho de 2026 — ChatGPT
 
 ### Atualização consolidada — redesign do folder ReCiclo, revisão de conteúdo e identidade institucional permanente
