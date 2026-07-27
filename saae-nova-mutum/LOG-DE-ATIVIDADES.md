@@ -17,6 +17,31 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 26 de julho de 2026 (atualização 2) — ChatGPT
+
+### Peça 2 — carrossel educativo “O desperdício que não faz barulho”
+
+**Demanda:** Produzir a segunda das nove peças previstas para o Instagram do SAAE, em carrossel de quatro quadros, mostrando que vazamentos discretos podem aumentar o consumo e orientando o cidadão a verificar a instalação hidráulica.
+
+**Decisões de execução:**
+- Formato final de cada quadro: 1080 × 1350 px, proporção 4:5, com os quatro arquivos separados.
+- Direção visual de água em azul institucional, construída com sensação de silêncio e atenção: bastante espaço negativo, hierarquia tipográfica em Montserrat e linhas hidráulicas finas como elemento gráfico contínuo.
+- O Quadro 1 utiliza fotografia macro gerada de uma gota se formando em torneira residencial simples, sem atribuir a imagem a um imóvel ou local real de Nova Mutum.
+- Os Quadros 2, 3 e 4 foram resolvidos prioritariamente com tipografia, preservando leitura imediata e evitando excesso de ícones, gotas, respingos ou aparência de propaganda.
+- No Quadro 3, foi mantida a expressão aprovada “milhares de litros”, sem acrescentar estimativa numérica, valor de conta ou promessa de economia.
+- A logomarca oficial branca com verde foi aplicada uma única vez, em tamanho pequeno, no canto inferior do quadro final.
+- Todos os textos do briefing foram mantidos integralmente, sem informações técnicas ou dados adicionais.
+
+**Entregas:**
+1. Capa: “O desperdício mais caro é o que não faz barulho.”
+2. Quadro “Onde ele pode estar” com descarga, torneira e vazamentos sob piso, calçada ou solo.
+3. Quadro sobre o desperdício de milhares de litros sem percepção imediata.
+4. Encerramento orientando verificação, reparo e reaproveitamento da água da máquina de lavar sempre que possível.
+
+**Status:** Produção visual concluída. Os quatro arquivos foram revisados quanto a texto, acentuação, aplicação da marca e dimensões finais de 1080 × 1350 px. Peça 2 aguardando aprovação de Pri antes do início da Peça 3.
+
+---
+
 ## 26 de julho de 2026 — ChatGPT
 
 ### Peça 1 — carrossel educativo sobre PEV, Central de Resíduos e Ecoponto privado
@@ -39,7 +64,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 4. Quadro Ecoponto privado com representação gráfica conceitual e destaque “Não pertence ao SAAE.”
 5. Encerramento orientando a identificação do resíduo e do local correto.
 
-**Status:** Formato 4:5 confirmado nos cinco quadros. Falha de salvamento do Quadro 4 corrigida; arquivo final validado em 1080 × 1350 px, com texto íntegro e representação gráfica conceitual do ecoponto privado. Peça 1 completa, aguardando o OK da Pri antes de iniciar a Peça 2.
+**Status:** Formato 4:5 confirmado nos cinco quadros. Falha de salvamento do Quadro 4 corrigida; arquivo final validado em 1080 × 1350 px, com texto íntegro e representação gráfica conceitual do ecoponto privado. Peça 1 completa e aprovada por Pri; Peça 2 iniciada na sequência.
 
 ---
 
