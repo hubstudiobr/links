@@ -33,16 +33,16 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 - A logomarca oficial branca com verde foi aplicada uma única vez, em tamanho pequeno, no canto inferior do quadro final, sem regeneração ou alteração do arquivo oficial.
 - Todos os textos do briefing foram mantidos integralmente, sem informações técnicas ou dados adicionais.
 - As quatro telas foram padronizadas e validadas tecnicamente em 1080 × 1350 px.
-- Na revisão de aprovação, Pri identificou que o terceiro bloco da Tela 2 ficou excessivamente próximo da borda inferior. Também foi decidido elevar discretamente a logomarca da Tela 4 para ampliar o respiro do fechamento; os demais elementos da direção aprovada devem ser preservados.
+- Na revisão final, o fechamento inferior da Tela 2 foi recuado da borda, criando uma margem de segurança visível sem alterar texto, fotografia ou hierarquia. Na Tela 4, a logomarca oficial foi elevada discretamente, mantendo tamanho, proporção e cores.
 
 **Entregas:**
 1. Capa: “O desperdício mais caro é o que não faz barulho.”
 2. Tela “Onde ele pode estar” com três situações domésticas visualmente identificáveis.
 3. Tela sobre o desperdício de milhares de litros com recurso editorial inspirado em hidrômetro.
 4. Encerramento visual orientando verificação, reparo e reaproveitamento da água da máquina de lavar sempre que possível.
-5. Pacote compactado: `SAAE_Peca02_Carrossel_Revisado.zip`.
+5. Pacote compactado final: `SAAE_Peca02_Carrossel_Final.zip`.
 
-**Status:** Tela 1 aprovada e preservada. Nova direção visual das Telas 2, 3 e 4 aprovada por Pri, com ajuste pontual pendente: aumentar a margem inferior do terceiro bloco da Tela 2 e elevar discretamente a logomarca da Tela 4. A primeira versão dessas três telas permanece descartada como arte final.
+**Status:** Peça 2 concluída após ajuste final de margem na Tela 2 e reposicionamento da logomarca na Tela 4. As quatro telas foram validadas em 1080 × 1350 px e reunidas no pacote final. A primeira versão das Telas 2, 3 e 4 permanece descartada como arte final.
 
 ---
 
