@@ -25,20 +25,23 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 **Decisões de execução:**
 - Formato final de cada quadro: 1080 × 1350 px, proporção 4:5, com os quatro arquivos separados.
-- Direção visual de água em azul institucional, construída com sensação de silêncio e atenção: bastante espaço negativo, hierarquia tipográfica em Montserrat e linhas hidráulicas finas como elemento gráfico contínuo.
-- O Quadro 1 utiliza fotografia macro gerada de uma gota se formando em torneira residencial simples, sem atribuir a imagem a um imóvel ou local real de Nova Mutum.
-- Após revisão de Pri, o Quadro 1 foi mantido como direção aprovada, enquanto os Quadros 2, 3 e 4 retornaram à revisão por excesso de solução all type. A nova direção explorará mais recursos já previstos no design system: vinhetas visuais conectadas por linhas hidráulicas, composição técnica/editorial inspirada em hidrômetro e blocos de ação visual, sem infantilização nem decoração gratuita.
-- No Quadro 3, foi mantida a expressão aprovada “milhares de litros”, sem acrescentar estimativa numérica, valor de conta ou promessa de economia.
-- A logomarca oficial branca com verde foi aplicada uma única vez, em tamanho pequeno, no canto inferior do quadro final.
+- A Tela 1 foi aprovada por Pri e mantida integralmente: fotografia macro de uma gota se formando em torneira residencial simples, sem atribuir a imagem a um imóvel ou local real de Nova Mutum.
+- Após a primeira versão, Pri identificou excesso de solução all type nas Telas 2, 3 e 4. A revisão abandonou a repetição tipográfica e passou a explorar diferentes recursos do design system, preservando a sensação de silêncio e atenção.
+- A Tela 2 foi redesenhada como diagnóstico visual em três situações domésticas conectadas por linha hidráulica: mecanismo de descarga, torneira pingando e vazamento oculto sob piso, calçada ou solo.
+- A Tela 3 combina hierarquia tipográfica com linguagem técnica/editorial inspirada em hidrômetro. Foi mantida a expressão aprovada “milhares de litros”, sem acrescentar estimativa numérica, valor de conta ou promessa de economia.
+- A Tela 4 transforma as orientações em dois módulos visuais de ação: reparo da instalação e reaproveitamento da água da máquina de lavar. O verde aparece apenas como acento funcional.
+- A logomarca oficial branca com verde foi aplicada uma única vez, em tamanho pequeno, no canto inferior do quadro final, sem regeneração ou alteração do arquivo oficial.
 - Todos os textos do briefing foram mantidos integralmente, sem informações técnicas ou dados adicionais.
+- As quatro telas foram padronizadas e validadas tecnicamente em 1080 × 1350 px.
 
 **Entregas:**
 1. Capa: “O desperdício mais caro é o que não faz barulho.”
-2. Quadro “Onde ele pode estar” com descarga, torneira e vazamentos sob piso, calçada ou solo.
-3. Quadro sobre o desperdício de milhares de litros sem percepção imediata.
-4. Encerramento orientando verificação, reparo e reaproveitamento da água da máquina de lavar sempre que possível.
+2. Tela “Onde ele pode estar” com três situações domésticas visualmente identificáveis.
+3. Tela sobre o desperdício de milhares de litros com recurso editorial inspirado em hidrômetro.
+4. Encerramento visual orientando verificação, reparo e reaproveitamento da água da máquina de lavar sempre que possível.
+5. Pacote compactado: `SAAE_Peca02_Carrossel_Revisado.zip`.
 
-**Status:** Quadro 1 aprovado por Pri e preservado sem alterações. Quadros 2, 3 e 4 em revisão de direção de arte; a primeira versão desses três quadros não deve ser considerada final. Regeneração pendente de autorização de Pri.
+**Status:** Tela 1 aprovada e preservada. Telas 2, 3 e 4 regeneradas, revisadas e validadas em 1080 × 1350 px; nova direção de arte aguardando aprovação de Pri. A primeira versão dessas três telas permanece descartada como arte final.
 
 ---
 
