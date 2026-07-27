@@ -17,6 +17,31 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+## 26 de julho de 2026 — ChatGPT
+
+### Peça 1 — carrossel educativo sobre PEV, Central de Resíduos e Ecoponto privado
+
+**Demanda:** Produzir a primeira das nove peças previstas para o Instagram do SAAE, em carrossel de cinco quadros, explicando de forma rápida que PEV, Central de Resíduos e Ecoponto privado são estruturas diferentes, com funções e regras próprias.
+
+**Decisões de execução:**
+- Formato final de cada quadro: 1080 × 1350 px, proporção 4:5.
+- Fotografia real do SAAE utilizada somente no quadro do PEV Jardim América, preservando o caráter documental da estrutura existente.
+- Como não há fotografias disponíveis da Central de Resíduos nem dos ecopontos privados, esses quadros foram resolvidos com linguagem gráfica conceitual e institucional, sem tentar reproduzir, inventar ou simular locais de Nova Mutum.
+- Direção visual baseada em Civic Minimalism: hierarquia tipográfica forte, Montserrat, paleta verde para resíduos, azul institucional como apoio, bastante respiro e linhas orgânicas discretas inspiradas em rotas e fluxos.
+- A logomarca aparece uma única vez, de forma discreta, na capa.
+- Mantidos integralmente os textos aprovados, sem acrescentar horários, endereços, empresas ou informações não confirmadas.
+
+**Entregas:**
+1. Capa: “PEV, Central de Resíduos e Ecoponto não são a mesma coisa.”
+2. Quadro PEV com fotografia real e orientações de uso.
+3. Quadro Central de Resíduos com representação gráfica conceitual e esclarecimento “Não é lixão.”
+4. Quadro Ecoponto privado com representação gráfica conceitual e destaque “Não pertence ao SAAE.”
+5. Encerramento orientando a identificação do resíduo e do local correto.
+
+**Status:** Cinco quadros concluídos e entregues para revisão da Pri. Aguardando aprovação ou solicitação de ajustes antes de iniciar a Peça 2.
+
+---
+
 ## 21 de julho de 2026 (atualização 2) — ChatGPT
 
 ### Aditivo consolidado — demandas dos chats “COMUNICAÇÃO 1” e “/OFF Comunicação” ainda não registradas
