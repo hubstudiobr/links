@@ -27,7 +27,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 - Formato final de cada quadro: 1080 × 1350 px, proporção 4:5, com os quatro arquivos separados.
 - Direção visual de água em azul institucional, construída com sensação de silêncio e atenção: bastante espaço negativo, hierarquia tipográfica em Montserrat e linhas hidráulicas finas como elemento gráfico contínuo.
 - O Quadro 1 utiliza fotografia macro gerada de uma gota se formando em torneira residencial simples, sem atribuir a imagem a um imóvel ou local real de Nova Mutum.
-- Os Quadros 2, 3 e 4 foram resolvidos prioritariamente com tipografia, preservando leitura imediata e evitando excesso de ícones, gotas, respingos ou aparência de propaganda.
+- Após revisão de Pri, o Quadro 1 foi mantido como direção aprovada, enquanto os Quadros 2, 3 e 4 retornaram à revisão por excesso de solução all type. A nova direção explorará mais recursos já previstos no design system: vinhetas visuais conectadas por linhas hidráulicas, composição técnica/editorial inspirada em hidrômetro e blocos de ação visual, sem infantilização nem decoração gratuita.
 - No Quadro 3, foi mantida a expressão aprovada “milhares de litros”, sem acrescentar estimativa numérica, valor de conta ou promessa de economia.
 - A logomarca oficial branca com verde foi aplicada uma única vez, em tamanho pequeno, no canto inferior do quadro final.
 - Todos os textos do briefing foram mantidos integralmente, sem informações técnicas ou dados adicionais.
@@ -38,7 +38,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 3. Quadro sobre o desperdício de milhares de litros sem percepção imediata.
 4. Encerramento orientando verificação, reparo e reaproveitamento da água da máquina de lavar sempre que possível.
 
-**Status:** Produção visual concluída. Os quatro arquivos foram revisados quanto a texto, acentuação, aplicação da marca e dimensões finais de 1080 × 1350 px. Peça 2 aguardando aprovação de Pri antes do início da Peça 3.
+**Status:** Quadro 1 aprovado por Pri e preservado sem alterações. Quadros 2, 3 e 4 em revisão de direção de arte; a primeira versão desses três quadros não deve ser considerada final. Regeneração pendente de autorização de Pri.
 
 ---
 
