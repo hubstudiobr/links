@@ -33,6 +33,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 - A logomarca oficial branca com verde foi aplicada uma única vez, em tamanho pequeno, no canto inferior do quadro final, sem regeneração ou alteração do arquivo oficial.
 - Todos os textos do briefing foram mantidos integralmente, sem informações técnicas ou dados adicionais.
 - As quatro telas foram padronizadas e validadas tecnicamente em 1080 × 1350 px.
+- Na revisão de aprovação, Pri identificou que o terceiro bloco da Tela 2 ficou excessivamente próximo da borda inferior. Também foi decidido elevar discretamente a logomarca da Tela 4 para ampliar o respiro do fechamento; os demais elementos da direção aprovada devem ser preservados.
 
 **Entregas:**
 1. Capa: “O desperdício mais caro é o que não faz barulho.”
@@ -41,7 +42,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 4. Encerramento visual orientando verificação, reparo e reaproveitamento da água da máquina de lavar sempre que possível.
 5. Pacote compactado: `SAAE_Peca02_Carrossel_Revisado.zip`.
 
-**Status:** Tela 1 aprovada e preservada. Telas 2, 3 e 4 regeneradas, revisadas e validadas em 1080 × 1350 px; nova direção de arte aguardando aprovação de Pri. A primeira versão dessas três telas permanece descartada como arte final.
+**Status:** Tela 1 aprovada e preservada. Nova direção visual das Telas 2, 3 e 4 aprovada por Pri, com ajuste pontual pendente: aumentar a margem inferior do terceiro bloco da Tela 2 e elevar discretamente a logomarca da Tela 4. A primeira versão dessas três telas permanece descartada como arte final.
 
 ---
 
