@@ -25,7 +25,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 **Decisões de execução:**
 - Formato final de cada quadro: 1080 × 1350 px, proporção 4:5.
-- Revisão técnica posterior confirmou 1080 × 1350 px (4:5) nos Quadros 1, 2, 3 e 5. O arquivo entregue do Quadro 4 apresentou falha de salvamento (0 bytes) e precisa ser regenerado.
+- Revisão técnica confirmou 1080 × 1350 px (4:5) nos cinco quadros. O Quadro 4 havia sido gerado corretamente, mas o arquivo de entrega foi salvo com 0 bytes; a geração original foi recuperada, padronizada e validada sem alterar a composição aprovada.
 - Fotografia real do SAAE utilizada somente no quadro do PEV Jardim América, preservando o caráter documental da estrutura existente.
 - Como não há fotografias disponíveis da Central de Resíduos nem dos ecopontos privados, esses quadros foram resolvidos com linguagem gráfica conceitual e institucional, sem tentar reproduzir, inventar ou simular locais de Nova Mutum.
 - Direção visual baseada em Civic Minimalism: hierarquia tipográfica forte, Montserrat, paleta verde para resíduos, azul institucional como apoio, bastante respiro e linhas orgânicas discretas inspiradas em rotas e fluxos.
@@ -39,7 +39,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 4. Quadro Ecoponto privado com representação gráfica conceitual e destaque “Não pertence ao SAAE.”
 5. Encerramento orientando a identificação do resíduo e do local correto.
 
-**Status:** Formato 4:5 confirmado. Quadros 1, 2, 3 e 5 válidos; Quadro 4 pendente de regeneração por falha de arquivo. Aguardando correção do Quadro 4 e aprovação da Pri antes de iniciar a Peça 2.
+**Status:** Formato 4:5 confirmado nos cinco quadros. Falha de salvamento do Quadro 4 corrigida; arquivo final validado em 1080 × 1350 px, com texto íntegro e representação gráfica conceitual do ecoponto privado. Peça 1 completa, aguardando o OK da Pri antes de iniciar a Peça 2.
 
 ---
 
