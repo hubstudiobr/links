@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Virtually Studio — Comunicação e imagem de marca</title>
 <meta name="description" content="Virtually Studio: estratégia, produção e gestão de comunicação para instituições e empresas que precisam ser levadas a sério — e também vender.">
+<link rel="canonical" href="https://hubstudiobr.github.io/links/prospeccao/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Virtually Studio — Comunicação e Imagem de Marca">
+<meta property="og:description" content="Cuidamos da estratégia, produção e gestão de comunicação de instituições e empresas que precisam ser levadas a sério — e também vender.">
+<meta property="og:image" content="https://raw.githubusercontent.com/hubstudiobr/assets/main/logos/studio-virtually/virtually-lockup-horizontal.png">
+<meta property="og:url" content="https://hubstudiobr.github.io/links/prospeccao/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="https://raw.githubusercontent.com/hubstudiobr/assets/main/logos/studio-virtually/virtually-mark.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,8 +57,43 @@
   p{color:var(--dim); font-size:15px; max-width:600px;}
   .lead{font-size:clamp(15px,1.5vw,17px); color:#c4c4bd; max-width:520px;}
 
-  .reveal{opacity:0; transform:translateY(20px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal{opacity:0; transform:translateY(20px); will-change:transform,opacity;
+    transition:opacity .65s cubic-bezier(0.16,1,0.3,1), transform .65s cubic-bezier(0.16,1,0.3,1);}
   .reveal.in{opacity:1; transform:none;}
+
+  /* ---------- WHATSAPP FLUTUANTE ---------- */
+  .wa-float{
+    position:fixed; bottom:22px; right:22px; z-index:60;
+    width:54px; height:54px; border-radius:50%; background:var(--lime);
+    display:flex; align-items:center; justify-content:center;
+    animation:wa-pulse 2.6s infinite;
+  }
+  .wa-float svg{width:26px; height:26px;}
+  @keyframes wa-pulse{
+    0%{box-shadow:0 0 0 0 rgba(190,247,7,0.5);}
+    70%{box-shadow:0 0 0 16px rgba(190,247,7,0);}
+    100%{box-shadow:0 0 0 0 rgba(190,247,7,0);}
+  }
+
+  /* ---------- VIDEO COVER ---------- */
+  .video-cover{
+    position:relative; display:flex; flex-direction:column; justify-content:flex-end;
+    margin-top:20px; height:170px; padding:18px; overflow:hidden;
+    background:repeating-linear-gradient(135deg, #0a0a0a 0px, #0a0a0a 34px, #111 34px, #111 68px);
+    border:1px solid var(--line); transition:border-color .3s ease, transform .3s ease;
+  }
+  .video-cover:hover{border-color:var(--lime); transform:translateY(-3px);}
+  .video-play{
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    width:46px; height:46px; border:2px solid var(--lime); border-radius:50%;
+    display:flex; align-items:center; justify-content:center; color:var(--lime); font-size:14px;
+    background:rgba(0,0,0,0.55); transition:transform .3s ease, background .3s ease, color .3s ease;
+  }
+  .video-cover:hover .video-play{transform:translate(-50%,-50%) scale(1.12); background:var(--lime); color:#000;}
+  .video-meta{position:relative; z-index:1;}
+  .video-tag{font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:var(--lime); display:block; margin-bottom:5px;}
+  .video-meta h4{font-size:14px; font-weight:600; color:var(--white); margin-bottom:3px;}
+  .video-stat{font-size:11.5px; color:var(--dim);}
 
   /* ---------- SCROLL PROGRESS ---------- */
   .progress{position:fixed; top:0; left:0; height:2px; background:var(--lime); width:0%; z-index:100; transition:width .1s linear;}
@@ -297,6 +339,14 @@
         <div class="stat"><b class="count" data-value="132" data-decimals="0" data-suffix="" data-prefix="+">0</b><span>Novos seguidores / mês</span></div>
       </div>
       <div class="case-note">Médias mensais com base nos relatórios de março a junho de 2026 — período mais recente documentado (gestão da conta iniciada em julho/2025).</div>
+      <a class="video-cover" href="https://www.instagram.com/p/DZsydOtobwg/" target="_blank" rel="noopener">
+        <div class="video-play">▶</div>
+        <div class="video-meta">
+          <span class="video-tag">Reel · Orgânico</span>
+          <h4>PEV Palmeiras Chegou</h4>
+          <span class="video-stat">27,6K visualizações · ver no Instagram ↗</span>
+        </div>
+      </a>
     </div>
 
     <!-- CASE ODC -->
@@ -310,6 +360,14 @@
         <li>Roteiro sob medida por perfil: linguagem técnica e educativa para uma profissional, tom comercial e espontâneo para a outra.</li>
         <li>Estrutura de roteiro em duas colunas — cena e fala — para eliminar imprevisto no dia da gravação.</li>
       </ul>
+      <a class="video-cover" href="https://www.instagram.com/odontocompanydiamantino/" target="_blank" rel="noopener">
+        <div class="video-play">▶</div>
+        <div class="video-meta">
+          <span class="video-tag">Instagram · @odontocompanydiamantino</span>
+          <h4>Reels da OdontoCompany Diamantino</h4>
+          <span class="video-stat">ver no perfil ↗</span>
+        </div>
+      </a>
     </div>
   </section>
 
@@ -347,6 +405,10 @@
   </section>
 
 </main>
+
+<a class="wa-float" href="https://wa.me/5565996257009" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#000"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39c1.44.79 3.07 1.2 4.72 1.2h.01c5.46 0 9.91-4.45 9.91-9.9C21.93 6.45 17.5 2 12.04 2zm5.8 14.02c-.24.68-1.4 1.31-1.93 1.35-.5.05-1.02.24-3.43-.72-2.9-1.16-4.77-4.06-4.92-4.25-.14-.19-1.18-1.57-1.18-3s.75-2.12 1.02-2.41c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2 .88 2.15.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.12.57.17.29.75 1.24 1.62 2 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.63-.14.26.1 1.65.78 1.94.92.29.14.48.21.55.33.07.12.07.67-.17 1.34z"/></svg>
+</a>
 
 <footer>
   <div class="wrap foot-row">
