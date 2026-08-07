@@ -708,11 +708,19 @@
   }, {once:true});
 
   // ---------- CEREBRO (COMO PENSAMOS) ----------
+  const canHover = window.matchMedia('(hover: hover)').matches;
   document.querySelectorAll('.think-item').forEach(item=>{
     const q = document.querySelector('.brain-q[data-q="' + item.dataset.brain + '"]');
     if(!q) return;
-    item.addEventListener('mouseenter', ()=> q.classList.add('active'));
-    item.addEventListener('mouseleave', ()=> q.classList.remove('active'));
+    if(canHover){
+      item.addEventListener('mouseenter', ()=> q.classList.add('active'));
+      item.addEventListener('mouseleave', ()=> q.classList.remove('active'));
+    } else {
+      item.addEventListener('click', ()=>{
+        document.querySelectorAll('.brain-q.active').forEach(el=>el.classList.remove('active'));
+        q.classList.add('active');
+      });
+    }
   });
 
   // ---------- SCROLL REVEAL ----------
