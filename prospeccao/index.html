@@ -117,7 +117,13 @@
   .btn-primary:hover{background:transparent; color:var(--lime); border-color:var(--lime); transform:translateY(-2px);}
 
   /* ---------- COMO PENSAMOS (4 passos) ---------- */
-  .think-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:36px;}
+  .brain-wrap{display:flex; justify-content:center; margin-top:8px; margin-bottom:8px;}
+  .brain-svg{width:190px; height:auto; display:block;}
+  .brain-q{fill:rgba(190,247,7,0.05); transition:fill .35s ease;}
+  .brain-q.active{fill:rgba(190,247,7,0.32);}
+  .brain-outline{fill:none; stroke:rgba(255,255,255,0.28); stroke-width:1.4; stroke-linejoin:round; stroke-linecap:round;}
+  .brain-div{stroke:rgba(255,255,255,0.14); stroke-width:1; stroke-dasharray:2 3;}
+  .think-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:28px;}
   @media (max-width:900px){ .think-grid{grid-template-columns:repeat(2,1fr);} }
   @media (max-width:520px){ .think-grid{grid-template-columns:1fr;} }
   .think-item{
@@ -125,13 +131,6 @@
     transition:border-color .3s ease, transform .3s ease;
   }
   .think-item:hover{border-color:var(--lime); transform:translateY(-3px);}
-  .think-item:hover .think-icon{transform:scale(1.1); border-color:var(--lime); color:var(--lime);}
-  .think-icon{
-    width:36px; height:36px; margin-bottom:16px; border:1px solid rgba(255,255,255,0.12);
-    display:flex; align-items:center; justify-content:center; color:var(--dim);
-    transition:transform .3s cubic-bezier(0.16,1,0.3,1), border-color .3s ease, color .3s ease;
-  }
-  .think-icon svg{width:18px; height:18px;}
   .think-item h3{font-size:14.5px; margin-bottom:8px; font-weight:700;}
   .think-item p{font-size:12.5px; color:#8f8f89; margin:0; line-height:1.55; max-width:none;}
 
@@ -429,32 +428,38 @@
   <section>
     <div class="wrap reveal">
       <h2>Como pensamos</h2>
+      <div class="brain-wrap">
+        <svg class="brain-svg" viewBox="0 0 240 200" aria-hidden="true">
+          <defs>
+            <clipPath id="brainClip">
+              <path d="M120,35 Q150,20 162.5,32.5 Q175,45 187.5,47.5 Q200,50 206,70 Q212,90 208.5,110 Q205,130 195,142.5 Q185,155 172.5,160 Q160,165 120,150 Q80,165 67.5,160 Q55,155 45,142.5 Q35,130 31.5,110 Q28,90 34,70 Q40,50 52.5,47.5 Q65,45 77.5,32.5 Q90,20 120,35 Z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#brainClip)">
+            <rect class="brain-q" data-q="1" x="0" y="0" width="120" height="93"></rect>
+            <rect class="brain-q" data-q="2" x="120" y="0" width="120" height="93"></rect>
+            <rect class="brain-q" data-q="3" x="0" y="93" width="120" height="107"></rect>
+            <rect class="brain-q" data-q="4" x="120" y="93" width="120" height="107"></rect>
+          </g>
+          <path class="brain-outline" d="M120,35 Q150,20 162.5,32.5 Q175,45 187.5,47.5 Q200,50 206,70 Q212,90 208.5,110 Q205,130 195,142.5 Q185,155 172.5,160 Q160,165 120,150 Q80,165 67.5,160 Q55,155 45,142.5 Q35,130 31.5,110 Q28,90 34,70 Q40,50 52.5,47.5 Q65,45 77.5,32.5 Q90,20 120,35 Z"/>
+          <line class="brain-div" x1="120" y1="18" x2="120" y2="167"/>
+          <line class="brain-div" x1="26" y1="93" x2="214" y2="93"/>
+        </svg>
+      </div>
       <div class="think-grid">
-        <div class="think-item">
-          <div class="think-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.6-4.6"/></svg>
-          </div>
+        <div class="think-item" data-brain="1">
           <h3>Entender</h3>
           <p>Toda comunicação começa entendendo o contexto, o desafio e o objetivo.</p>
         </div>
-        <div class="think-item">
-          <div class="think-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V10l8-6 8 6v10"/><path d="M9 20v-7h6v7"/></svg>
-          </div>
+        <div class="think-item" data-brain="2">
           <h3>Construir</h3>
           <p>Transformamos informações em narrativas, campanhas, conteúdos e materiais.</p>
         </div>
-        <div class="think-item">
-          <div class="think-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="14" height="12" rx="1.5"/><path d="M17 10l4-2.5v9L17 14"/></svg>
-          </div>
+        <div class="think-item" data-brain="3">
           <h3>Produzir</h3>
           <p>Audiovisual, design e comunicação trabalhando juntos para dar forma à ideia.</p>
         </div>
-        <div class="think-item">
-          <div class="think-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 16l6-6 4 4 6-8"/><path d="M14 6h6v6"/></svg>
-          </div>
+        <div class="think-item" data-brain="4">
           <h3>Evoluir</h3>
           <p>Analisamos resultados, ajustamos rotas e mantemos a comunicação em movimento.</p>
         </div>
@@ -701,6 +706,14 @@
     testiVideoBox.classList.add('playing');
     testiVideoBox.removeEventListener('click', loadAndPlay);
   }, {once:true});
+
+  // ---------- CEREBRO (COMO PENSAMOS) ----------
+  document.querySelectorAll('.think-item').forEach(item=>{
+    const q = document.querySelector('.brain-q[data-q="' + item.dataset.brain + '"]');
+    if(!q) return;
+    item.addEventListener('mouseenter', ()=> q.classList.add('active'));
+    item.addEventListener('mouseleave', ()=> q.classList.remove('active'));
+  });
 
   // ---------- SCROLL REVEAL ----------
   const revealEls = document.querySelectorAll('.reveal');
