@@ -343,20 +343,20 @@
   .team-bio{font-size:13px; color:#9f9f97; margin:0; line-height:1.5;}
 
   /* ---------- POR QUE ---------- */
-  .why-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:26px; margin-top:36px;}
-  @media (max-width:700px){ .why-grid{grid-template-columns:1fr;} }
+  .why-list{margin-top:32px; border-top:1px solid rgba(255,255,255,0.06);}
   .why-item{
-    background:#080808; border:1px solid rgba(255,255,255,0.06); padding:26px;
-    display:flex; gap:16px; transition:border-color .3s ease;
+    display:flex; align-items:center; gap:16px; padding:20px 2px;
+    border-bottom:1px solid rgba(255,255,255,0.06);
+    transition:padding-left .3s ease;
   }
-  .why-item:hover{border-color:var(--lime);}
+  .why-item:hover{padding-left:10px;}
   .why-mark{
     flex:none; width:12px; height:12px; border:1px solid var(--lime); background:transparent;
-    margin-top:4px; transform:rotate(45deg); transition:transform .3s ease, background-color .3s ease;
+    transform:rotate(45deg); transition:transform .3s ease, background-color .3s ease;
   }
   .why-item:hover .why-mark{transform:rotate(135deg); background-color:var(--lime);}
-  .why-item h3{font-size:14.5px; margin-bottom:6px; font-weight:700;}
-  .why-item p{font-size:12.5px; color:#8f8f89; margin:0; line-height:1.55;}
+  .why-item p{font-size:13.5px; color:#9f9f97; margin:0; line-height:1.55; max-width:640px;}
+  .why-item p b{color:var(--white); font-weight:700;}
 
   /* ---------- CLIENTES ---------- */
   .clients-row{display:flex; flex-wrap:wrap; gap:12px; margin-top:24px;}
@@ -572,22 +572,22 @@
     <div class="reveal">
       <h2>Diferencial não é slogan.<br>É como o trabalho é feito.</h2>
     </div>
-    <div class="why-grid reveal">
+    <div class="why-list reveal">
       <div class="why-item">
         <div class="why-mark"></div>
-        <div><h3>Atendimento próximo, do início ao fim</h3><p>Cada projeto é acompanhado de perto, do planejamento à entrega.</p></div>
+        <p><b>Atendimento próximo</b> — acompanhamos cada projeto do planejamento à entrega.</p>
       </div>
       <div class="why-item">
         <div class="why-mark"></div>
-        <div><h3>Raiz no interior de Mato Grosso</h3><p>Entendemos o público local de verdade — sem caricatura, sem clichê regional forçado.</p></div>
+        <p><b>Raiz no interior de Mato Grosso</b> — entendemos o público local de verdade, sem clichê regional forçado.</p>
       </div>
       <div class="why-item">
         <div class="why-mark"></div>
-        <div><h3>Relatório real, todo mês</h3><p>Número documentado, não promessa vaga. O cliente sabe exatamente o que foi entregue.</p></div>
+        <p><b>Relatório real, todo mês</b> — número documentado, não promessa vaga.</p>
       </div>
       <div class="why-item">
         <div class="why-mark"></div>
-        <div><h3>Decisão sempre revisada por gente</h3><p>Tecnologia acelera produção. A decisão final continua sendo humana.</p></div>
+        <p><b>Decisão revisada por gente</b> — tecnologia acelera a produção, a decisão final continua humana.</p>
       </div>
     </div>
     </div>
