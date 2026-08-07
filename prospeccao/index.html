@@ -116,23 +116,32 @@
   }
   .btn-primary:hover{background:transparent; color:var(--lime); border-color:var(--lime); transform:translateY(-2px);}
 
-  /* ---------- COMO PENSAMOS (4 passos) ---------- */
-  .brain-wrap{display:flex; justify-content:center; margin-top:8px; margin-bottom:8px;}
+  /* ---------- COMO PENSAMOS (cerebro) ---------- */
+  .brain-wrap{position:relative; width:fit-content; margin:16px auto 0; padding:0 58px;}
   .brain-svg{width:190px; height:auto; display:block;}
   .brain-q{fill:rgba(190,247,7,0.05); transition:fill .35s ease;}
   .brain-q.active{fill:rgba(190,247,7,0.32);}
   .brain-outline{fill:none; stroke:rgba(255,255,255,0.28); stroke-width:1.4; stroke-linejoin:round; stroke-linecap:round;}
   .brain-div{stroke:rgba(255,255,255,0.14); stroke-width:1; stroke-dasharray:2 3;}
-  .think-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:28px;}
-  @media (max-width:900px){ .think-grid{grid-template-columns:repeat(2,1fr);} }
-  @media (max-width:520px){ .think-grid{grid-template-columns:1fr;} }
-  .think-item{
-    background:#080808; border:1px solid rgba(255,255,255,0.06); padding:24px 20px;
-    transition:border-color .3s ease, transform .3s ease;
+  .brain-label{
+    position:absolute; background:none; border:none; font-family:inherit; cursor:pointer; padding:6px;
+    font-size:10.5px; font-weight:800; letter-spacing:1.2px; text-transform:uppercase; color:var(--dim);
+    transition:color .3s ease;
   }
-  .think-item:hover{border-color:var(--lime); transform:translateY(-3px);}
-  .think-item h3{font-size:14.5px; margin-bottom:8px; font-weight:700;}
-  .think-item p{font-size:12.5px; color:#8f8f89; margin:0; line-height:1.55; max-width:none;}
+  .brain-label.active{color:var(--lime);}
+  .brain-label[data-pos="tl"]{top:10px; left:0;}
+  .brain-label[data-pos="tr"]{top:10px; right:0;}
+  .brain-label[data-pos="bl"]{bottom:10px; left:0;}
+  .brain-label[data-pos="br"]{bottom:10px; right:0;}
+  .brain-caption{
+    margin:24px auto 0; max-width:420px; min-height:44px; text-align:center;
+    font-size:13px; color:#9f9f97; line-height:1.55;
+  }
+  @media (max-width:520px){
+    .brain-wrap{padding:0 46px;}
+    .brain-svg{width:160px;}
+    .brain-label{font-size:9.5px;}
+  }
 
   /* ---------- SERVIÇOS (cards horizontais) ---------- */
   .service-cards{display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:36px;}
@@ -429,6 +438,10 @@
     <div class="wrap reveal">
       <h2>Como pensamos</h2>
       <div class="brain-wrap">
+        <button class="brain-label" type="button" data-pos="tl" data-q="1">Entender</button>
+        <button class="brain-label" type="button" data-pos="tr" data-q="2">Construir</button>
+        <button class="brain-label" type="button" data-pos="bl" data-q="3">Produzir</button>
+        <button class="brain-label" type="button" data-pos="br" data-q="4">Evoluir</button>
         <svg class="brain-svg" viewBox="0 0 240 200" aria-hidden="true">
           <defs>
             <clipPath id="brainClip">
@@ -446,24 +459,7 @@
           <line class="brain-div" x1="26" y1="93" x2="214" y2="93"/>
         </svg>
       </div>
-      <div class="think-grid">
-        <div class="think-item" data-brain="1">
-          <h3>Entender</h3>
-          <p>Toda comunicação começa entendendo o contexto, o desafio e o objetivo.</p>
-        </div>
-        <div class="think-item" data-brain="2">
-          <h3>Construir</h3>
-          <p>Transformamos informações em narrativas, campanhas, conteúdos e materiais.</p>
-        </div>
-        <div class="think-item" data-brain="3">
-          <h3>Produzir</h3>
-          <p>Audiovisual, design e comunicação trabalhando juntos para dar forma à ideia.</p>
-        </div>
-        <div class="think-item" data-brain="4">
-          <h3>Evoluir</h3>
-          <p>Analisamos resultados, ajustamos rotas e mantemos a comunicação em movimento.</p>
-        </div>
-      </div>
+      <p class="brain-caption" id="brainCaption">Toda comunicação começa entendendo o contexto, o desafio e o objetivo.</p>
     </div>
   </section>
 
@@ -709,19 +705,30 @@
 
   // ---------- CEREBRO (COMO PENSAMOS) ----------
   const canHover = window.matchMedia('(hover: hover)').matches;
-  document.querySelectorAll('.think-item').forEach(item=>{
-    const q = document.querySelector('.brain-q[data-q="' + item.dataset.brain + '"]');
-    if(!q) return;
+  const brainCaptions = {
+    "1": "Toda comunicação começa entendendo o contexto, o desafio e o objetivo.",
+    "2": "Transformamos informações em narrativas, campanhas, conteúdos e materiais.",
+    "3": "Audiovisual, design e comunicação trabalhando juntos para dar forma à ideia.",
+    "4": "Analisamos resultados, ajustamos rotas e mantemos a comunicação em movimento."
+  };
+  const brainCaption = document.getElementById('brainCaption');
+  const brainLabels = document.querySelectorAll('.brain-label');
+  function setBrainActive(qId){
+    brainLabels.forEach(l=> l.classList.toggle('active', l.dataset.q === qId));
+    document.querySelectorAll('.brain-q').forEach(q=> q.classList.toggle('active', q.dataset.q === qId));
+    brainCaption.textContent = brainCaptions[qId];
+  }
+  brainLabels.forEach(label=>{
     if(canHover){
-      item.addEventListener('mouseenter', ()=> q.classList.add('active'));
-      item.addEventListener('mouseleave', ()=> q.classList.remove('active'));
+      label.addEventListener('mouseenter', ()=> setBrainActive(label.dataset.q));
     } else {
-      item.addEventListener('click', ()=>{
-        document.querySelectorAll('.brain-q.active').forEach(el=>el.classList.remove('active'));
-        q.classList.add('active');
-      });
+      label.addEventListener('click', ()=> setBrainActive(label.dataset.q));
     }
   });
+  if(canHover){
+    document.querySelector('.brain-wrap').addEventListener('mouseleave', ()=> setBrainActive('1'));
+  }
+  setBrainActive('1');
 
   // ---------- SCROLL REVEAL ----------
   const revealEls = document.querySelectorAll('.reveal');
