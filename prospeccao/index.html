@@ -125,10 +125,13 @@
     transition:border-color .3s ease, transform .3s ease;
   }
   .think-item:hover{border-color:var(--lime); transform:translateY(-3px);}
-  .think-num{
-    display:block; font-size:10px; font-weight:800; letter-spacing:1.5px; color:var(--lime);
-    font-family:monospace; margin-bottom:12px;
+  .think-item:hover .think-icon{transform:scale(1.1); border-color:var(--lime); color:var(--lime);}
+  .think-icon{
+    width:36px; height:36px; margin-bottom:16px; border:1px solid rgba(255,255,255,0.12);
+    display:flex; align-items:center; justify-content:center; color:var(--dim);
+    transition:transform .3s cubic-bezier(0.16,1,0.3,1), border-color .3s ease, color .3s ease;
   }
+  .think-icon svg{width:18px; height:18px;}
   .think-item h3{font-size:14.5px; margin-bottom:8px; font-weight:700;}
   .think-item p{font-size:12.5px; color:#8f8f89; margin:0; line-height:1.55; max-width:none;}
 
@@ -423,27 +426,35 @@
   </section>
 
   <!-- COMO PENSAMOS -->
-  <section class="wrap">
-    <div class="reveal">
+  <section>
+    <div class="wrap reveal">
       <h2>Como pensamos</h2>
       <div class="think-grid">
         <div class="think-item">
-          <span class="think-num">01</span>
+          <div class="think-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.6-4.6"/></svg>
+          </div>
           <h3>Entender</h3>
           <p>Toda comunicação começa entendendo o contexto, o desafio e o objetivo.</p>
         </div>
         <div class="think-item">
-          <span class="think-num">02</span>
+          <div class="think-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 20V10l8-6 8 6v10"/><path d="M9 20v-7h6v7"/></svg>
+          </div>
           <h3>Construir</h3>
           <p>Transformamos informações em narrativas, campanhas, conteúdos e materiais.</p>
         </div>
         <div class="think-item">
-          <span class="think-num">03</span>
+          <div class="think-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="6" width="14" height="12" rx="1.5"/><path d="M17 10l4-2.5v9L17 14"/></svg>
+          </div>
           <h3>Produzir</h3>
           <p>Audiovisual, design e comunicação trabalhando juntos para dar forma à ideia.</p>
         </div>
         <div class="think-item">
-          <span class="think-num">04</span>
+          <div class="think-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 16l6-6 4 4 6-8"/><path d="M14 6h6v6"/></svg>
+          </div>
           <h3>Evoluir</h3>
           <p>Analisamos resultados, ajustamos rotas e mantemos a comunicação em movimento.</p>
         </div>
@@ -452,36 +463,38 @@
   </section>
 
   <!-- VITRINE DE PROJETOS -->
-  <section class="wrap-wide" id="cases">
-    <div class="reveal wrap" style="padding:0;">
-      <h2>Não é promessa.<br>É o que já está no ar.</h2>
-    </div>
-
-    <div class="showcase-block reveal">
-      <div class="showcase-head wrap" style="padding:0;">
-        <h3>OdontoCompany Diamantino</h3>
-        <span>Comercial · Clínico</span>
+  <section id="cases">
+    <div class="wrap-wide">
+      <div class="reveal wrap" style="padding:0;">
+        <h2>Não é promessa.<br>É o que já está no ar.</h2>
       </div>
-      <div class="showcase-row" id="row-odc"></div>
-    </div>
 
-    <div class="showcase-block reveal">
-      <div class="showcase-head wrap" style="padding:0;">
-        <h3>SAAE Nova Mutum</h3>
-        <span>Institucional</span>
+      <div class="showcase-block reveal">
+        <div class="showcase-head wrap" style="padding:0;">
+          <h3>OdontoCompany Diamantino</h3>
+          <span>Comercial · Clínico</span>
+        </div>
+        <div class="showcase-row" id="row-odc"></div>
       </div>
-      <div class="showcase-row" id="row-saae"></div>
-    </div>
 
-    <div class="reveal wrap" style="padding:0;">
-      <div class="results-label">Resultados de um dos nossos projetos</div>
-      <div class="stat-strip">
-        <div class="stat"><b class="count" data-value="52.8" data-decimals="1" data-suffix="K">0</b><span>Visualizações / mês</span></div>
-        <div class="stat"><b class="count" data-value="21.8" data-decimals="1" data-suffix="K">0</b><span>Contas alcançadas / mês</span></div>
-        <div class="stat"><b class="count" data-value="646" data-decimals="0" data-suffix="">0</b><span>Interações / mês</span></div>
-        <div class="stat"><b class="count" data-value="132" data-decimals="0" data-suffix="" data-prefix="+">0</b><span>Novos seguidores / mês</span></div>
+      <div class="showcase-block reveal">
+        <div class="showcase-head wrap" style="padding:0;">
+          <h3>SAAE Nova Mutum</h3>
+          <span>Institucional</span>
+        </div>
+        <div class="showcase-row" id="row-saae"></div>
       </div>
-      <div class="stat-note">Médias mensais do SAAE Nova Mutum — relatórios de março a junho de 2026 (gestão iniciada em julho/2025).</div>
+
+      <div class="reveal wrap" style="padding:0;">
+        <div class="results-label">Resultados de um dos nossos projetos</div>
+        <div class="stat-strip">
+          <div class="stat"><b class="count" data-value="52.8" data-decimals="1" data-suffix="K">0</b><span>Visualizações / mês</span></div>
+          <div class="stat"><b class="count" data-value="21.8" data-decimals="1" data-suffix="K">0</b><span>Contas alcançadas / mês</span></div>
+          <div class="stat"><b class="count" data-value="646" data-decimals="0" data-suffix="">0</b><span>Interações / mês</span></div>
+          <div class="stat"><b class="count" data-value="132" data-decimals="0" data-suffix="" data-prefix="+">0</b><span>Novos seguidores / mês</span></div>
+        </div>
+        <div class="stat-note">Médias mensais do SAAE Nova Mutum — relatórios de março a junho de 2026 (gestão iniciada em julho/2025).</div>
+      </div>
     </div>
   </section>
 
@@ -499,7 +512,8 @@
   </section>
 
   <!-- DEPOIMENTOS -->
-  <section class="wrap">
+  <section>
+    <div class="wrap">
     <div class="reveal">
       <h2>Não é a Virtually falando.<br>É quem já trabalhou com a gente.</h2>
     </div>
@@ -520,6 +534,7 @@
         <div class="testi-name">Cristiano</div>
         <div class="testi-role">SAAE Nova Mutum</div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -547,7 +562,8 @@
   </section>
 
   <!-- POR QUE -->
-  <section class="wrap">
+  <section>
+    <div class="wrap">
     <div class="reveal">
       <h2>Diferencial não é slogan.<br>É como o trabalho é feito.</h2>
     </div>
@@ -568,6 +584,7 @@
         <div class="why-mark"></div>
         <div><h3>Decisão sempre revisada por gente</h3><p>Tecnologia acelera produção. A decisão final continua sendo humana.</p></div>
       </div>
+    </div>
     </div>
   </section>
 
