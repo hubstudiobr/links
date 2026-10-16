@@ -1,5 +1,10 @@
 # Polo Centro — Registro de comunicação e operação
 
+## Situação atual — confirmação de Pri em 16/10/2026
+
+Pri informou que as únicas pendências atuais do Mais Delivery são os cadastramentos de estabelecimentos. Portanto, as pendências de comunicação do Polo Centro descritas no histórico abaixo não devem ser tratadas como tarefas atuais. Não foi informada a data de publicação da arte nem o detalhamento da conclusão do catálogo.
+
+
 ## Contexto
 Este diretório registra informações do Supermercado **Polo Centro** como novo estabelecimento parceiro no aplicativo Mais Delivery, além das demandas de comunicação relacionadas à loja e à atualização de seu catálogo.
 
