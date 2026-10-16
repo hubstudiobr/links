@@ -1,8 +1,18 @@
-# Mais Delivery — Recrutamento e comunicação operacional
+# Mais Delivery — Operação e comunicação
 
-Este diretório registra decisões e materiais de comunicação relacionados à operação do Mais Delivery tratados nesta conversa, incluindo recrutamento de entregadores e avisos operacionais à rede de estabelecimentos.
+Este diretório registra informações operacionais e materiais de comunicação relacionados ao Mais Delivery, incluindo estabelecimentos parceiros, atualizações de catálogo, recrutamento de entregadores e avisos operacionais.
 
-## Informações operacionais fornecidas no texto-base de Max
+## Estabelecimentos e catálogo
+
+### Polo Centro
+- **Status documental:** registrado como novo estabelecimento parceiro no aplicativo Mais Delivery. A data efetiva de entrada ou ativação não foi informada.
+- **Atualização de catálogo comunicada em 10/10/2026:** congelados; mais produtos de higiene e cuidados pessoais; utilidades para o lar; ração para pets; outras novidades.
+- **Status dos produtos:** a conversa confirma que a lista estava sendo atualizada e que seria divulgada uma comunicação sobre isso. Não confirma que todos os itens já estejam cadastrados ou disponíveis no aplicativo.
+- **Comunicação pendente:** arte de Story com as logos originais do Polo Centro e do Mais Delivery. A versão final com as duas marcas não foi tecnicamente confirmada e não há confirmação de publicação.
+
+Consulte o registro específico em [polo-centro/README.md](../polo-centro/README.md) e o [log de atividades do Polo Centro](../polo-centro/LOG-DE-ATIVIDADES.md).
+
+## Informações operacionais de recrutamento fornecidas no texto-base de Max
 - **Turnos disponíveis:** 07h–13h, 13h–19h e 19h–01h.
 - **Pagamento:** toda segunda-feira.
 - **Premiação semanal do ranking:** 1º lugar R$ 300,00; 2º R$ 150,00; 3º R$ 75,00; 4º R$ 37,50; 5º R$ 18,75; 6º R$ 9,37.
