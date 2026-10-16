@@ -1,14 +1,25 @@
-# Polo Centro — Registro de comunicação
+# Polo Centro — Registro de comunicação e operação
 
 ## Contexto
-Este diretório registra demandas de comunicação do Supermercado **Polo Centro** relacionadas à divulgação da loja no aplicativo Mais Delivery.
+Este diretório registra informações do Supermercado **Polo Centro** como novo estabelecimento parceiro no aplicativo Mais Delivery, além das demandas de comunicação relacionadas à loja e à atualização de seu catálogo.
 
-## Briefing registrado em 10/10/2026
-- **Objetivo:** publicar um Story informando que a lista de produtos do Polo Centro no aplicativo está sendo atualizada.
-- **Categorias mencionadas:** congelados; produtos de higiene e cuidados pessoais; utilidades para o lar; ração para pets; outras novidades.
-- **Nome correto do estabelecimento:** Polo Centro. A primeira geração de arte usou incorretamente “Paul Center” e foi corrigida após orientação da usuária.
+## Estabelecimento
+- **Nome correto:** Polo Centro.
+- **Relação com o Mais Delivery:** registrado nesta documentação como novo estabelecimento da plataforma. A data efetiva de entrada/ativação não foi informada.
 - **Identidade visual:** usar a logo do Polo Centro fornecida pela usuária e a logo oficial do Mais Delivery. As duas devem ser aplicadas como arquivos originais, sem recriação ou alteração por IA.
-- **Preferência visual:** composição criteriosa, limpa e profissional, sem estética exagerada ou aparência genérica de imagem gerada por IA.
+
+## Atualização do catálogo de produtos
+Em 10/10/2026, foi solicitada uma arte para comunicar que a lista de produtos do Polo Centro no aplicativo está sendo atualizada. As categorias mencionadas foram:
+- Congelados.
+- Mais produtos de higiene e cuidados pessoais.
+- Utilidades para o lar.
+- Ração para pets.
+- Outras novidades.
+
+**Importante:** a solicitação confirma a comunicação sobre uma atualização do catálogo, mas não confirma que todos os produtos citados já estejam cadastrados ou disponíveis no aplicativo.
+
+## Direção visual
+Preferência por composição criteriosa, limpa e profissional, sem estética exagerada ou aparência genérica de imagem gerada por IA.
 
 ## Status e pendências
 A arte teve versões preliminares geradas, mas a inclusão correta das duas logomarcas na mesma versão final não ficou tecnicamente confirmada no histórico. Portanto, não considerar a peça finalizada nem publicada.
@@ -17,5 +28,6 @@ Próximos passos:
 1. Preparar/validar a arte em formato Story vertical.
 2. Aplicar os arquivos originais das logos Polo Centro e Mais Delivery sem alterá-los.
 3. Conferir legibilidade, nome do estabelecimento e categorias destacadas antes de publicar.
+4. Confirmar, quando necessário, quais produtos já foram efetivamente cadastrados/disponibilizados no aplicativo.
 
 O histórico cronológico está em [LOG-DE-ATIVIDADES.md](LOG-DE-ATIVIDADES.md).
