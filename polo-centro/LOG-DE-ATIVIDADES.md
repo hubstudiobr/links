@@ -1,12 +1,32 @@
 # Log de Atividades — Polo Centro
 
-Este arquivo registra demandas, decisões, materiais e pendências de comunicação relacionados ao Supermercado Polo Centro.
+Este arquivo registra demandas, decisões, materiais e informações operacionais relacionados ao Supermercado Polo Centro.
 
 ## Regras de atualização
 - Manter as entradas em ordem cronológica decrescente.
 - Preservar os registros anteriores.
 - Identificar demanda, decisões, entregas, status e pendências.
 - Distinguir rascunhos de materiais finais validados.
+- Registrar também mudanças operacionais relevantes, como entrada de estabelecimentos e atualizações de catálogo, não apenas peças criativas.
+
+---
+
+## 16 de outubro de 2026 — Complemento do registro operacional
+
+### Novo estabelecimento no Mais Delivery e atualização do catálogo
+
+**Informação operacional registrada:** o Polo Centro deve ser acompanhado como novo estabelecimento parceiro no aplicativo Mais Delivery. A data efetiva de entrada ou ativação na plataforma não foi informada.
+
+**Atualização de catálogo comunicada em 10/10/2026:** a lista de produtos do Polo Centro no aplicativo estava sendo atualizada, com destaque para:
+- Congelados.
+- Mais produtos de higiene e cuidados pessoais.
+- Utilidades para o lar.
+- Ração para pets.
+- Outras novidades.
+
+**Limite do registro:** a conversa confirma a intenção de comunicar a atualização da lista, mas não confirma que todos os itens já foram cadastrados ou estão disponíveis para pedidos. Não foi informada uma data efetiva de conclusão do cadastro.
+
+**Ação documental:** informações operacionais foram acrescentadas ao README do estabelecimento e a este log para que não fiquem registradas apenas como briefing de uma arte.
 
 ---
 
