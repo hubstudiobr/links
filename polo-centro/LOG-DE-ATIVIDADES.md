@@ -1,5 +1,10 @@
 # Log de Atividades — Polo Centro
 
+## Situação atual — confirmação de Pri em 16/10/2026
+
+Pri informou que as únicas pendências atuais do Mais Delivery são os cadastramentos de estabelecimentos. Portanto, as pendências de comunicação do Polo Centro descritas no histórico abaixo não devem ser tratadas como tarefas atuais. Não foi informada a data de publicação da arte nem o detalhamento da conclusão do catálogo.
+
+
 Este arquivo registra demandas, decisões, materiais e informações operacionais relacionados ao Supermercado Polo Centro.
 
 ## Regras de atualização
