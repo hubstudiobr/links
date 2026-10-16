@@ -1,5 +1,13 @@
 # Log de Atividades — Mais Delivery
 
+## Situação atual — confirmação de Pri em 16/10/2026
+
+- Pri atua como gerente comercial do Mais Delivery em Nobres, incluindo cadastro de estabelecimentos.
+- As únicas pendências atuais informadas por Pri são os cadastramentos: Posto Piloto Conveniência (em andamento), Cantinho da Rosa e Imperial Pizza (aguardando cadastro).
+- O vídeo de recrutamento já foi finalizado e não é uma pendência. A unidade de Diamantino, do mesmo dono da unidade de Nobres, solicitou uma adaptação do material feito para Nobres; por isso o histórico cita Diamantino.
+- As pendências antigas de comunicação descritas abaixo ficam superadas como lista de tarefas atuais. Esta atualização não presume datas de publicação, ativação ou detalhes de conclusão não informados.
+
+
 Este arquivo registra atividades de operação, estabelecimentos parceiros, catálogo, comunicação operacional, recrutamento e materiais relacionados ao Mais Delivery.
 
 ## Regras de atualização
