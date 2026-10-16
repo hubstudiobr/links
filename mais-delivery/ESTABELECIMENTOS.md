@@ -17,7 +17,7 @@ Este arquivo centraliza os estabelecimentos novos informados para acompanhamento
 
 | Estabelecimento | Status informado | Próxima etapa |
 |---|---|---|
-| Posto Piloto Conveniência | Ainda precisa cadastrar | Realizar/acompanhar o cadastro no Mais Delivery. |
+| Posto Piloto Conveniência | Cadastro em andamento por Pri | Concluir o cadastro no Mais Delivery. |
 | Cantinho da Rosa | Ainda precisa cadastrar | Realizar/acompanhar o cadastro no Mais Delivery. |
 | Imperial Pizza | Ainda precisa cadastrar | Realizar/acompanhar o cadastro no Mais Delivery. |
 
@@ -25,5 +25,5 @@ Este arquivo centraliza os estabelecimentos novos informados para acompanhamento
 
 - Lista atualizada em 16/10/2026 com base na informação fornecida pela equipe.
 - “Entrou neste mês” registra a informação de que o estabelecimento entrou na operação durante outubro de 2026; não implica, por si só, que todos os materiais, produtos, cardápios, pagamentos ou configurações estejam completos.
-- Para os três estabelecimentos aguardando cadastro, não foram informados responsáveis nem datas previstas.
+- Pri confirmou em 16/10/2026 que está realizando o cadastro do Posto Piloto Conveniência. Cantinho da Rosa e Imperial Pizza seguem aguardando cadastro. Não foram informados prazos.
 - Atualizar este arquivo quando houver mudança de status, início de operação, cadastro concluído ou pendências específicas.
