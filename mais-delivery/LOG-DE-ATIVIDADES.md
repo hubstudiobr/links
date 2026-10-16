@@ -11,6 +11,29 @@ Este arquivo registra atividades de operação, estabelecimentos parceiros, cat�
 
 ---
 
+## 16 de outubro de 2026 — Atualização da carteira de estabelecimentos
+
+### Novos estabelecimentos e cadastros pendentes
+
+**Entraram neste mês (outubro de 2026), conforme informação fornecida pela equipe:**
+- Doce Encanto Confeitaria.
+- Açaí Mania.
+- Polo Centro.
+- Pastelaria da Cláudia.
+- Lulis Confeitaria.
+- Hora do Rango.
+
+**Aguardando cadastro no Mais Delivery:**
+- Posto Piloto Conveniência.
+- Cantinho da Rosa.
+- Imperial Pizza.
+
+**Ação documental:** criada a relação centralizada [ESTABELECIMENTOS.md](ESTABELECIMENTOS.md), com os dois grupos separados para facilitar o acompanhamento. Não foram presumidos detalhes de cadastro, datas individuais de entrada, responsáveis ou prazos que não tenham sido informados.
+
+**Próximo passo operacional:** atualizar o status de cada estabelecimento conforme os cadastros forem realizados e confirmar eventuais pendências de configuração, catálogo/cardápio e ativação.
+
+---
+
 ## 16 de outubro de 2026 — Complemento do registro operacional
 
 ### Novo estabelecimento parceiro e atualização de catálogo — Polo Centro
