@@ -1,12 +1,32 @@
 # Log de Atividades — Mais Delivery
 
-Este arquivo registra atividades de comunicação operacional, recrutamento e materiais relacionados ao Mais Delivery.
+Este arquivo registra atividades de operação, estabelecimentos parceiros, catálogo, comunicação operacional, recrutamento e materiais relacionados ao Mais Delivery.
 
 ## Regras de atualização
 - Registrar as entradas em ordem cronológica decrescente.
 - Preservar o histórico, sem apagar registros anteriores.
 - Identificar demanda, decisões, material produzido, status e pendências.
 - Distinguir roteiros em desenvolvimento de materiais gravados, editados ou publicados.
+- Registrar mudanças de negócio e de operação, como novos estabelecimentos parceiros, produtos e atualizações de catálogo, mesmo quando não geram uma peça criativa.
+
+---
+
+## 16 de outubro de 2026 — Complemento do registro operacional
+
+### Novo estabelecimento parceiro e atualização de catálogo — Polo Centro
+
+**Estabelecimento:** Polo Centro foi registrado nesta documentação como novo estabelecimento parceiro no aplicativo Mais Delivery. A data efetiva de entrada ou ativação na plataforma não foi informada.
+
+**Atualização de catálogo comunicada em 10/10/2026:** a lista de produtos do Polo Centro estava sendo atualizada, com inclusão/divulgação de novas categorias:
+- Congelados.
+- Mais produtos de higiene e cuidados pessoais.
+- Utilidades para o lar.
+- Ração para pets.
+- Outras novidades.
+
+**Status e limites:** a conversa registra a atualização em andamento e a necessidade de comunicá-la, mas não comprova que todos os produtos já estejam cadastrados ou disponíveis para pedidos. Também não há confirmação de que a arte de Story tenha sido finalizada ou publicada.
+
+**Ação documental:** as informações sobre o estabelecimento e o catálogo foram adicionadas ao README geral do Mais Delivery e ao registro específico do Polo Centro. A data efetiva de entrada do estabelecimento e a conclusão da atualização do catálogo permanecem não informadas.
 
 ---
 
