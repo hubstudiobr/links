@@ -4,6 +4,9 @@ Este diretório registra informações operacionais e materiais de comunicação
 
 ## Estabelecimentos e catálogo
 
+A relação operacional atualizada de estabelecimentos que entraram em outubro e dos que ainda aguardam cadastro está em [ESTABELECIMENTOS.md](ESTABELECIMENTOS.md). A lista foi registrada com base nas informações da equipe em 16/10/2026.
+
+
 ### Polo Centro
 - **Status documental:** registrado como novo estabelecimento parceiro no aplicativo Mais Delivery. A data efetiva de entrada ou ativação não foi informada.
 - **Atualização de catálogo comunicada em 10/10/2026:** congelados; mais produtos de higiene e cuidados pessoais; utilidades para o lar; ração para pets; outras novidades.
