@@ -28,7 +28,7 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 **Compostagem:** Recuperado histórico de material de junho com participação escolar e indicadores de resíduos/adubo. Dados históricos não validados para uso atual. Pri indicou a compostagem como prioridade editorial para a captação.
 
-**Status e pendências:** Levantamento parcial; nenhum roteiro criado ou aprovado. Completar conteúdo dos áudios, validar dados e funcionamento atual da compostagem e confirmar data de gravação: referência verbal a “amanhã” e “sábado” é divergente no calendário desta sessão.
+**Status e pendências:** Levantamento parcial; nenhum roteiro criado ou aprovado. Completar conteúdo dos áudios, validar dados e funcionamento atual da compostagem e data de gravação confirmada por Pri: quinta-feira, 22/10/2026 (amanhã).
 
 ---
 
