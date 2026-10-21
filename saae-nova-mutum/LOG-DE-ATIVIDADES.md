@@ -17,7 +17,22 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
-## 26 de julho de 2026 (atualização 2) — ChatGPT
+#
+## 21 de outubro de 2026 — ChatGPT
+
+### Preparação de pautas para próxima captação — demanda Ildo/Ezaque e compostagem
+
+**Demanda:** Pri solicitou recuperar o pedido de Ildo/Ezaque enviado em outro chat e reunir contexto para desenvolver roteiros, além de propor temas adicionais. Indicou falta de conteúdos sobre o Projeto Compostagem.
+
+**Levantamento:** Recuperadas as mensagens de Ezaque de 16/10 às 13:21 solicitando postagem e vídeo, e inspecionadas as duas fotos de sacolas com folhas e resíduos de jardinagem. Os dois áudios foram localizados, mas não há transcrição disponível nesta sessão; a orientação operacional exata e eventual demanda distinta de Ildo permanecem pendentes. Não deduzir regra de coleta ou destino apenas pelas fotos.
+
+**Compostagem:** Recuperado histórico de material de junho com participação escolar e indicadores de resíduos/adubo. Dados históricos não validados para uso atual. Pri indicou a compostagem como prioridade editorial para a captação.
+
+**Status e pendências:** Levantamento parcial; nenhum roteiro criado ou aprovado. Completar conteúdo dos áudios, validar dados e funcionamento atual da compostagem e confirmar data de gravação: referência verbal a “amanhã” e “sábado” é divergente no calendário desta sessão.
+
+---
+
+# 26 de julho de 2026 (atualização 2) — ChatGPT
 
 ### Peça 2 — carrossel educativo “O desperdício que não faz barulho”
 
