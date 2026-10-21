@@ -24,11 +24,11 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 **Demanda:** Pri solicitou recuperar o pedido de Ildo/Ezaque enviado em outro chat e reunir contexto para desenvolver roteiros, além de propor temas adicionais. Indicou falta de conteúdos sobre o Projeto Compostagem.
 
-**Levantamento:** Recuperadas as mensagens de Ezaque de 16/10 às 13:21 solicitando postagem e vídeo, e inspecionadas as duas fotos de sacolas com folhas e resíduos de jardinagem. Os dois áudios foram localizados, mas não há transcrição disponível nesta sessão; a orientação operacional exata e eventual demanda distinta de Ildo permanecem pendentes. Não deduzir regra de coleta ou destino apenas pelas fotos.
+**Levantamento:** Recuperadas as mensagens de Ezaque de 16/10 às 13:21 solicitando postagem e vídeo, e inspecionadas as duas fotos de sacolas com folhas e resíduos de jardinagem. Pri enviou posteriormente captura com a transcrição dos dois áudios encaminhados por Ezaque. O áudio relata fotos compartilhadas no grupo do ReCiclo, preocupação com uso inadequado das sacolas logo após o início de sua disponibilização e pedido de vídeo/recado para publicação. Em conjunto com as fotos, o foco identificado é orientar o uso da sacola do ReCiclo diante do acondicionamento de folhas e resíduos de jardinagem. A transcrição contém nomes/palavras imprecisos; não atribuir a autoria do áudio nem confirmar uma segunda demanda de Ildo apenas por ela. Não deduzir destino alternativo dos resíduos pelas fotos.
 
 **Compostagem:** Recuperado histórico de material de junho com participação escolar e indicadores de resíduos/adubo. Dados históricos não validados para uso atual. Pri indicou a compostagem como prioridade editorial para a captação.
 
-**Status e pendências:** Levantamento parcial; nenhum roteiro criado ou aprovado. Completar conteúdo dos áudios, validar dados e funcionamento atual da compostagem e data de gravação confirmada por Pri: quinta-feira, 22/10/2026 (amanhã).
+**Status e pendências:** Levantamento parcial; nenhum roteiro criado ou aprovado. Transcrições dos dois áudios recuperadas por captura enviada por Pri; validar eventual demanda distinta, dados e funcionamento atual da compostagem e data de gravação confirmada por Pri: quinta-feira, 22/10/2026 (amanhã).
 
 ---
 
