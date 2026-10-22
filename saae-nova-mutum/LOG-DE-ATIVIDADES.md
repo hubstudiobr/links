@@ -18,6 +18,23 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 — ChatGPT
+
+### Seis roteiros para captação de 22/10 — propostas para avaliação presencial
+
+**Demanda:** Pri solicitou pelo menos seis roteiros diversificados para aumentar a possibilidade de gravar ao menos três, sem aprovação prévia da equipe do SAAE.
+
+**Roteiros preparados:** 1) ReCiclo: uso da sacola, com demonstração de recicláveis e resíduos de jardinagem; 2) Projeto Compostagem: acompanhar transformação e trabalho operacional, sem indicadores antigos nem afirmação sobre recebimento de resíduos de moradores; 3) Água: indícios domésticos de vazamento e orientação para verificar a instalação; 4) Esgoto: resíduos que não devem ser jogados no vaso; 5) Atendimento operacional: informações úteis ao comunicar vazamento na rua, sem inventar contato ou prazo; 6) Bastidores humanos: entrevista curta com servidor sobre uma situação real de seu trabalho.
+
+**Direção:** Vídeos curtos, gravação simples, falas divididas em trechos e apoio de imagens reais. Prioridade sugerida: ReCiclo (demanda solicitada), compostagem (lacuna indicada por Pri) e entrevista com servidor (flexibilidade de captação). Alternativas de água, esgoto e comunicação de vazamentos disponíveis caso a operação não permita captar compostagem.
+
+**Pendências:** Todos os roteiros são propostas sem aprovação do SAAE. Confirmar com equipe o processo mostrado na compostagem e disponibilidade de acesso/atividade. Não simular como documental uma etapa que não ocorre no local. Entrevista depende de respostas reais; não atribuir depoimentos previamente escritos a servidor. Não há promessa de gravar seis nem aprovação de publicação.
+
+**Status:** Seis roteiros preparados e entregues no chat para revisão e uso na captação.
+
+---
+
+
 ## 21 de outubro de 2026 — ChatGPT
 
 ### Preparação de pautas para próxima captação — demanda Ildo/Ezaque e compostagem
