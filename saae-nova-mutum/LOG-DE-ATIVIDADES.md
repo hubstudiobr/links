@@ -18,6 +18,19 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 8) — ChatGPT
+
+### Roteiro 1 isolado — divisão em takes
+
+**Solicitação de Pri:** Dividir fala longa de Reves e entregar somente roteiro 1 em PDF.
+
+**Execução:** Mantido texto aprovado; explicação desmembrada em três takes: orgânicos fora da sacola, proibição de mistura aos recicláveis e exemplos de materiais aceitos. Roteiro totaliza sete takes com direcionamento visual e encerramento da segunda pessoa preservado.
+
+**Entrega:** Roteiro_1_Reciclo_Takes.pdf, uma página, renderizada e inspecionada. Arquivo separado do consolidado.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 7) — ChatGPT
 
 ### Roteiro 1 — ajuste solicitado por Ezaque
