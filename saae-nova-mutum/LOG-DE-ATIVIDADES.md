@@ -18,6 +18,19 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 13) — ChatGPT
+
+### Reajuste tarifário — simplificação do texto original
+
+**Direcionamento de Pri:** Ajustar o mesmo texto da fotografia para linguagem acessível, preservando informações e citando expressamente 25,04% na fala.
+
+**Entrega:** Versão em texto corrido, mantendo pergunta inicial, explicação da reposição inflacionária, abril/2025 e outubro/2026 (18 meses), período dezembro/2021 a junho/2026, IPCA acumulado de 25,04%, correção atual de 7,81%, comparação entre períodos, finalidade dos recursos, processo AGER-PRO-2026/01937, Decreto Municipal 105/2026 e site. Simplificadas frases burocráticas, sem negar o aumento da tarifa.
+
+**Status:** Texto proposto para revisão de Pri; sem PDF nesta etapa.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 12) — ChatGPT
 
 ### Reajuste tarifário — percentual acumulado na fala
