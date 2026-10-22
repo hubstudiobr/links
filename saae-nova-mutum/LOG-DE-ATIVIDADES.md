@@ -18,6 +18,23 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 5) — ChatGPT
+
+### Nova opção — calor, El Niño e uso da água
+
+**Aprovação de Pri:** Usuária informou que gostou das versões revisadas dos roteiros. Aprovação criativa de Pri não equivale a aprovação institucional do SAAE.
+
+**Referência recebida:** Cinco capturas do carrossel da Águas Cuiabá, com calor, explicação do El Niño, aumento do consumo, níveis dos rios e uso consciente. Imagens lidas diretamente na conversa.
+
+**Checagem:** NOAA/CPC, discussão de 08/10/2026, confirma El Niño em fortalecimento; sem atribuir episódio específico de calor em Nova Mutum ao fenômeno ou prever seca local. Dados técnicos oficiais do SAAE descrevem captação por poços profundos, portanto não transportar argumento sobre queda do nível de rio como descrição do abastecimento local.
+
+**Roteiro novo:** Aproximadamente 45–50 segundos, abertura em câmera relacionando Oceano Pacífico e uso doméstico, explicação breve sobre El Niño com mapa simples, imagens de uso de água em dias quentes e fechamento com ações concretas. Não afirma crise, sobrecarga atual, risco de desabastecimento ou condição operacional não confirmada do SAAE. Acrescenta sétima opção, totalizando cinco temas.
+
+**Status:** Proposta entregue para avaliação de Pri; sem confirmação de captação ou aprovação institucional.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 4) — ChatGPT
 
 ### Ajustes finais de roteiro e nova referência de carrossel
