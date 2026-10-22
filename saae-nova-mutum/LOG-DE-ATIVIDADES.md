@@ -18,6 +18,23 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 4) — ChatGPT
+
+### Ajustes finais de roteiro e nova referência de carrossel
+
+**ReCiclo encenado:** Pri aprovou roteiro e determinou encerrar com segunda pessoa olhando para câmera e dizendo “Agora sim, sacola certa, conteúdo certo.” Remover fala final de Reves. ReCiclo firme aprovado por Pri sem alterações; manifestou intenção provável de gravar ambas as versões, ainda sem confirmação de captação.
+
+**Compostagem ciclo:** Encurtar e remover dependência de profissional em escola/horta e expressões como “aqui na escola”. Imagens podem aproveitar acervo real, pois visita às escolas é tentativa, não confirmada.
+
+**Compostagem institucional:** Pri aprovou estrutura e solicitou inserir no texto a marca de 100 toneladas prevista para outubro. Abertura incorpora marco; confirmar grandeza e status com responsável no local, sem substituir por dado antigo. Sem entrevista; profissional abre e locução acompanha imagens reais.
+
+**Nova pauta:** Pri enviou https://www.instagram.com/p/Db58O24FmfZ/ (carrossel sobre calor e El Niño, conforme descrição da usuária) e pediu acesso para adaptação em vídeo. Abertura via pesquisa web falhou e buscas pelo identificador não localizaram conteúdo. Não foi possível ler o carrossel; solicitar capturas para adaptar com fidelidade. Não há confirmação de fenômeno climático ou previsão local nesta etapa.
+
+**Status:** Revisões entregues; aguardando acesso ao conteúdo do carrossel para ampliar a seleção.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 3) — ChatGPT
 
 ### Revisão de Pri — seis opções para seleção na captação
