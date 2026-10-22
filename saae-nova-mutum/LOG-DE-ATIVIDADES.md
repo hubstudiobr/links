@@ -18,6 +18,19 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 9) — ChatGPT
+
+### Roteiro 1 — retirada de vidro
+
+**Solicitação de Pri:** Retirar vidro da fala e reenviar PDF isolado.
+
+**Alteração:** Take 6 passa a “Aqui entram papel, plástico e metal. Limpos e secos.” Demais falas e sete takes preservados. Mudança pontual de conteúdo; não inferir regra geral de recebimento do programa.
+
+**Entrega:** Roteiro_1_Reciclo_Takes.pdf atualizado na mesma identidade e revisado visualmente. Consolidado não alterado nesta solicitação.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 8) — ChatGPT
 
 ### Roteiro 1 isolado — divisão em takes
