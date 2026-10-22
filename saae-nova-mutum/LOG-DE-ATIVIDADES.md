@@ -18,6 +18,19 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 7) — ChatGPT
+
+### Roteiro 1 — ajuste solicitado por Ezaque
+
+**Demanda:** Pri repassou pedido de Ezaque para enfatizar que resíduos orgânicos não vão na sacola do ReCiclo e não podem ser misturados aos recicláveis.
+
+**Alteração:** Fala de Reves: “Orgânicos, como galhos, folhas e restos de comida, não vão nessa sacola. E não podem ser misturados aos recicláveis! Aqui entram papel, plástico, metal e vidro. Limpos e secos.” Encerramento da segunda pessoa preservado.
+
+**Entrega:** PDF consolidado atualizado na mesma identidade, com sete páginas; página 1 renderizada e revisada. Demais roteiros preservados.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 6) — ChatGPT
 
 ### PDF consolidado dos sete roteiros
