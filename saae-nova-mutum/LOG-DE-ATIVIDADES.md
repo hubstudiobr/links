@@ -18,6 +18,17 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 10) — ChatGPT
+
+### ReCiclo — alternativa ao roteiro sobre custo das sacolas
+
+**Solicitação de Pri:** Experimentar abordagem sobre o que pode e o que não pode ir na sacola, substituindo a linha do custo no roteiro 2.
+
+**Proposta:** Demonstração visual curta, em cinco takes: abertura com sacola; papel/plástico/metal limpos e secos; exclusão de galhos/folhas/capim/restos de comida; proibição de mistura; orientação para conferir separação antes da coleta. Vidro não incluído, respeitando ajuste recente de Pri. Mantida como proposta em avaliação; PDF ainda não atualizado.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 9) — ChatGPT
 
 ### Roteiro 1 — retirada de vidro
