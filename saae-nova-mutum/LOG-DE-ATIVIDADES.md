@@ -18,6 +18,21 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 3) — ChatGPT
+
+### Revisão de Pri — seis opções para seleção na captação
+
+**Decisões:** Manter integralmente roteiro de água “Ninguém mudou a rotina. O consumo mudou.”; manter vazamento na rua como sugestão sujeita à avaliação operacional. Adiar esgoto/descarga, considerando o momento da construção da ETE. Retirar entrevista de bastidores desta captação.
+
+**ReCiclo educativo:** Substituir exposição convencional por encenação curta: pessoa tenta colocar galhos na sacola do ReCiclo e Reves intervém; orientar de modo visual e breve. Reves foi identificado por Pri como principal interlocutor dessa frente. Segunda versão mantém tom sério, abre pelo esforço da associação e do SAAE, explica custo das sacolas para associação, usa fotos recebidas e encurta desenvolvimento.
+
+**Compostagem:** Pri detalhou ciclo nas escolas participantes: alimentação → separação em recipientes próprios disponibilizados pelo SAAE → recolhimento → compostagem → retorno do adubo para horta escolar, com uso educativo e alimentar. Pesquisa em fontes oficiais confirmou contexto escolar e retorno do composto às hortas/jardins (notícias em saaenm.com.br). Reescritas duas alternativas curtas, com profissional aparecendo na abertura e locução sobre imagens reais; sem entrevistas. Uma explora o ciclo e a outra usa linguagem institucional. Indicador de 100 toneladas segue dependente de confirmação da grandeza, período e status para abertura numérica.
+
+**Conjunto atualizado:** Seis opções (duas ReCiclo, duas compostagem, água e vazamento). Alternativas sobre mesmo tema são escolhas de abordagem, não seis pautas distintas. Não há aprovação do SAAE ou confirmação de gravação. Textos revistos entregues para avaliação de Pri.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 2) — ChatGPT
 
 ### Ampliação das opções — ReCiclo com tom firme e compostagem institucional
