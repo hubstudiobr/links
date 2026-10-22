@@ -18,6 +18,21 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 6) — ChatGPT
+
+### PDF consolidado dos sete roteiros
+
+**Demanda e formato aprovados por Pri:** Sete roteiros enumerados, título e descrição curta de tema/conceito em itálico discreto; tabela em duas colunas com direcionamento de captação e fala/locução. Sinalizar recursos de edição, fotos recebidas, acervo, banco de imagens, IA ilustrativa e locução conforme cada peça.
+
+**Entrega:** Roteiros_SAAE_Captacao_22-10-2026.pdf, sete páginas, um roteiro por página: 1) Sacola certa, conteúdo certo; 2) Essa sacola tem um custo; 3) O ciclo da compostagem; 4) Compostagem: a marca das 100 toneladas; 5) Ninguém mudou a rotina. O consumo mudou.; 6) Viu um vazamento? Informe a localização.; 7) O que o Pacífico tem a ver com a sua rotina?
+
+**Decisões preservadas:** Encerramento do ReCiclo encenado na fala da segunda pessoa; versão firme inicia pelo esforço da associação e do SAAE; compostagem com abertura em câmera e locução, sem dependência de visita escolar; marco de 100 toneladas incluído e confirmação operacional em nota. Água/atendimento usa “Informe um vazamento”. Esgoto e bastidores excluídos.
+
+**Validação e status:** PDF renderizado e sete páginas inspecionadas visualmente; arquivo salvo e disponibilizado. Aprovação criativa de Pri preservada; avaliação institucional e gravações não confirmadas.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 5) — ChatGPT
 
 ### Nova opção — calor, El Niño e uso da água
