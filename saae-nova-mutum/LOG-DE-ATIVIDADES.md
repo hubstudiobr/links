@@ -18,6 +18,21 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 2) — ChatGPT
+
+### Ampliação das opções — ReCiclo com tom firme e compostagem institucional
+
+**Novo briefing informado por Pri:** Ildo solicitou no Trello matéria e vídeo do Projeto Compostagem, acompanhando desde o recolhimento dos resíduos até a entrega do adubo, com previsão de atingir 100 toneladas em outubro. A mensagem não especifica se o indicador é de resíduos recolhidos/processados ou adubo produzido; confirmar indicador, período acumulado e se o marco já foi alcançado antes de gravar a abertura numérica.
+
+**ReCiclo:** Pri informou que as sacolas são compradas pela associação dos catadores e têm custo. Solicitou versão adicional mais firme, preservando a alternativa educativa já apresentada. Novo roteiro explicita investimento/esforço da associação e do SAAE, demonstra descarte inadequado com fotos fornecidas e orienta uso para recicláveis. Tom sério, sem generalizar a conduta da população ou constranger moradores.
+
+**Compostagem:** Preparada alternativa institucional com percurso recolhimento → transporte → manejo/compostagem → composto pronto → entrega e uso, conforme operação real. Abertura sobre as 100 toneladas depende de confirmação da grandeza e do status. Sem afirmar que todos os resíduos recebidos ou todos os moradores participam. Captar depoimento do responsável e informações verificadas para subsidiar a matéria.
+
+**Status:** Duas versões adicionais entregues como propostas, somando oito opções às seis anteriores; sem seleção final, aprovação institucional ou confirmação de gravação. Pri deseja volume de alternativas para escolha presencial.
+
+---
+
+
 ## 22 de outubro de 2026 — ChatGPT
 
 ### Seis roteiros para captação de 22/10 — propostas para avaliação presencial
