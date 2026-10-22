@@ -18,6 +18,19 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 12) — ChatGPT
+
+### Reajuste tarifário — percentual acumulado na fala
+
+**Correção de Pri:** Os 25,04% precisam ser citados na locução, e não somente em texto de tela.
+
+**Revisão:** Take 3 passa a informar IPCA como índice de inflação, período dezembro/2021 a junho/2026 e acumulado de 25,04%. Take 4 explica que parte já foi aplicada anteriormente e que o reajuste atual é de 7,81%, referente à correção restante segundo o material fornecido. Demais takes preservados. Proposta anterior de deixar 25,04% apenas na tela substituída.
+
+**Status:** Trechos revisados apresentados no chat; sem novo PDF.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 11) — ChatGPT
 
 ### Roteiro sobre reajuste tarifário — linguagem acessível
