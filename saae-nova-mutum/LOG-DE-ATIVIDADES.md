@@ -18,6 +18,21 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 #
+## 22 de outubro de 2026 (atualização 11) — ChatGPT
+
+### Roteiro sobre reajuste tarifário — linguagem acessível
+
+**Demanda:** Pri enviou fotografia de texto sobre reajuste de água e solicitou linguagem mais acessível.
+
+**Revisão:** Proposta de falas curtas, explicando primeiro 7,81%, depois inflação e período acumulado. Evitar expressão “não ganhou nenhum valor extra”, que pode soar como negação de aumento pago pelo usuário. Distinguir data do último reajuste (abril/2025, conforme material) e período da inflação considerado (dezembro/2021 a junho/2026). Deixar 25,04% e referências do processo/decreto em apoio de tela para reduzir carga na locução. Não tratar percentual residual como simples subtração de percentuais.
+
+**Fontes e limites:** Dados principais preservados do material fornecido. Busca encontrou publicação do Decreto 105/2026 no portal CESPRO e notícias sobre recomendação de 7,81%; íntegra do processo regulatório não consultada. Revisão de redação não equivale a validação independente completa do cálculo.
+
+**Status:** Roteiro simplificado apresentado no chat para avaliação; sem PDF ou confirmação de aprovação institucional.
+
+---
+
+
 ## 22 de outubro de 2026 (atualização 10) — ChatGPT
 
 ### ReCiclo — alternativa ao roteiro sobre custo das sacolas
