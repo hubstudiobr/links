@@ -17,6 +17,21 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 
 ---
 
+
+## 23 de outubro de 2026 — ChatGPT
+
+### Legenda para vídeo sobre reajuste tarifário
+
+**Demanda:** Pri solicitou legenda para o vídeo das tarifas.
+
+**Proposta:** “Como foi calculado o reajuste da tarifa de água em Nova Mutum? No vídeo, explicamos qual período foi considerado no cálculo, o que já havia sido aplicado nos reajustes anteriores e como os recursos da tarifa ajudam a manter o abastecimento. ▶️ Assista e entenda. Mais informações: saaenm.com.br.”
+
+**Direção:** Legenda curta e acessível, complementar à explicação do vídeo, sem repetir todos os percentuais ou adotar tom de confronto.
+
+**Status:** Sugestão apresentada para avaliação; publicação não realizada.
+
+---
+
 #
 ## 22 de outubro de 2026 (atualização 13) — ChatGPT
 
