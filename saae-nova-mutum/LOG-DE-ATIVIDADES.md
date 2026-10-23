@@ -18,6 +18,21 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 
+## 23 de outubro de 2026 (atualização 2) — ChatGPT
+
+### Legenda tarifária — contexto de esclarecimento público
+
+**Novo contexto informado por Pri:** Segundo ela, um vereador está divulgando informações sobre o reajuste de forma alarmista e distorcida, motivando o vídeo. Relato da cliente, sem verificação independente da manifestação.
+
+**Direção proposta:** Responder diretamente à dúvida sobre aumento acima da inflação, sem citar o vereador, atribuir intenção ou personalizar confronto. Legenda anterior genérica substituída por gancho interrogativo e explicação da importância do período considerado.
+
+**Legenda proposta:** “A tarifa de água subiu acima da inflação? Para entender o reajuste, é preciso olhar para o período considerado no cálculo e para as correções já aplicadas anteriormente. Um percentual isolado não conta essa história toda. Neste vídeo, o SAAE Nova Mutum explica como se chegou ao reajuste atual e esclarece essa dúvida. ▶️ Assista à explicação. Mais informações: saaenm.com.br.”
+
+**Status:** Proposta para avaliação de Pri; sem publicação.
+
+---
+
+
 ## 23 de outubro de 2026 — ChatGPT
 
 ### Legenda para vídeo sobre reajuste tarifário
