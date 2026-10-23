@@ -18,6 +18,37 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 
+## 23 de outubro de 2026 (atualização 5) — ChatGPT
+
+### Legenda tarifária — refinamento da versão encurtada por Pri
+
+**Demanda:** Revisar legenda enviada pela cliente e acrescentar cinco hashtags. Link do vídeo fornecido apenas como referência; revisão feita sobre o texto colado, sem análise do vídeo.
+
+**Ajustes propostos:** Fluidez, substituição de “pode assustar” por “geram dúvidas”, fechamento direto e reinserção breve do período do cálculo para sustentar o esclarecimento sobre comparação com inflação anual. Mantida omissão de 25,04% na legenda encurtada pela cliente (exigência anterior era para a fala do vídeo).
+
+**Texto:**
+
+⚠️ Cuidado com informações incompletas ou alarmistas sobre a tarifa de água. A população merece uma explicação clara, com os números e o contexto.
+
+O reajuste aplicado em Nova Mutum foi de 7,81%, referente à reposição da inflação, ou seja, ao aumento dos preços que também afeta os custos para manter o abastecimento.
+
+O cálculo considera a inflação acumulada entre dezembro de 2021 e junho de 2026 e leva em conta as correções já aplicadas. Por isso, comparar o reajuste apenas com a inflação dos últimos 12 meses pode levar a uma conclusão equivocada.
+
+Sabemos que mudanças na tarifa geram dúvidas. É nosso dever explicar o cálculo e como os recursos são utilizados: essa arrecadação mantém o abastecimento, permite realizar manutenções e investir na qualidade do serviço.
+
+O reajuste está documentado no processo AGER-PRO-2026/01937 e no Decreto Municipal nº 105/2026.
+
+Antes de compartilhar, confira a informação completa. Você tem direito de entender o que está pagando.
+
+🔎 Confira mais informações no site saaenm.com.br.
+
+#SAAENovaMutum #NovaMutum #Transparência #AbastecimentoDeÁgua #InformaçãoDeQualidade
+
+**Status:** Refinamento proposto, aguardando avaliação; sem publicação.
+
+---
+
+
 ## 23 de outubro de 2026 (atualização 4) — ChatGPT
 
 ### Legenda tarifária — esclarecimento autônomo e respaldo institucional
