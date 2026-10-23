@@ -18,6 +18,17 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 
+## 23 de outubro de 2026 (atualização 6) — ChatGPT
+
+### Legenda tarifária — preservação do corte de números feito por Pri
+
+**Correção da cliente:** A retirada dos períodos e percentuais adicionais foi intencional para evitar excesso de números na legenda. Não reinserir o parágrafo sobre período do cálculo. Manter 7,81%, referências documentais, orientação para o site e cinco hashtags; preservar a versão curta enviada por Pri com refinamentos de fluidez.
+
+**Status:** Legenda revisada apresentada no chat; sem publicação.
+
+---
+
+
 ## 23 de outubro de 2026 (atualização 5) — ChatGPT
 
 ### Legenda tarifária — refinamento da versão encurtada por Pri
