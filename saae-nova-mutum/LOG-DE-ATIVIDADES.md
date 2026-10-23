@@ -18,6 +18,27 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 
+## 23 de outubro de 2026 (atualização 3) — ChatGPT
+
+### Legenda tarifária — explicação concisa na própria legenda
+
+**Pedido de Pri:** A legenda deve explicar o reajuste em linguagem simples e concisa, além de convidar para assistir.
+
+**Texto proposto:**
+
+O reajuste da tarifa de água foi de 7,81%. Mas por que ele considera mais do que a inflação dos últimos 12 meses?
+
+O cálculo levou em conta a inflação acumulada de dezembro de 2021 a junho de 2026: 25,04%. Como parte dessa correção já foi aplicada nos reajustes anteriores, os 7,81% correspondem ao que ainda faltava repor.
+
+▶️ Entenda no vídeo.
+
+**Critério:** Percentuais e período preservados do roteiro fornecido; distinguir inflação acumulada e reajuste atual, sem apresentar cálculo como subtração simples. Sem citar vereador.
+
+**Status:** Versão proposta para avaliação; sem publicação.
+
+---
+
+
 ## 23 de outubro de 2026 (atualização 2) — ChatGPT
 
 ### Legenda tarifária — contexto de esclarecimento público
