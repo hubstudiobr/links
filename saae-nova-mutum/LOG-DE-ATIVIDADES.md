@@ -18,6 +18,41 @@ Manter um histórico organizado de estratégias, conceitos, textos, roteiros, le
 ---
 
 
+## 23 de outubro de 2026 (atualização 4) — ChatGPT
+
+### Legenda tarifária — esclarecimento autônomo e respaldo institucional
+
+**Correção de Pri:** Versões anteriores excessivamente curtas e dependentes do vídeo. Legenda deve esclarecer por si só, em linguagem acessível, com firmeza institucional diante de informações incompletas ou alarmistas, sem identificar pessoas.
+
+**Consulta:** BASE-DE-CONHECIMENTO.md e histórico criativo no GitHub; reforçada orientação de nunca presumir conhecimento prévio e explicar termos técnicos. Neste conteúdo, Pri solicita explicação também na legenda.
+
+**Proposta revisada:**
+
+Informação incompleta pode gerar preocupação desnecessária. Por isso, vamos esclarecer o reajuste da tarifa de água de Nova Mutum.
+
+O reajuste aplicado foi de 7,81%. Esse percentual corresponde a uma correção pela inflação, que é o aumento dos preços ao longo do tempo.
+
+Mas por que ele é diferente da inflação dos últimos 12 meses?
+
+Porque o cálculo considera um período maior: de dezembro de 2021 a junho de 2026. Nesse intervalo, a inflação medida pelo IPCA acumulou 25,04%.
+
+Isso não significa que a tarifa aumentou 25,04% agora. Parte dessa correção já havia sido aplicada anteriormente. Os 7,81% correspondem à atualização que ainda faltava, considerando os reajustes anteriores.
+
+Comparar esse reajuste apenas com a inflação de um ano deixa de fora uma parte importante da explicação.
+
+Sabemos que qualquer mudança na tarifa pesa no orçamento das famílias. Por isso, a população tem direito de entender o cálculo e saber para onde vão os recursos: são eles que ajudam a manter o abastecimento, realizar manutenções e investir no serviço.
+
+O reajuste tem respaldo no processo AGER-PRO-2026/01937 e no Decreto Municipal nº 105/2026.
+
+Antes de compartilhar informações alarmistas ou sem contexto, confira os dados e consulte os canais oficiais. Esclarecer também é parte do compromisso do SAAE com você.
+
+Mais informações: saaenm.com.br
+
+**Status:** Proposta para avaliação. Dados e referências preservados do texto fornecido pela cliente; sem nova validação independente integral do cálculo. Nenhuma publicação realizada.
+
+---
+
+
 ## 23 de outubro de 2026 (atualização 3) — ChatGPT
 
 ### Legenda tarifária — explicação concisa na própria legenda
