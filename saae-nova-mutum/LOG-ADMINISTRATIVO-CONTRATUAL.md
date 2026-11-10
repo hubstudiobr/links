@@ -23,6 +23,19 @@ Este log **não** deve conter: textos de posts, roteiros, prompts de arte, ou de
 
 ---
 
+## 10/11/2026 — ChatGPT — Relatório de outubro publicado para validação
+
+- Publicado `relatorio-outubro-2026/index.html` e incluído acesso no Portal do Cliente, a pedido de Pri.
+- Inventário confirmado: 5 Reels, 3 estáticos e 13 Stories; um adesivo de caminhão (modelo 2), certificado Compostagem Ajustado 2 e folder ReCiclo com rota ajustada.
+- Visitas em 10, 22 e 28/10: duas da rotina de outubro e uma reposição da visita pendente de setembro; pendência presencial regularizada, sem emergência e fora da equivalência de posts.
+- Composição proposta: redes 29,5 créditos; três impressos simples de 2,5 cada; total 37/38. Um estático a compensar em novembro, sujeito à validação da direção. Não há aprovação do cliente registrada.
+- Facebook e Instagram conferidos para 1–31/10. CSV de campanhas exportado do Gerenciador: gasto R$ 402,29, 98.627 impressões e 1.449 cliques no link.
+- Card criado em Revisão e aprovação do cliente: https://trello.com/c/PzVqm4NF, com menção a @ildofaccio na descrição. PDF contínuo anexado.
+- ZIP integral local com 3 PDFs: adesivo modelo 2 isolado, certificado Ajustado 2 e folder frente/verso. Trello recusou arquivo único pelo limite de 10 MB; 8 volumes anexados. Pri pediu o ZIP completo no Drive; envio em andamento, link será registrado após confirmação.
+- Próximos passos: validar composição com a direção e identificar a compensação no planejamento/relatório de novembro.
+
+---
+
 ## 10/07/2026 — Claude (Saulo)
 
 ### Reunião presencial com Cristiano (Diretor Geral) — Alinhamento de escopo e proposta de aditivo
