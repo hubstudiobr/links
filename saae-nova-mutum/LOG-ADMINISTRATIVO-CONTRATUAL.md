@@ -31,7 +31,7 @@ Este log **não** deve conter: textos de posts, roteiros, prompts de arte, ou de
 - Composição proposta: redes 29,5 créditos; três impressos simples de 2,5 cada; total 37/38. Um estático a compensar em novembro, sujeito à validação da direção. Não há aprovação do cliente registrada.
 - Facebook e Instagram conferidos para 1–31/10. CSV de campanhas exportado do Gerenciador: gasto R$ 402,29, 98.627 impressões e 1.449 cliques no link.
 - Card criado em Revisão e aprovação do cliente: https://trello.com/c/PzVqm4NF, com menção a @ildofaccio na descrição. PDF contínuo anexado.
-- ZIP integral local com 3 PDFs: adesivo modelo 2 isolado, certificado Ajustado 2 e folder frente/verso. Trello recusou arquivo único pelo limite de 10 MB; 8 volumes anexados. Pri pediu o ZIP completo no Drive; envio em andamento, link será registrado após confirmação.
+- ZIP integral local com 3 PDFs: adesivo modelo 2 isolado, certificado Ajustado 2 e folder frente/verso. Trello recusou arquivo único pelo limite de 10 MB; 8 volumes anexados. Pri pediu o ZIP completo no Drive; upload concluído, acesso de leitor por link confirmado e link registrado no card: https://drive.google.com/file/d/1v8-Cnfy77E-uEjmqh3r88e3EnkU_7Ba1/view.
 - Próximos passos: validar composição com a direção e identificar a compensação no planejamento/relatório de novembro.
 
 ---
